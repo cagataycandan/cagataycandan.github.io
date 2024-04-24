@@ -1,0 +1,627 @@
+<html xmlns:mwsh="http://www.mathworks.com/namespace/mcode/v1/syntaxhighlight.dtd">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   
+      <!--
+This HTML is auto-generated from an M-file.
+To make changes, update the M-file and republish this document.
+      -->
+      <title>EE 306 : An Application of Bayes Theorem</title>
+      <meta name="generator" content="MATLAB 7.2">
+      <meta name="date" content="2016-03-14">
+      <meta name="m-file" content="Untitled2"><style>
+
+body {
+  background-color: white;
+  margin:10px;
+}
+
+h1 {
+  color: #990000; 
+  font-size: x-large;
+}
+
+h2 {
+  color: #990000;
+  font-size: medium;
+}
+
+/* Make the text shrink to fit narrow windows, but not stretch too far in 
+wide windows.  On Gecko-based browsers, the shrink-to-fit doesn't work. */ 
+p,h1,h2,div.content div {
+  /* for MATLAB's browser */
+  width: 600px;
+  /* for Mozilla, but the "width" tag overrides it anyway */
+  max-width: 600px;
+  /* for IE */
+  width:expression(document.body.clientWidth > 620 ? "600px": "auto" );
+}
+
+pre.codeinput {
+  background: #EEEEEE;
+  padding: 10px;
+}
+@media print {
+  pre.codeinput {word-wrap:break-word; width:100%;}
+} 
+
+span.keyword {color: #0000FF}
+span.comment {color: #228B22}
+span.string {color: #A020F0}
+span.untermstring {color: #B20000}
+span.syscmd {color: #B28C00}
+
+pre.codeoutput {
+  color: #666666;
+  padding: 10px;
+}
+
+pre.error {
+  color: red;
+}
+
+p.footer {
+  text-align: right;
+  font-size: xx-small;
+  font-weight: lighter;
+  font-style: italic;
+  color: gray;
+}
+
+  </style></head>
+   <body>
+      <div class="content">
+         <h1>EE 306 : An Application of Bayes Theorem</h1>
+         <p>We revisit the problem discussed in the lecture hours.</p>
+         <p>Assume that <i>S</i> is a binary random variable taking values 0 and 1 with the probability of <i>p</i> and <i>q</i> = 1 - <i>p</i>, respectively.
+         </p>
+         <p><img vspace="5" hspace="5" src="Untitled2_eq926743.png"> </p>
+         <p>We observe not <i>S</i>, but its noise corrupted version:
+         </p>
+         <p><img vspace="5" hspace="5" src="Untitled2_eq40171.png"> </p>
+         <p>Here $X_k$ is the k'th observation. $N_k$ is the random variable representing noise which corrupts the signal <i>S</i>. We assume that the random variable $N_k$ is independent and identically Gaussian distributed with zero mean and variance
+            $\sigma_n^2$,
+         </p>
+         <p><img vspace="5" hspace="5" src="Untitled2_eq477902.png"> </p>
+         <p>One can visualize the situation as follows. The transmitter sends either 1 or 0; which is the information bit to be delivered
+            to the receiver. The receiver observes the signal <i>S</i> in the presence of noise. (The noise is Gaussian distributed as noted above.) Assume that $X_1$ is 1.01. If $S$ is 1, the
+            noise $N_1$ has to be 0.01 to produce this observation. (Similarly, if $S$ is 0, the noise $N_1$ has to be 1.01 to produce
+            the same observation.)
+         </p>
+         <p>We would like to calculate the probability of $S$ given $X_1$, that is $f_{S|X_1}(s|x_1)$.</p>
+         <p>The distribution of the $S$ before we observe $X_1$ is called the a-priori distribution of $S$. From the problem statement,
+            the a-priori density can be written as
+         </p>
+         <p><img vspace="5" hspace="5" src="Untitled2_eq35617.png"> </p>
+         <p>The conditional density $f_{S|X_1}(s|x_1)$ can be written as</p>
+         <p><img vspace="5" hspace="5" src="Untitled2_eq196783.png"> </p>
+         <p>The density on the right, $f_{S|X_1 }(s|x_1)$ is called the posterior distribution. Stated differently, our goal is to calculate
+            the posterior distribution.
+         </p>
+         <p>From the observation model, the random X_1 given S=s is distributed as</p>
+         <p><img vspace="5" hspace="5" src="Untitled2_eq29675.png"> </p>
+         <p>This result is easy to see, once we interpret this result as fixing the random variable <i>S</i> to a constant value shown as <i>s</i>. In other words, X_1 given S=s is a new random variable and the <i>s</i> is just a parameter of this distribution (it is not any more a random variable after fixing its value).
+         </p>
+         <p>Then, the posterior density can be written as $f_{S|X_1 }(s|x_1)$</p>
+         <p><img vspace="5" hspace="5" src="Untitled2_eq3615011.png"> </p>
+         <p>The denominator can be calculated from the relation</p>
+         <p><img vspace="5" hspace="5" src="Untitled2_eq677218.png"> </p>
+         <p>which is simply the integral of the numerator of the posterior distribution.</p>
+         <p><img vspace="5" hspace="5" src="Untitled2_eq2642886.png"> </p>
+         <p>The posterior density can be finalized as</p>
+         <p><img vspace="5" hspace="5" src="Untitled2_eq4743222.png"> </p>
+         <p>Note that, the posterior distribution updates the probability $S=0$ from $p_0$ to $\widehat{p}_0$ and  similarly, $p_1$ to
+            $\widehat{p}_1$ where
+         </p>
+         <p><img vspace="5" hspace="5" src="Untitled2_eq571104.png"> </p>
+         <p><img vspace="5" hspace="5" src="Untitled2_eq571107.png"> </p>
+         <p>Hence, the prior density is updated from</p>
+         <p><img vspace="5" hspace="5" src="Untitled2_eq35615.png"> </p>
+         <p>to the posterior</p>
+         <p><img vspace="5" hspace="5" src="Untitled2_eq164565.png"> </p>
+         <p>Now, we study this mentioned update numerically using MATLAB's computational facilities.</p>
+         <p>To do that, we first define the Gaussian distribution</p><pre class="codeinput">pdfNormal = @(x,mu,var) 1/sqrt(2*pi*var)*exp(-(x-mu).^2/2/var);
+</pre><p>Let's do a sanity check and calculate the area under the pdf. To do that we fix mean to zero and variance to 1 and calculate
+            the area with quad function as follows:
+         </p><pre class="codeinput">area = quad(@(x)pdfNormal(x,0,1),-5,5),
+</pre><pre class="codeoutput">
+area =
+
+    1.0000
+
+</pre><p>It seems that everything is in order!</p>
+         <p>Let's define, the update equations:</p><pre class="codeinput">update_p0 = @(p0,x1,sigma_n_sq) p0*pdfNormal(x1,0,sigma_n_sq)/<span class="keyword">...</span>
+    (p0*pdfNormal(x1,0,sigma_n_sq) + (1-p0)*pdfNormal(x1,1,sigma_n_sq));
+update_p1 = @(p1,x1,sigma_n_sq) 1 - update_p0(1-p0,x1,sigma_n_sq);
+<span class="comment">%</span>
+</pre><p>Let's take $\sigma_n^2 = 2$, and p0 = p1 = 1/2 (s=0 or s=1 is equally likely, a-priori.)</p><pre class="codeinput">sigma_n_sq = 2;
+p0 = 1/2;
+p1 = 1/2;
+</pre><p>For now, assume that the observation $x_1$ is 1.01. For this observation, the updated probabilities can be calculated as</p><pre class="codeinput">x1 = 1.01;
+[update_p0(p0,x1,sigma_n_sq) update_p1(p1,x1,sigma_n_sq)]
+</pre><pre class="codeoutput">
+ans =
+
+    0.4366    0.5634
+
+</pre><p>Given, the observation of x1=1.01; the updated probability for s=1 is increased from its a-priori value of 0.5 to 0.5634.
+            The increase is not significant for this case. This is due to large noise variance.
+         </p>
+         <p>Let's decrease the noise variance and repeat the same experiment:</p><pre class="codeinput">sigma_n_sq = 1;
+x1 = 1.01;
+[update_p0(p0,x1,sigma_n_sq) update_p1(p1,x1,sigma_n_sq)]
+</pre><pre class="codeoutput">
+ans =
+
+    0.3752    0.6248
+
+</pre><pre class="codeinput">sigma_n_sq = 1/2;
+x1 = 1.01;
+[update_p0(p0,x1,sigma_n_sq) update_p1(p1,x1,sigma_n_sq)]
+</pre><pre class="codeoutput">
+ans =
+
+    0.2650    0.7350
+
+</pre><pre class="codeinput">sigma_n_sq = 1/4;
+x1 = 1.01;
+[update_p0(p0,x1,sigma_n_sq) update_p1(p1,x1,sigma_n_sq)]
+</pre><pre class="codeoutput">
+ans =
+
+    0.1151    0.8849
+
+</pre><p>Note that, with 95% percent probability, a random pick from Gaussian distribution lies in two standard deviations of the mean
+            value. Then, for the last case of $sigma_n_sq = 1/4$, the two standard deviation interval around the mean is [-1,1]. Hence,
+            95% percent of time, we can not see the observation of $x_1 = 1.01$, for $s=0$.
+         </p>
+         <p>In short, as the noise variance decreases, the probability of having a large valued noise also decreases and observing $x_1=1.01$
+            for the event of $s=0$ becomes less and less likely.
+         </p>
+         <p>Let's use a high noise variance and make multiple observations on the unknown symbol S. Let's take $\sigma_n_sq = 4$ and generate
+            5 noisy observations on $S$.
+         </p>
+         <p>Without any loss of generality, let's examine the case of $s=0$</p><pre class="codeinput">sigma_n_sq = 4;
+s = 0;
+x = zeros(1,5);
+<span class="keyword">for</span> k=1:5,
+    x(k)  = s + sqrt(sigma_n_sq)*randn(1);
+<span class="keyword">end</span>;
+x,
+</pre><pre class="codeoutput">
+x =
+
+   -2.0580    0.4862   -2.5132   -0.6944   -1.8827
+
+</pre><p>It can be noted that the observations are large valued due to large noise variance.</p>
+         <p>We would like to estimate the <i>s</i> value given the observations. In other words, we would like to evaluate
+         </p>
+         <p><img vspace="5" hspace="5" src="Untitled2_eq53018.png"> </p>
+         <p>To evaluate the posterior density with 5 observations, we can do the updates in a recursive fashion. That is, we first find</p>
+         <p><img vspace="5" hspace="5" src="Untitled2_eq5724.png"> </p>
+         <p>then treat the updated probabilities of $\widehat{p}_0$ and $\widehat{p}_1$ as the prior probabilities before the observation
+            of $X_2$ and generate $ f_{S|X_1,X_2}(s|x_1,x_2) $.
+         </p>
+         <p><img vspace="5" hspace="5" src="Untitled2_eq242111.png"> </p>
+         <p>where $A$ is a constant normalizing the density to unit area. Note that the knowledge of $s$ and $x_1$ is equivalent to the
+            knowledge of $s$ and $n_1$. The knowledge of $n_1$ (noise of the first observation) does not help at any other observations,
+            since noise is independent at every observation. Hence, we can discard the knowledge of $x_1$ in the following relation, since
+            it does not affect the density on the right hand side:
+         </p>
+         <p><img vspace="5" hspace="5" src="Untitled2_eq62569.png"> </p>
+         <p>With this observation, we can write the posterior density as</p>
+         <p><img vspace="5" hspace="5" src="Untitled2_eq177175.png"> </p>
+         <p>In the last equation $f_{S|X_1}(s|x_1)$ is the updated density after the observation of $x_1$ which is the a-priori information
+            before processing the second observation $x_2$. The other term $f_{X_2|S}(x_2 | s)$ is identical to the term appearing in
+            the update equation for the single observation case.
+         </p>
+         <p>Hence, the only change between single observation and multiple observation case is taking the aposteriori distribution of
+            the earlier iteration as the apriori density of the next iteration.
+         </p>
+         <p>Given this discussion, we can calculate the posterior probability after each observation as:</p><pre class="codeinput">p0old = 1/2; p1old = 1/2;
+<span class="keyword">for</span> k=1:5,
+    p0_posterior(k) = update_p0(p0old,x(k),sigma_n_sq);
+    p1_posterior(k) = update_p1(p1old,x(k),sigma_n_sq);
+    p0old = p0_posterior(k);
+    p1old = p1_posterior(k);
+<span class="keyword">end</span>;
+p0_posterior,
+</pre><pre class="codeoutput">
+p0_posterior =
+
+  Columns 1 through 12 
+
+    0.6546    0.6554    0.8016    0.8449    0.9081    0.3406    0.3572    0.4853    0.4320    0.7376    0.6600    0.6635
+
+  Columns 13 through 24 
+
+    0.6622    0.5477    0.6115    0.6559    0.8031    0.9139    0.9448    0.9439    0.9616    0.9822    0.9734    0.9834
+
+  Columns 25 through 30 
+
+    0.9854    0.9871    0.9899    0.9892    0.9916    0.9968
+
+</pre><p>We can note that as more and more observations are collected, the probability of making correct decision increases.</p>
+         <p>Let's repeat the same example with 30 observations</p><pre class="codeinput">sigma_n_sq = 4;
+s = 0;
+x = zeros(1,30);
+<span class="keyword">for</span> k=1:30,
+    x(k)  = s + sqrt(sigma_n_sq)*randn(1);
+<span class="keyword">end</span>;
+x,
+</pre><pre class="codeoutput">
+x =
+
+  Columns 1 through 12 
+
+   -2.3491   -2.0423   -0.8033    0.3473   -0.2322    2.1282   -0.4908   -3.0351    0.0195    0.1427    0.6331    0.9997
+
+  Columns 13 through 24 
+
+    2.5562   -1.0956    0.5216   -0.0264   -1.1605    4.2726   -0.5152   -2.8191    3.5402    0.6511   -2.2381    1.2407
+
+  Columns 25 through 30 
+
+    2.5396   -1.7921    0.2704   -0.2781   -2.3268    2.3674
+
+</pre><p>Let's do the posterior calculation:</p><pre class="codeinput">p0old = 1/2; p1old = 1/2;
+<span class="keyword">for</span> k=1:30,
+    p0_posterior(k) = update_p0(p0old,x(k),sigma_n_sq);
+    p1_posterior(k) = update_p1(p1old,x(k),sigma_n_sq);
+    p0old = p0_posterior(k);
+    p1old = p1_posterior(k);
+<span class="keyword">end</span>;
+p0_posterior,
+
+<span class="comment">% The main goal of communication systems is to establish a reliable</span>
+<span class="comment">% communication between parties with a minimal repetition of the</span>
+<span class="comment">% transmitted symbols, that is at a highest rate possible.</span>
+<span class="comment">%</span>
+</pre><pre class="codeoutput">
+p0_posterior =
+
+  Columns 1 through 12 
+
+    0.6709    0.7938    0.8421    0.8471    0.8693    0.8158    0.8501    0.9321    0.9393    0.9442    0.9424    0.9353
+
+  Columns 13 through 24 
+
+    0.8963    0.9279    0.9276    0.9359    0.9568    0.8960    0.9174    0.9622    0.9225    0.9198    0.9579    0.9497
+
+  Columns 25 through 30 
+
+    0.9190    0.9527    0.9552    0.9628    0.9813    0.9705
+
+</pre><p class="footer"><br>
+            Published with MATLAB&reg; 7.2<br></p>
+      </div>
+      <!--
+##### SOURCE BEGIN #####
+%% EE 306 : An Application of Bayes Theorem
+% We revisit the problem discussed in the lecture hours. 
+%
+% Assume that _S_ is a binary random variable taking values 
+% 0 and 1 with the probability of _p_ and _q_ = 1 - _p_, respectively. 
+%
+% $$ S = \left\{ \begin{array}{lll} 1,  & \ & \textrm{with probability p} \\ 0, & \ &\textrm{with probability 1-p = q} \end{array} \right. $$
+%
+% We observe not _S_, but its noise corrupted version:
+% 
+% $$ X_k = S + N_k \quad k=\{1,2, \ldots, N \} $$ 
+% 
+% Here $X_k$ is the k'th observation. $N_k$ is the random variable
+% representing noise which corrupts the signal _S_. We assume that the
+% random variable $N_k$ is independent and identically Gaussian distributed
+% with zero mean and variance $\sigma_n^2$,
+% 
+% $$ N_k \sim N_{n_k}(0, \sigma_n^2)  = \frac{1}{\sqrt{2\pi}} 
+% \exp \left( -\frac{n_k^2}{2 \sigma_n^2} \right). $$
+%
+% One can visualize the situation as follows. The transmitter sends either
+% 1 or 0; which is the information bit to be delivered to the receiver. The
+% receiver observes the signal _S_ in the presence of noise. (The noise is
+% Gaussian distributed as noted above.) Assume that $X_1$ is 1.01. If $S$
+% is 1, the noise $N_1$ has to be 0.01 to produce this observation.
+% (Similarly, if $S$ is 0, the noise $N_1$ has to be 1.01 to produce the
+% same observation.)
+%
+% We would like to calculate the probability of $S$ given $X_1$,
+% that is $f_{S|X_1}(s|x_1)$. 
+% 
+% The distribution of the $S$ before we observe $X_1$ is called the
+% a-priori distribution of $S$. From the problem statement, the a-priori
+% density can be written as
+% 
+% $$ f_S(s) = p_0\delta(s) + p_1\delta(s-1). $$
+%
+% The conditional density $f_{S|X_1}(s|x_1)$ can be written as 
+% 
+% $$ f_{S|X_1 }(s|x_1) = \frac { f_{X_1|S}(x_1 | s) f_S(s) } 
+%    { f_{X_1} (x_1) } $$ 
+%
+% The density on the right, $f_{S|X_1 }(s|x_1)$ is called the posterior distribution. 
+% Stated differently, our goal is to calculate the posterior distribution. 
+% 
+% From the observation model, the random X_1 given S=s is distributed as
+% 
+% $$ X_1 | s  \sim N_{x_1}(s, \sigma_n^2) $$ 
+%
+% This result is easy to see, once we interpret this result as fixing the random variable _S_ to a
+% constant value shown as _s_. In other words, X_1 given S=s is a new
+% random variable and the _s_ is just a parameter of this distribution (it
+% is not any more a random variable after fixing its value).  
+%
+% Then, the posterior density can be written as $f_{S|X_1 }(s|x_1)$
+%
+% $$f_{S|X_1 }(s|x_1) = \frac{ N_{x_1}(s, \sigma_n^2) (p_0\delta(s) +
+% p_1\delta(s-1) ) }  
+%    { f_{X_1} (x_1) } 
+% = 
+% \frac{ p_0 N_{x_1}(0, \sigma_n^2) \delta(s)  + p_1 N_{x_1}(1, \sigma_n^2)\delta(s-1) }
+%    { f_{X_1} (x_1) } 
+% $$
+%
+% The denominator can be calculated from the relation
+%
+% $$ f_{X_1} (x_1) = \int_{-\infty}^{\infty} f_{X_1 , S }(x_1, s) ds = 
+% \int_{-\infty}^{\infty} f_{X_1 | S }(x_1|s) f_S(s)
+% ds $$ 
+% 
+% which is simply the integral of the numerator of the posterior
+% distribution. 
+% 
+% $$ f_{X_1} (x_1) = \int_{-\infty}^{\infty} 
+% \left(p_0 N_{x_1}(0, \sigma_n^2) \delta(s)  + p_1 N_{x_1}(1, \sigma_n^2)\delta(s-1)
+% \right) ds
+% = p_0 N_{x_1}(0, \sigma_n^2) + p_1 N_{x_1}(1, \sigma_n^2) 
+% $$ 
+%
+% The posterior density can be finalized as 
+% 
+% $$ f_{S|X_1 }(s|x_1) = \frac{ p_0 N_{x_1}(0, \sigma_n^2)}   
+%  { p_0 N_{x_1}(0, \sigma_n^2) + p_1 N_{x_1}(1, \sigma_n^2) } \delta(s) 
+% + 
+% \frac{ p_1 N_{x_1}(1, \sigma_n^2)}   
+%  { p_0 N_{x_1}(0, \sigma_n^2) + p_1 N_{x_1}(1, \sigma_n^2) } \delta(s-1) 
+% $$
+% 
+% Note that, the posterior distribution updates the probability $S=0$ from
+% $p_0$ to $\widehat{p}_0$ and  similarly, $p_1$ to $\widehat{p}_1$ where
+% 
+% 
+% $$ \widehat{p}_0 = \frac{ p_0 N_{x_1}(0, \sigma_n^2)}   
+%  { p_0 N_{x_1}(0, \sigma_n^2) + p_1 N_{x_1}(1, \sigma_n^2) }, 
+% $$
+% 
+% $$ \widehat{p}_1 = \frac{ p_1 N_{x_1}(1, \sigma_n^2)}   
+%  { p_0 N_{x_1}(0, \sigma_n^2) + p_1 N_{x_1}(1, \sigma_n^2) }, 
+% $$
+%
+% Hence, the prior density is updated from 
+%
+% $$ f_S(s) = p_0\delta(s) + p_1\delta(s-1), $$ 
+%
+% to the posterior
+% 
+% $$ f_{S|X_1}(s|x_1) = \widehat{p}_0 \delta(s) + \widehat{p}_1
+% \delta(s-1). $$ 
+% 
+%
+% Now, we study this mentioned update numerically using MATLAB's
+% computational facilities. 
+% 
+% To do that, we first define the Gaussian distribution
+% 
+pdfNormal = @(x,mu,var) 1/sqrt(2*pi*var)*exp(-(x-mu).^2/2/var); 
+
+%% 
+% Let's do a sanity check and calculate the area under the pdf. To do that
+% we fix mean to zero and variance to 1 and calculate the area with quad
+% function as follows: 
+% 
+area = quad(@(x)pdfNormal(x,0,1),-5,5), 
+
+%%
+% It seems that everything is in order!
+% 
+% Let's define, the update equations:
+update_p0 = @(p0,x1,sigma_n_sq) p0*pdfNormal(x1,0,sigma_n_sq)/... 
+    (p0*pdfNormal(x1,0,sigma_n_sq) + (1-p0)*pdfNormal(x1,1,sigma_n_sq)); 
+update_p1 = @(p1,x1,sigma_n_sq) 1 - update_p0(1-p0,x1,sigma_n_sq); 
+%
+%%
+%
+% Let's take $\sigma_n^2 = 2$, and p0 = p1 = 1/2 (s=0 or s=1
+% is equally likely, a-priori.)
+sigma_n_sq = 2; 
+p0 = 1/2; 
+p1 = 1/2; 
+%%
+% 
+%
+% For now, assume that the observation $x_1$ is 1.01. For this observation,
+% the updated probabilities can be calculated as 
+% 
+x1 = 1.01; 
+[update_p0(p0,x1,sigma_n_sq) update_p1(p1,x1,sigma_n_sq)]
+
+%%
+% Given, the observation of x1=1.01; the updated probability for 
+% s=1 is increased from its a-priori value of 0.5 to 0.5634. The increase is not significant for this
+% case. This is due to large noise variance. 
+% 
+% Let's decrease the noise variance and repeat the same experiment: 
+sigma_n_sq = 1;
+x1 = 1.01; 
+[update_p0(p0,x1,sigma_n_sq) update_p1(p1,x1,sigma_n_sq)]
+
+%%
+sigma_n_sq = 1/2;
+x1 = 1.01; 
+[update_p0(p0,x1,sigma_n_sq) update_p1(p1,x1,sigma_n_sq)]
+
+%%
+sigma_n_sq = 1/4;
+x1 = 1.01; 
+[update_p0(p0,x1,sigma_n_sq) update_p1(p1,x1,sigma_n_sq)]
+
+%%
+% Note that, with 95% percent probability, a random pick from Gaussian distribution
+% lies in two standard deviations of the mean value. Then, for the last
+% case of $sigma_n_sq = 1/4$, the two standard deviation interval around the
+% mean is [-1,1]. Hence, 95% percent of time, we can not see the
+% observation of $x_1 = 1.01$, for $s=0$. 
+%
+% In short, as the noise variance decreases, the probability of
+% having a large valued noise also decreases and 
+% observing $x_1=1.01$ for the event of $s=0$ becomes less and less likely. 
+%
+%
+%
+% Let's use a high noise variance and make multiple observations on the
+% unknown symbol S. Let's take $\sigma_n_sq = 4$ and generate 5 noisy
+% observations on $S$. 
+%
+% Without any loss of generality, let's examine the case of $s=0$
+
+sigma_n_sq = 4;
+s = 0; 
+x = zeros(1,5); 
+for k=1:5,
+    x(k)  = s + sqrt(sigma_n_sq)*randn(1);
+end;
+x, 
+%%
+% It can be noted that the observations are large valued due to large noise
+% variance. 
+% 
+% We would like to estimate the _s_ value given the observations. In other
+% words, we would like to evaluate 
+% 
+% $$ f_{S|X_1,X_2, ..., X_5}(s|x_1, x_2, ... , x_5) $$
+% 
+% To evaluate the posterior density with 5 observations, we can do the
+% updates in a recursive fashion. That is, we first find 
+%
+% $$ f_{S|X_1}(s|x_1) $$
+% 
+% then treat the updated probabilities of $\widehat{p}_0$ and
+% $\widehat{p}_1$ as the prior probabilities before the observation of
+% $X_2$
+% and generate $ f_{S|X_1,X_2}(s|x_1,x_2) $. 
+%
+% $$ f_{S|X_1,X_2}(s|x_1,x_2) = \frac{1}{A}f_{X_2|S,X_1}(x_2 | s, x_1) f_{S|X_1}(s|x_1) $$
+%
+% where $A$ is a constant normalizing the density to unit area. 
+% Note that the knowledge of $s$ and $x_1$ is equivalent to the knowledge
+% of $s$ and $n_1$. The knowledge of $n_1$ (noise of the first observation)
+% does not help at any other observations, since noise is independent at
+% every observation. Hence, we can discard the knowledge of $x_1$ in the
+% following relation, since it does not affect the density on the right
+% hand side:
+%
+% $$ f_{X_2|S,X_1}(x_2 | s, x_1) = f_{X_2|S}(x_2 | s ) $$
+%
+% With this observation, we can write the posterior density as 
+% 
+% $$ f_{S|X_1,X_2}(s|x_1,x_2) = \frac{1}{A}f_{X_2|S}(x_2 | s) f_{S|X_1}(s|x_1) $$
+%
+% In the last equation $f_{S|X_1}(s|x_1)$ is the updated density after the
+% observation of $x_1$ which is the a-priori information before processing
+% the second observation $x_2$. The other term $f_{X_2|S}(x_2 | s)$ is
+% identical to the term appearing in the update equation for the single
+% observation case. 
+% 
+% Hence, the only change between single observation and multiple
+% observation case is taking the aposteriori distribution of the earlier
+% iteration as the apriori density of the next iteration. 
+%
+% Given this discussion, we can calculate the posterior probability after
+% each observation as: 
+%
+p0old = 1/2; p1old = 1/2; 
+for k=1:5, 
+    p0_posterior(k) = update_p0(p0old,x(k),sigma_n_sq); 
+    p1_posterior(k) = update_p1(p1old,x(k),sigma_n_sq);
+    p0old = p0_posterior(k);
+    p1old = p1_posterior(k);
+end; 
+p0_posterior,
+
+%%
+% We can note that as more and more observations are collected, the
+% probability of making correct decision increases. 
+%
+%
+% Let's repeat the same example with 30 observations
+sigma_n_sq = 4;
+s = 0; 
+x = zeros(1,30); 
+for k=1:30,
+    x(k)  = s + sqrt(sigma_n_sq)*randn(1);
+end;
+x,
+%%
+% Let's do the posterior calculation:
+
+p0old = 1/2; p1old = 1/2; 
+for k=1:30, 
+    p0_posterior(k) = update_p0(p0old,x(k),sigma_n_sq); 
+    p1_posterior(k) = update_p1(p1old,x(k),sigma_n_sq);
+    p0old = p0_posterior(k);
+    p1old = p1_posterior(k);
+end; 
+p0_posterior,
+
+% The main goal of communication systems is to establish a reliable
+% communication between parties with a minimal repetition of the
+% transmitted symbols, that is at a highest rate possible. 
+% 
+
+
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+##### SOURCE END #####
+-->
+   </body>
+</html>

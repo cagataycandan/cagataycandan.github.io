@@ -1,0 +1,812 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<link rel=File-List href="outline_files/filelist.xml">
+<title>EE 503 Signal Analysis and Processing</title>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="place"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="City"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="State"/>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>METU-EEE</o:Author>
+  <o:LastAuthor>EEE</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>23</o:TotalTime>
+  <o:Created>2007-09-21T10:56:00Z</o:Created>
+  <o:LastSaved>2007-09-21T10:56:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>750</o:Words>
+  <o:Characters>4278</o:Characters>
+  <o:Company>METU-EEE</o:Company>
+  <o:Lines>35</o:Lines>
+  <o:Paragraphs>10</o:Paragraphs>
+  <o:CharactersWithSpaces>5018</o:CharactersWithSpaces>
+  <o:Version>10.2625</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:24134985;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1418224520 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US style='tab-interval:36.0pt'>
+
+<div class=Section1> 
+  <p><a href="lecture_notes/"> Lecture Notes</a> , <a href= "homeworks/?M=D">Homework Sets</a>  , 
+   <a href="http://144.122.166.80/ee503/fall_2009/check_grades.htm">Learn Your Grades</a> , 
+   <a href="http://144.122.166.80/ee503/fall_2009/check_distribution.php">Distribution of Grades</a>  </p>
+  <div align="center">
+    <table width="75%" border="1">
+      <tr> 
+        <td><div align="center"> 
+            <p><strong><em><font color="#CC0000">Announcements</font></em></strong></p>
+          </div>
+          <ul>
+            <li><strong>The final exam is on Jan 13, (Wed.) at 16:30. The coverage for the final is everything except the last lecture on recursive estimation. </strong></li>
+            <li><strong>MT #2 results are anonunced. You can examine your MT1 
+and MT2 papers after we have the final exam. </strong></li>
+            <li><a href="lecture_notes/EE503_Notes_on_KL_transform.pdf">Notes on KL Transform</a></li>
+            <li>Hw # 5 is assigned. (Due : 29th Dec.) (check the homework sets link above! Dec.28, 2009) </li>
+            <li><a href="lecture_notes/Non_Causal_IIR_Wiener_Filter_Example.pdf">An example for the minimum MSE calculation for the non-causal IIR Wiener filter</a></li>
+            <li>MT #2: 18th Dec. 2009, Friday in class two hour exam. </li>
+            <li>MT #1 results are anonunced. (<a href="lecture_notes/ee503_fall_2009_mt1_solutions.pdf">MT #1 Solutions</a>) </li>
+            <li>Hw # 4 is assigned. (Due : 8th Dec.) </li>
+            <li>MT #1 : 22nd Nov, Sunday, 14:00-16:00, at D-126 (room where we have Friday lectures). Coverage includes everything up to, but not including signal modeling. </li>
+            <li><a href="homeworks/">Hw3</a> (due: 17th Nov) is distributed. </li>
+            <li><a href="lecture_notes/">Pre-midterm-I questions and solutions</a></li>
+            <li>MT #1 on Nov.3rd, (in class exam) Coverage: Problems of Therrien given at the end of chapters 2 and 3. </li>
+            <li><a href="homeworks/">Hw2</a> (due: 27th Oct) is distributed. </li>
+            <li>Solution for Hw1 is placed in the Homework Sets folder. </li>
+            <li><a href="homeworks/ee503_hw1_linear_variety_optimization_etc.pdf">Hw1</a> (due: 13th Oct) is distributed. </li>
+            <li>A <a href="homeworks/ee503_fall2006_hw1_not_to_be_collected.pdf">problem sheet</a> for linear algebra review is distributed (not to be collected).  </li>
+          </ul></td>
+      </tr>
+    </table>
+  </div>
+
+
+<div class=Section1 style2>
+
+<p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+<p align=center class=MsoNormal  style='text-align:center'><b style='mso-bidi-font-weight:
+normal'>EE 503 Signal <span class=GramE>Analysis</span>
+  and Processing
+    <o:p></o:p>
+</b></p>
+<p align=center class=MsoNormal  style='text-align:center'><b style='mso-bidi-font-weight:
+normal'>(Fall 2009 – 2010)
+    <o:p></o:p>
+</b></p>
+
+<p class=MsoNormal >
+  <o:p>&nbsp;</o:p>
+</p>
+
+<p class=MsoNormal>
+  <o:p>&nbsp;</o:p>
+</p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Short Description: 
+  <o:p></o:p>
+</b></p>
+
+<p class=MsoNormal>
+  <o:p>&nbsp;</o:p>
+</p>
+
+<p class=MsoNormal style='text-align:justify'>The
+course aims to unify the knowledge of linear system theory, digital signal
+processing basics and stochastic processes into the framework of statistical
+signal processing. The course goal is to establish a firm foundation for
+estimation theory (parameter estimation, signal modeling), Wiener Filtering
+(approached from the direction of linear MSE estimation) and linear prediction.
+Some more advanced topics such as AR, MA, ARMA, Harmonic processes, linear <span
+class=SpellE>decorrelating</span> transform, series expansion of random
+processes, spectral factorization, causal – non causal IIR Wiener filters<span
+style='mso-spacerun:yes'>  </span>are also introduced along the path. <span
+style='mso-spacerun:yes'> </span>
+<o:p></o:p>
+</p>
+
+<p class=MsoNormal>
+  <o:p>&nbsp;</o:p>
+</p>
+
+<p class=MsoNormal>
+  <o:p>&nbsp;</o:p>
+</p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Outline of Topics: 
+  <o:p></o:p>
+</b></p>
+
+<p class=MsoNormal>
+  <o:p>&nbsp;</o:p>
+</p>
+
+<ol style='margin-top:0cm' start=1 type=1>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'>Review of Some Linear Algebra Concepts:
+   <o:p></o:p>
+ </li>
+ <ol style='margin-top:0cm' start=1 type=a>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'>Matrices as Transformations
+    <o:p></o:p>
+  </li>
+ </ol>
+</ol>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>i.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>Linear Space,
+Linear Operators in Linear Space
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>ii.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>Equivalent
+representations with finite/infinite matrices
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>iii.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>Isomorphism
+between finite energy functions and finite power sequences (L<sub>2</sub> <span
+style='font-family:Wingdings;mso-ascii-font-family:&quot;Times New Roman&quot;; mso-hansi-font-family:&quot;Times New Roman&quot;;mso-char-type:symbol;mso-symbol-font-family: Wingdings'><span style='mso-char-type:symbol;mso-symbol-font-family:Wingdings'>ó</span></span> l<sub>2 </sub>spaces) 
+<o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>iv.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>Representation of
+points in alternative coordinate systems, representation of operators in
+alternative coordinate systems
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>v.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]><span class=SpellE>Diagonalization</span> of operators (<span class=SpellE>Eigenfunctions</span><span style='font-family:Wingdings;mso-ascii-font-family: &quot;Times New Roman&quot;;mso-hansi-font-family:&quot;Times New Roman&quot;;mso-char-type:symbol; mso-symbol-font-family:Wingdings'><span style='mso-char-type:symbol;mso-symbol-font-family:
+Wingdings'>ó</span></span> Eigenvectors)
+<o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>vi.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]><span class=SpellE>Hermitian</span> Operators <span style='font-family:Wingdings;mso-ascii-font-family:&quot;Times New Roman&quot;;mso-hansi-font-family: &quot;Times New Roman&quot;;mso-char-type:symbol;mso-symbol-font-family:Wingdings'><span
+style='mso-char-type:symbol;mso-symbol-font-family:Wingdings'>ó</span></span> <span class=SpellE>Hermitian</span> Matrices,
+Orthogonal Bases
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal><span
+style='mso-spacerun:yes'>                           </span>Ref: <span class=SpellE>Strang</span>, Wolf,
+Lancaster
+  <o:p></o:p>
+</p>
+
+<ol style='margin-top:0cm' start=1 type=1>
+ <ol style='margin-top:0cm' start=2 type=a>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'>Matrices as Linear Combiners
+    <o:p></o:p>
+  </li>
+ </ol>
+</ol>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>i.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>Range and Null
+space of the combination process
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>ii.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>Linear
+independence of vectors (points in linear space)
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>iii.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>Projection to
+Range/Null Space, Direct Sums
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal><span
+style='mso-spacerun:yes'>                           </span>Ref: <span class=SpellE>Scharf</span>
+  <o:p></o:p>
+</p>
+
+<ol style='margin-top:0cm' start=1 type=1>
+ <ol style='margin-top:0cm' start=3 type=a>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'>Matrices as Equation Systems
+    <o:p></o:p>
+  </li>
+ </ol>
+</ol>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>i.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>Linear
+constraints (equations), intersection of constraints 
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>ii.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>Under-Over
+determined systems, Unique-None-Infinite solution systems
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>iii.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>LS solution for
+inconsistent equation systems (<span class=SpellE>overdetermined</span>)
+<o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:144.0pt;text-indent:-18.0pt;mso-list:
+l0 level4 lfo1;tab-stops:list 144.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>Projection to
+range space, 
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:144.0pt;text-indent:-18.0pt;mso-list:
+l0 level4 lfo1;tab-stops:list 144.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>Pseudo Inverse,
+SVD
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>iv.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>Minimum norm
+solutions for systems with infinite solutions
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>v.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>SVD and its
+properties.
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal><span
+style='mso-spacerun:yes'>                           </span>Ref: <span
+class=SpellE>Scharf</span>
+  <o:p></o:p>
+</p>
+
+<ol style='margin-top:0cm' start=2 type=1>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'>Review of some DSP Concepts
+   <o:p></o:p>
+ </li>
+ <ol style='margin-top:0cm' start=1 type=a>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'>Basic Idea: Discrete time processing of
+      continuous time signals
+    <o:p></o:p>
+  </li>
+ </ol>
+</ol>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>i.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>Sampling Theorem
+(going to discrete time without any loss of information) 
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>ii.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]><span class=SpellE>Bandlimited</span> Interpolation (going back to <span class=SpellE>continous</span>
+time after processing)
+<o:p></o:p>
+</p>
+
+<ol style='margin-top:0cm' start=2 type=1>
+ <ol style='margin-top:0cm' start=2 type=a>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'>Discrete Time Operations: 
+    <o:p></o:p>
+  </li>
+ </ol>
+</ol>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>i.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>Z-Transform,
+discrete time LTI systems, convolution, convolution matrices, <span
+class=SpellE>diagonalization</span> of convolution matrices
+<o:p></o:p>
+</p>
+
+<ol style='margin-top:0cm' start=3 type=1>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'>Review of some Random Processes Concepts: 
+   <o:p></o:p>
+ </li>
+ <ol style='margin-top:0cm' start=1 type=a>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'>Random variables, random vectors (or a sequence
+      of<span style='mso-spacerun:yes'>  </span>random variables), random
+      processes
+      <o:p></o:p>
+  </li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'>Moment descriptors (especially 2<sup>nd</sup>
+      order moment description of <span class=SpellE>R.P’s</span>, mean,
+      variance, correlation, auto-correlation, power spectrum density etc.)<span
+      style='mso-spacerun:yes'>  </span>
+      <o:p></o:p>
+  </li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'><span
+      class=SpellE>Stationarity</span>, Wide Sense <span class=SpellE>Stationarity</span>
+    <o:p></o:p>
+  </li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'>PSD and its properties, spectral factorization
+    <o:p></o:p>
+  </li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'>Linear Time Invariant Processing<span
+      style='mso-spacerun:yes'>  </span>of<span style='mso-spacerun:yes'> 
+      </span>WSS <span class=SpellE>R.P’s</span>
+      <o:p></o:p>
+  </li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'><span
+      class=SpellE>Ergodicity</span>
+    <o:p></o:p>
+  </li>
+ </ol>
+</ol>
+
+<p class=MsoNormal><span
+style='mso-spacerun:yes'>             </span>Ref: <span class=SpellE>Therrien</span>,
+Hayes, Papoulis, Ross
+  <o:p></o:p>
+</p>
+
+<ol style='margin-top:0cm' start=4 type=1>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'>Signal Modeling
+   <o:p></o:p>
+ </li>
+ <ol style='margin-top:0cm' start=1 type=a>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'>LS methods, <span class=SpellE>Pade</span>, <span
+      class=SpellE>Prony</span> (Deterministic methods)
+    <o:p></o:p>
+  </li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'>AR, MA, ARMA Processes (Stochastic approach),
+      Yule-Walker Equations, Non-linear set of equations for MA system fit, 
+    <o:p></o:p>
+  </li>
+ </ol>
+</ol>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>i.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>All-pole modeling
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:144.0pt;text-indent:-18.0pt;mso-list:
+l0 level4 lfo1;tab-stops:list 144.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>Covariance Method
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:144.0pt;text-indent:-18.0pt;mso-list:
+l0 level4 lfo1;tab-stops:list 144.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>Auto-correlation
+Method
+  <o:p></o:p>
+</p>
+
+<ol style='margin-top:0cm' start=4 type=1>
+ <ol style='margin-top:0cm' start=3 type=a>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'>Harmonic Processes, <span class=SpellE>Wold</span>
+      decomposition
+        <o:p></o:p>
+  </li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'><span
+      class=SpellE>Decorrelating</span> transforms such as Fourier Transforms for
+      Harmonic Processes and KL transform in general.
+    <o:p></o:p>
+  </li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'>Applications: Signal Compression, Signal
+      Prediction, System Identification, Spectrum Estimation.
+    <o:p></o:p>
+  </li>
+ </ol>
+</ol>
+
+<p class=MsoNormal><span
+style='mso-spacerun:yes'>             </span>Ref: Hayes, Papoulis
+  <o:p></o:p>
+</p>
+
+<ol style='margin-top:0cm' start=5 type=1>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'>Some Topics in Estimation Theory
+   <o:p></o:p>
+ </li>
+ <ol style='margin-top:0cm' start=1 type=a>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'>Cost Functions: Mean Square, Mean absolute, max
+      error
+    <o:p></o:p>
+  </li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'>MSE, ML, absolute error estimators
+    <o:p></o:p>
+  </li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'>Min MSE estimators
+    <o:p></o:p>
+  </li>
+ </ol>
+</ol>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>i.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>Regression line, <span
+class=SpellE>orthogonality</span> 
+  <o:p></o:p>
+</p>
+
+<ol style='margin-top:0cm' start=5 type=1>
+ <ol style='margin-top:0cm' start=4 type=a>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'>Linear min MSE estimators
+    <o:p></o:p>
+  </li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'>Linear unbiased min MSE<span
+      style='mso-spacerun:yes'>  </span>estimators
+    <o:p></o:p>
+  </li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'>Bias, consistency, efficiency, bias-error
+      variance trade-off.
+    <o:p></o:p>
+  </li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'>Discussion of LS estimator for Ax=b + n systems.
+    <o:p></o:p>
+  </li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'>Wiener Filters as optimal estimators
+    <o:p></o:p>
+  </li>
+ </ol>
+</ol>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>i.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>Linear predictors
+defined from Wiener filters
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>ii.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>Levinson-Durbin
+recursion for efficient solution of Wiener-<span class=SpellE>Hopf</span>
+equations. 
+<o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>iii.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>Lattice
+Structures for efficient implementation of Wiener filters
+  <o:p></o:p>
+</p>
+
+<ol style='margin-top:0cm' start=5 type=1>
+ <ol style='margin-top:0cm' start=9 type=a>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 72.0pt'>IIR Wiener Filters
+    <o:p></o:p>
+  </li>
+ </ol>
+</ol>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-indent:-108.0pt;mso-text-indent-alt:
+-9.0pt;mso-list:l0 level3 lfo1;tab-stops:list 108.0pt'><![if !supportLists]>
+  <span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>i.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+  <![endif]>Non-causal, Causal<span
+style='mso-spacerun:yes'>                     </span>
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:18.0pt'><span
+style='mso-spacerun:yes'>     </span>Ref: <span class=SpellE>Therrien</span>, Hayes,
+  <span class=SpellE>Scharf</span>
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:18.0pt'>
+  <o:p>&nbsp;</o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:18.0pt'><b style='mso-bidi-font-weight:
+normal'>References: 
+  <o:p></o:p>
+</b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt'>Textbook
+for Signal Modeling Topic:
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:18.0pt'><span
+style='mso-spacerun:yes'> </span>[Hayes<span class=GramE>] :</span><span
+style='mso-spacerun:yes'>  </span>M. H. Hayes, Statistical Signal Processing
+and Modeling, Wiley, <st1:place><st1:City>New
+  York</st1:City>, <st1:State>NY</st1:State></st1:place>, 1996 (Level: moderate)
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:18.0pt'>
+  <o:p>&nbsp;</o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:18.0pt'>Textbook
+for Random Vectors and Processes Topics:
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:18.0pt'>[<span
+class=SpellE>Therrien</span><span class=GramE>] :</span> <span class=SpellE>Therrien</span>,
+Charles W. , Discrete random signals and statistical signal processing,
+Prentice Hall, c1992. (Level: moderate)
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:18.0pt'>
+  <o:p>&nbsp;</o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:18.0pt'>[<span
+class=SpellE>Scharf</span>] : Louis L. <span class=SpellE>Scharf</span>,
+Statistical Signal Processing, Addison-Wesley Publishing Company, Inc.,
+Reading, MA, 1991.(Level : advanced) 
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:18.0pt'>
+  <o:p>&nbsp;</o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:18.0pt'>[Papoulis<span
+class=GramE>] :</span> A. Papoulis, <i>Probability, Random Variables, and
+Stochastic Processes,</i> 3rd edition, McGraw Hill, 1991. (Level: important reference
+book, mostly advanced)
+<o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:18.0pt'>
+  <o:p>&nbsp;</o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:18.0pt'>[Ross]:
+S. M. Ross, Introduction to probability models, 7th ed. Harcourt Academic
+Press, 2000. (<span class=GramE>level :</span> introductory but complete) 
+<o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:18.0pt'>
+  <o:p>&nbsp;</o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:18.0pt'>[Wolf<span
+class=GramE>] :</span> Kurt Bernardo Wolf , Integral Transforms in Science and
+Engineering
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:18.0pt'>Plenum
+Pub Corp, January 1979 (Level: advanced)
+  <o:p></o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:18.0pt'>
+  <o:p>&nbsp;</o:p>
+</p>
+
+<p class=MsoNormal style='margin-left:18.0pt'>[<st1:City><st1:place>Lancaster</st1:place></st1:City>]: P. Lancaster and M. <span class=SpellE>Tismenetsky</span>.
+  <span class=GramE>The Theory of Matrices.</span> <span class=GramE>Academic
+Press, </span>
+  <st1:City><st1:place><span class=GramE>Boston</span></st1:place></st1:City><span
+class=GramE>, 2nd edition, 1985.</span><span style='mso-spacerun:yes'>  </span>(Level:
+complete text, very valuable as a linear algebra reference)
+  <o:p></o:p>
+</p>
+</div>
+</body>
+
+</html>

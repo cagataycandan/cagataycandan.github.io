@@ -1,0 +1,4848 @@
+From: <Saved by Windows Internet Explorer 8>
+Subject: Basic Wiki Formatting - Shrubbery
+Date: Wed, 2 Mar 2011 18:01:16 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CBD903.D3815970"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3664
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CBD903.D3815970
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://shrubbery.mynetgear.net/wiki/Basic_Wiki_Formatting
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML dir=3Dltr lang=3Den xml:lang=3D"en"=20
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><TITLE>Basic Wiki =
+Formatting - Shrubbery</TITLE>
+<META content=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+<META content=3Dtext/css http-equiv=3DContent-Style-Type>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.6001.18928">
+<META name=3Dkeywords=20
+content=3D"Basic Wiki Formatting,H:title,Transclusions demo,Transclusion =
+Demo,Editing,HTML in wikitext,Table of contents,List,Footnotes,Piped =
+link,Link"><LINK=20
+rel=3D"shortcut icon" href=3D"/favicon.ico"><LINK title=3D"Shrubbery =
+(en)" rel=3Dsearch=20
+type=3Dapplication/opensearchdescription+xml =
+href=3D"/w/opensearch_desc.php"><LINK=20
+title=3D"Creative Commons" rel=3Dmeta type=3Dapplication/rdf+xml=20
+href=3D"/w/index.php?title=3DBasic_Wiki_Formatting&amp;action=3Dcreativec=
+ommons"><LINK=20
+rel=3Dcopyright href=3D"http://www.gnu.org/copyleft/fdl.html"><LINK=20
+title=3D"Shrubbery RSS Feed" rel=3Dalternate type=3Dapplication/rss+xml=20
+href=3D"/w/index.php?title=3DSpecial:RecentChanges&amp;feed=3Drss"><LINK =
+
+title=3D"Shrubbery Atom Feed" rel=3Dalternate =
+type=3Dapplication/atom+xml=20
+href=3D"/w/index.php?title=3DSpecial:RecentChanges&amp;feed=3Datom"><LINK=
+=20
+rel=3Dstylesheet type=3Dtext/css=20
+href=3D"http://shrubbery.mynetgear.net/w/skins/common/shared.css?207"=20
+media=3Dscreen><LINK rel=3Dstylesheet type=3Dtext/css=20
+href=3D"http://shrubbery.mynetgear.net/w/skins/common/commonPrint.css?207=
+"=20
+media=3Dprint><LINK rel=3Dstylesheet type=3Dtext/css=20
+href=3D"http://shrubbery.mynetgear.net/w/skins/monobook/main.css?207"=20
+media=3Dscreen><!--[if lt IE 5.5000]><link rel=3D"stylesheet" =
+href=3D"/w/skins/monobook/IE50Fixes.css?207" type=3D"text/css" =
+media=3D"screen" /><![endif]--><!--[if IE 5.5000]><link =
+rel=3D"stylesheet" href=3D"/w/skins/monobook/IE55Fixes.css?207" =
+type=3D"text/css" media=3D"screen" /><![endif]--><!--[if IE 6]><link =
+rel=3D"stylesheet" href=3D"/w/skins/monobook/IE60Fixes.css?207" =
+type=3D"text/css" media=3D"screen" /><![endif]--><!--[if IE 7]><link =
+rel=3D"stylesheet" href=3D"/w/skins/monobook/IE70Fixes.css?207" =
+type=3D"text/css" media=3D"screen" /><![endif]--><LINK=20
+rel=3Dstylesheet type=3Dtext/css=20
+href=3D"/w/index.php?title=3DMediaWiki:Common.css&amp;usemsgcache=3Dyes&a=
+mp;ctype=3Dtext%2Fcss&amp;smaxage=3D18000&amp;action=3Draw&amp;maxage=3D1=
+8000"><LINK=20
+rel=3Dstylesheet type=3Dtext/css=20
+href=3D"/w/index.php?title=3DMediaWiki:Print.css&amp;usemsgcache=3Dyes&am=
+p;ctype=3Dtext%2Fcss&amp;smaxage=3D18000&amp;action=3Draw&amp;maxage=3D18=
+000"=20
+media=3Dprint><LINK rel=3Dstylesheet type=3Dtext/css=20
+href=3D"/w/index.php?title=3DMediaWiki:Monobook.css&amp;usemsgcache=3Dyes=
+&amp;ctype=3Dtext%2Fcss&amp;smaxage=3D18000&amp;action=3Draw&amp;maxage=3D=
+18000"><LINK=20
+rel=3Dstylesheet type=3Dtext/css=20
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3D-&amp;action=3D=
+raw&amp;maxage=3D18000&amp;gen=3Dcss"><!--[if lt IE 7]><script =
+type=3D"text/javascript" src=3D"/w/skins/common/IEFixes.js?207"></script>=0A=
+		<meta http-equiv=3D"imagetoolbar" content=3D"no" /><![endif]-->
+<SCRIPT type=3Dtext/javascript>/*<![CDATA[*/=0A=
+		var skin =3D "monobook";=0A=
+		var stylepath =3D "/w/skins";=0A=
+		var wgArticlePath =3D "/wiki/$1";=0A=
+		var wgScriptPath =3D "/w";=0A=
+		var wgScript =3D "/w/index.php";=0A=
+		var wgVariantArticlePath =3D false;=0A=
+		var wgActionPaths =3D {};=0A=
+		var wgServer =3D "http://shrubbery.mynetgear.net";=0A=
+		var wgCanonicalNamespace =3D "";=0A=
+		var wgCanonicalSpecialPageName =3D false;=0A=
+		var wgNamespaceNumber =3D 0;=0A=
+		var wgPageName =3D "Basic_Wiki_Formatting";=0A=
+		var wgTitle =3D "Basic Wiki Formatting";=0A=
+		var wgAction =3D "view";=0A=
+		var wgArticleId =3D "1559";=0A=
+		var wgIsArticle =3D true;=0A=
+		var wgUserName =3D null;=0A=
+		var wgUserGroups =3D null;=0A=
+		var wgUserLanguage =3D "en";=0A=
+		var wgContentLanguage =3D "en";=0A=
+		var wgBreakFrames =3D false;=0A=
+		var wgCurRevisionId =3D 1860;=0A=
+		var wgVersion =3D "1.15.0";=0A=
+		var wgEnableAPI =3D true;=0A=
+		var wgEnableWriteAPI =3D true;=0A=
+		var wgSeparatorTransformTable =3D ["", ""];=0A=
+		var wgDigitTransformTable =3D ["", ""];=0A=
+		var wgRestrictionEdit =3D [];=0A=
+		var wgRestrictionMove =3D [];=0A=
+		/*]]>*/</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://shrubbery.mynetgear.net/w/skins/common/wikibits.js?207"><!-=
+- wikibits js --></SCRIPT>
+<!-- Head Scripts -->
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://shrubbery.mynetgear.net/w/skins/common/ajax.js?207"></SCRIP=
+T>
+
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://shrubbery.mynetgear.net/w/index.php?title=3D-&amp;action=3D=
+raw&amp;gen=3Djs&amp;useskin=3Dmonobook"><!-- site js --></SCRIPT>
+</HEAD>
+<BODY=20
+class=3D"mediawiki ltr ns-0 ns-subject page-Basic_Wiki_Formatting =
+skin-monobook">
+<DIV id=3DglobalWrapper>
+<DIV id=3Dcolumn-content>
+<DIV id=3Dcontent><A id=3Dtop name=3Dtop></A>
+<H1 id=3DfirstHeading class=3DfirstHeading>Basic Wiki Formatting</H1>
+<DIV id=3DbodyContent>
+<H3 id=3DsiteSub>From Shrubbery</H3>
+<DIV id=3DcontentSub></DIV>
+<DIV id=3Djump-to-nav>Jump to: <A=20
+href=3D"http://shrubbery.mynetgear.net/wiki/Basic_Wiki_Formatting#column-=
+one">navigation</A>,=20
+<A=20
+href=3D"http://shrubbery.mynetgear.net/wiki/Basic_Wiki_Formatting#searchI=
+nput">search</A></DIV><!-- start content -->
+<P><BR>For basic information see <A title=3DHelp:Editing=20
+href=3D"http://shrubbery.mynetgear.net/wiki/Help:Editing">Help:Editing</A=
+>. </P>
+<TABLE id=3Dtoc class=3Dtoc summary=3DContents>
+  <TBODY>
+  <TR>
+    <TD>
+      <DIV id=3Dtoctitle>
+      <H2>Contents</H2></DIV>
+      <UL>
+        <LI class=3Dtoclevel-1><A=20
+        =
+href=3D"http://shrubbery.mynetgear.net/wiki/Basic_Wiki_Formatting#Basic_t=
+ext_formatting"><SPAN=20
+        class=3Dtocnumber>1</SPAN> <SPAN class=3Dtoctext>Basic text=20
+        formatting</SPAN></A>=20
+        <LI class=3Dtoclevel-1><A=20
+        =
+href=3D"http://shrubbery.mynetgear.net/wiki/Basic_Wiki_Formatting#HTML_ta=
+gs"><SPAN=20
+        class=3Dtocnumber>2</SPAN> <SPAN class=3Dtoctext>HTML =
+tags</SPAN></A>=20
+        <LI class=3Dtoclevel-1><A=20
+        =
+href=3D"http://shrubbery.mynetgear.net/wiki/Basic_Wiki_Formatting#Organiz=
+ing_your_writing"><SPAN=20
+        class=3Dtocnumber>3</SPAN> <SPAN class=3Dtoctext>Organizing your =
+
+        writing</SPAN></A>=20
+        <LI class=3Dtoclevel-1><A=20
+        =
+href=3D"http://shrubbery.mynetgear.net/wiki/Basic_Wiki_Formatting#Links">=
+<SPAN=20
+        class=3Dtocnumber>4</SPAN> <SPAN =
+class=3Dtoctext>Links</SPAN></A>=20
+        <LI class=3Dtoclevel-1><A=20
+        =
+href=3D"http://shrubbery.mynetgear.net/wiki/Basic_Wiki_Formatting#Images.=
+2C_tables.2C_video.2C_and_sounds"><SPAN=20
+        class=3Dtocnumber>5</SPAN> <SPAN class=3Dtoctext>Images, tables, =
+video, and=20
+        sounds</SPAN></A>=20
+        <LI class=3Dtoclevel-1><A=20
+        =
+href=3D"http://shrubbery.mynetgear.net/wiki/Basic_Wiki_Formatting#Mathema=
+tical_formulas"><SPAN=20
+        class=3Dtocnumber>6</SPAN> <SPAN class=3Dtoctext>Mathematical=20
+        formulas</SPAN></A>=20
+        <LI class=3Dtoclevel-1><A=20
+        =
+href=3D"http://shrubbery.mynetgear.net/wiki/Basic_Wiki_Formatting#Templat=
+es"><SPAN=20
+        class=3Dtocnumber>7</SPAN> <SPAN =
+class=3Dtoctext>Templates</SPAN></A>=20
+      </LI></UL></TD></TR></TBODY></TABLE>
+<SCRIPT type=3Dtext/javascript> if (window.showTocToggle) { var =
+tocShowText =3D "show"; var tocHideText =3D "hide"; showTocToggle(); } =
+</SCRIPT>
+<A id=3DBasic_text_formatting name=3DBasic_text_formatting></A>
+<H3><SPAN class=3Dmw-headline>Basic text formatting </SPAN></H3>
+<TABLE border=3D1 cellPadding=3D2>
+  <TBODY>
+  <TR>
+    <TH width=3D1000>What it looks like </TH>
+    <TH width=3D500>What you type </TH></TR>
+  <TR>
+    <TD>
+      <P>You can <I>italicize text</I> by putting 2 apostrophes on each =
+side.=20
+      </P>
+      <P>3 apostrophes will bold <B>the text</B>. </P>
+      <P>5 apostrophes will bold and italicize <I><B>the text</B></I>. =
+</P>
+      <P>(Using 4 apostrophes doesn't do anything special -- <BR>there =
+are just=20
+      '<B> left over ones'</B> that are included as part of the text.) =
+</P></TD>
+    <TD><PRE>You can ''italicize text'' by putting 2=20
+apostrophes on each side.=20
+
+3 apostrophes will bold '''the text'''.=20
+
+5 apostrophes will bold and italicize=20
+'''''the text'''''.
+
+(Using 4 apostrophes doesn't do anything
+special -- &lt;br&gt; there are just '''' left
+over ones'''' that are included as part of the text.)
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P>A single newline generally has no effect on the layout. These =
+can be=20
+      used to separate sentences within a paragraph. Some editors find =
+that this=20
+      aids editing and improves the <I>diff</I> function (used =
+internally to=20
+      compare different versions of a page). </P>
+      <P>But an empty line starts a new paragraph. </P>
+      <P>When used in a list, a newline <I>does</I> affect the layout =
+(<A=20
+      title=3D""=20
+      =
+href=3D"http://shrubbery.mynetgear.net/wiki/Basic_Wiki_Formatting#lists">=
+see=20
+      below</A>). </P></TD>
+    <TD><PRE>A single newline
+generally has no effect on the layout.
+These can be used to separate
+sentences within a paragraph.
+Some editors find that this aids editing
+and improves the ''diff'' function
+(used internally to compare
+different versions of a page).
+
+But an empty line
+starts a new paragraph.
+
+When used in a list, a newline ''does''=20
+affect the layout ([[#lists|see below]]).
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P>You can break lines<BR>without a new paragraph.<BR>Please use =
+this=20
+      sparingly. </P>
+      <P>Please do not start a <A class=3Dnew title=3D"Link (page does =
+not exist)"=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DLink&amp;actio=
+n=3Dedit&amp;redlink=3D1">link</A>=20
+      or <I>italics</I> or <B>bold</B> on one line and close it on the =
+next.=20
+    </P></TD>
+    <TD><PRE>You can break lines&lt;br&gt;
+without a new paragraph.&lt;br&gt;
+Please use this sparingly.
+
+Please do not start a [[link]] or=20
+''italics'' or '''bold''' on one line=20
+and close it on the next.
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P>You should "sign" your comments on talk pages: <BR>- Three =
+tildes gives=20
+      your signature: <A class=3Dnew title=3D"User:Karl Wick (page does =
+not exist)"=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DUser:Karl_Wick=
+&amp;action=3Dedit&amp;redlink=3D1">Karl=20
+      Wick</A> <BR>- Four tildes give your signature plus date/time: <A=20
+      class=3Dnew title=3D"User:Karl Wick (page does not exist)"=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DUser:Karl_Wick=
+&amp;action=3Dedit&amp;redlink=3D1">Karl=20
+      Wick</A> 07:46, 27 November 2005 (UTC) <BR>- Five tildes gives the =
+
+      date/time alone: 07:46, 27 November 2005 (UTC) <BR></P></TD>
+    <TD><PRE>You should "sign" your comments=20
+on talk pages: &lt;br&gt;
+- Three tildes gives your
+signature: ~~~ &lt;br&gt;
+- Four tildes give your=20
+signature plus date/time: ~~~~ &lt;br&gt;
+- Five tildes gives the=20
+date/time alone: ~~~~~ &lt;br&gt;
+</PRE></TD></TR></TBODY></TABLE><A id=3DHTML_tags name=3DHTML_tags></A>
+<H3><SPAN class=3Dmw-headline>HTML tags </SPAN></H3>
+<P>You can use some <B>HTML tags</B> too. For a list of HTML tags that =
+are=20
+allowed, see <A class=3Dnew title=3D"Help:HTML in wikitext (page does =
+not exist)"=20
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DHelp:HTML_in_w=
+ikitext&amp;action=3Dedit&amp;redlink=3D1">HTML=20
+in wikitext</A>. However, you should avoid HTML in favor of Wiki markup =
+whenever=20
+possible. </P>
+<P><BR></P>
+<TABLE border=3D1 cellPadding=3D2>
+  <TBODY>
+  <TR>
+    <TH width=3D1000>What it looks like </TH>
+    <TH width=3D500>What you type </TH></TR>
+  <TR>
+    <TD>
+      <P>Put text in a <TT>typewriter font</TT>. The same font is =
+generally used=20
+      for <CODE>computer code</CODE>. </P></TD>
+    <TD><PRE>Put text in a &lt;tt&gt;typewriter
+font&lt;/tt&gt;. The same font is=20
+generally used for &lt;code&gt;
+computer code&lt;/code&gt;.
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P><STRIKE>Strike out</STRIKE> or <U>underline</U> text, or write =
+it <SPAN=20
+      style=3D"FONT-VARIANT: small-caps">in small caps</SPAN>. </P></TD>
+    <TD><PRE>&lt;strike&gt;Strike out&lt;/strike&gt;
+or &lt;u&gt;underline&lt;/u&gt; text,
+or write it &lt;span style=3D
+"font-variant:small-caps"&gt;
+in small caps&lt;/span&gt;.
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P>Superscripts and subscripts: X<SUP>2</SUP>, H<SUB>2</SUB>O =
+</P></TD>
+    <TD><PRE>Superscripts and subscripts:
+X&lt;sup&gt;2&lt;/sup&gt;, H&lt;sub&gt;2&lt;/sub&gt;O
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <CENTER>Centered text</CENTER>
+      <UL>
+        <LI>Please note the American spelling of "center". =
+</LI></UL></TD>
+    <TD><PRE>&lt;center&gt;Centered text&lt;/center&gt;
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <BLOCKQUOTE>The <B>blockquote</B> command will indent both margins =
+when=20
+        needed instead of the left margin only as the colon does. =
+</BLOCKQUOTE></TD>
+    <TD><PRE>&lt;blockquote&gt;
+The '''blockquote''' command will indent=20
+both margins when needed instead of the=20
+left margin only as the colon does. =20
+&lt;/blockquote&gt;
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P>Invisible comments to editors (&lt;!-- --&gt;) only appear =
+while=20
+      editing the page. </P>
+      <UL>
+        <LI>If you wish to make comments to the public, you should =
+usually use=20
+        the <A class=3Dnew title=3D"Talk page (page does not exist)"=20
+        =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DTalk_page&amp;=
+action=3Dedit&amp;redlink=3D1">talk=20
+        page</A>. </LI></UL></TD>
+    <TD><PRE>Invisible comments to editors (&amp;lt;!-- --&amp;gt;)
+only appear while editing the page.
+&lt;!-- Note to editors: blah blah blah. --&gt;
+</PRE></TD></TR></TBODY></TABLE><A id=3DOrganizing_your_writing=20
+name=3DOrganizing_your_writing></A>
+<H3><SPAN class=3Dmw-headline>Organizing your writing </SPAN></H3>
+<TABLE border=3D1 cellPadding=3D2>
+  <TBODY>
+  <TR>
+    <TH width=3D1000>What it looks like </TH>
+    <TH width=3D500>What you type </TH></TR>
+  <TR>
+    <TD>
+      <DIV style=3D"BORDER-BOTTOM: #000000 1px solid; FONT-SIZE: =
+150%">Section=20
+      headings</DIV>
+      <P><I>Headings</I> organize your writing into sections. The Wiki =
+software=20
+      can automatically generate a <A class=3Dnew=20
+      title=3D"Help:Table of contents (page does not exist)"=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DHelp:Table_of_=
+contents&amp;action=3Dedit&amp;redlink=3D1">table=20
+      of contents</A> from them. </P>
+      <DIV style=3D"FONT-SIZE: 132%; FONT-WEIGHT: bold">Subsection</DIV>
+      <P>Using more equals signs creates a subsection. </P>
+      <DIV style=3D"FONT-SIZE: 116%; FONT-WEIGHT: bold">A smaller =
+subsection</DIV>
+      <P>Don't skip levels, like from two to four equals signs. </P>
+      <P>Start with 2 equals signs not 1 because 1 creates H1 tags which =
+should=20
+      be reserved for page title. </P></TD>
+    <TD><PRE>=3D=3D Section headings =3D=3D
+
+''Headings'' organize your writing into=20
+sections. The Wiki software can automatically=20
+generate a table of contents from them.
+
+=3D=3D=3D Subsection =3D=3D=3D
+
+Using more equals signs creates a subsection.
+
+=3D=3D=3D=3D A smaller subsection =3D=3D=3D=3D
+
+Don't skip levels,=20
+like from two to four equals signs.
+
+Start with 2 equals signs not 1=20
+because 1 creates H1 tags
+which should be reserved for page title.
+</PRE></TD></TR>
+  <TR id=3Dlists>
+    <TD>
+      <UL>
+        <LI><I>Unordered <A class=3Dnew title=3D"Help:List (page does =
+not exist)"=20
+        =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DHelp:List&amp;=
+action=3Dedit&amp;redlink=3D1">lists</A></I>=20
+        are easy to do:=20
+        <UL>
+          <LI>Start every line with a star.=20
+          <UL>
+            <LI>More stars indicate a deeper level. </LI></UL></LI></UL>
+        <DL>
+          <DD>Previous item continues. </DD></DL>
+        <UL>
+          <LI>A newline </LI></UL>
+        <LI>in a list </LI></UL>
+      <P>marks the end of the list. </P>
+      <UL>
+        <LI>Of course you can start again. </LI></UL></TD>
+    <TD><PRE>* ''Unordered lists'' are easy to do:
+** Start every line with a star.
+*** More stars indicate a deeper level.
+*: Previous item continues.
+** A newline
+* in a list =20
+marks the end of the list.
+* Of course you can start again.
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <OL>
+        <LI><I>Numbered lists</I> are:=20
+        <OL>
+          <LI>Very organized=20
+          <LI>Easy to follow </LI></OL></LI></OL>
+      <P>A newline marks the end of the list. </P>
+      <OL>
+        <LI>New numbering starts with 1. </LI></OL></TD>
+    <TD><PRE># ''Numbered lists'' are:
+## Very organized
+## Easy to follow
+A newline marks the end of the list.
+# New numbering starts with 1.
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P>Here's a <I>definition list</I>: </P>
+      <DL>
+        <DT>Word&nbsp;
+        <DD>Definition of the word=20
+        <DT>A longer phrase needing definition=20
+        <DD>Phrase defined=20
+        <DT>A word&nbsp;
+        <DD>Which has a definition=20
+        <DD>Also a second one=20
+        <DD>And even a third </DD></DL>
+      <P>Begin with a semicolon. One item per line; a newline can appear =
+before=20
+      the colon, but using a space before the colon improves parsing. =
+</P></TD>
+    <TD><PRE>Here's a ''definition list'':
+; Word&nbsp;: Definition of the word
+; A longer phrase needing definition
+: Phrase defined
+; A word&nbsp;: Which has a definition
+: Also a second one
+: And even a third
+
+Begin with a semicolon. One item per line;=20
+a newline can appear before the colon, but=20
+using a space before the colon improves=20
+parsing.
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <UL>
+        <LI>You can even do mixed lists=20
+        <OL>
+          <LI>and nest them=20
+          <LI>inside each other=20
+          <UL>
+            <LI>or break lines<BR>in lists. </LI></UL>
+          <DL>
+            <DT>definition lists=20
+            <DD>can be=20
+            <DL>
+              <DT>nested&nbsp;
+              <DD>too </DD></DL></DD></DL></LI></OL></LI></UL></TD>
+    <TD><PRE>* You can even do mixed lists
+*# and nest them
+*# inside each other
+*#* or break lines&lt;br&gt;in lists.
+*#; definition lists
+*#: can be=20
+*#:; nested&nbsp;: too
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <DL>
+        <DD>A colon (:) indents a line or paragraph. </DD></DL>
+      <P>A newline starts a new paragraph. <BR>Often used for discussion =
+on <A=20
+      class=3Dnew title=3D"Talk pages (page does not exist)"=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DTalk_pages&amp=
+;action=3Dedit&amp;redlink=3D1">talk=20
+      pages</A>. </P>
+      <DL>
+        <DD>We use 1 colon to indent once.=20
+        <DL>
+          <DD>We use 2 colons to indent twice.=20
+          <DL>
+            <DD>3 colons to indent 3 times, and so on.=20
+    </DD></DL></DD></DL></DD></DL></TD>
+    <TD><PRE>: A colon (:) indents a line or paragraph.
+A newline starts a new paragraph. &lt;br&gt;
+Often used for discussion on talk pages.
+: We use 1 colon to indent once.
+:: We use 2 colons to indent twice.
+::: 3 colons to indent 3 times, and so on.
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P>You can make <A class=3Dnew=20
+      title=3D"W:horizontal dividing line (page does not exist)"=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DW:horizontal_d=
+ividing_line&amp;action=3Dedit&amp;redlink=3D1">horizontal=20
+      dividing lines</A> (----) to separate text. </P>
+      <HR>
+
+      <P>But you should usually use sections instead, so that they go in =
+the=20
+      table of contents. </P></TD>
+    <TD><PRE>You can make horizontal dividing lines (----)
+to separate text.
+----
+But you should usually use sections instead,
+so that they go in the table of contents.
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P>You can add footnotes to sentences using the <I>ref</I> tag -- =
+this is=20
+      especially good for citing a source. </P>
+      <DL>
+        <DD>There are over six billion people in the world.<SUP =
+id=3D_ref-0=20
+        class=3Dreference><A title=3D""=20
+        =
+href=3D"http://shrubbery.mynetgear.net/wiki/Basic_Wiki_Formatting#_note-0=
+">[1]</A></SUP>=20
+        </DD></DL>
+      <P><!-- =0A=
+NewPP limit report=0A=
+Preprocessor node count: 72/1000000=0A=
+Post-expand include size: 0/2097152 bytes=0A=
+Template argument size: 0/2097152 bytes=0A=
+Expensive parser function count: 0/100=0A=
+--></P>
+      <P><BR></P>References:=20
+      <OL class=3Dreferences></OL>
+      <P><!-- =0A=
+NewPP limit report=0A=
+Preprocessor node count: 76/1000000=0A=
+Post-expand include size: 0/2097152 bytes=0A=
+Template argument size: 0/2097152 bytes=0A=
+Expensive parser function count: 0/100=0A=
+--></P>
+      <P><BR>For details, see <A class=3Dnew=20
+      title=3D"Wikipedia:Footnotes (page does not exist)"=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DWikipedia:Foot=
+notes&amp;action=3Dedit&amp;redlink=3D1">Wikipedia:Footnotes</A>=20
+      and <A class=3Dnew title=3D"Help:Footnotes (page does not exist)"=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DHelp:Footnotes=
+&amp;action=3Dedit&amp;redlink=3D1">Help:Footnotes</A>.=20
+      </P></TD>
+    <TD><PRE>You can add footnotes to sentences using
+the ''ref'' tag -- this is especially good
+for citing a source.
+
+:There are over six billion people in the
+world.&lt;ref&gt;CIA World Factbook, 2006.&lt;/ref&gt;
+
+References: &lt;references/&gt;
+
+For details, see [[Wikipedia:Footnotes]]
+and [[Help:Footnotes]].
+</PRE></TD></TR></TBODY></TABLE><A id=3DLinks name=3DLinks></A>
+<H3><SPAN class=3Dmw-headline>Links </SPAN></H3>
+<P>You will often want to make clickable <I>links</I> to other pages. =
+</P>
+<TABLE border=3D1 cellSpacing=3D0 cellPadding=3D2 width=3D"100%">
+  <TBODY>
+  <TR>
+    <TH>What it looks like </TH>
+    <TH>What you type </TH></TR>
+  <TR>
+    <TD>
+      <P>Here's a link to a page named <A class=3Dnew=20
+      title=3D"Official position (page does not exist)"=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DOfficial_posit=
+ion&amp;action=3Dedit&amp;redlink=3D1">Official=20
+      position</A>. You can even say <A class=3Dnew=20
+      title=3D"Official position (page does not exist)"=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DOfficial_posit=
+ion&amp;action=3Dedit&amp;redlink=3D1">Official=20
+      positions</A> and the link will show up correctly. </P></TD>
+    <TD><PRE>Here's a link to a page named [[Official position]].
+You can even say [[Official position]]s
+and the link will show up correctly.
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P>You can put formatting around a link. Example: <I><A =
+class=3Dnew=20
+      title=3D"Wikipedia (page does not exist)"=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DWikipedia&amp;=
+action=3Dedit&amp;redlink=3D1">Wikipedia</A></I>.=20
+      </P></TD>
+    <TD><PRE>You can put formatting around a link.
+Example: ''[[Wikipedia]]''.
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P>The <I>first letter</I> of articles is automatically =
+capitalized, so <A=20
+      class=3Dnew title=3D"Wikipedia (page does not exist)"=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DWikipedia&amp;=
+action=3Dedit&amp;redlink=3D1">wikipedia</A>=20
+      goes to the same place as <A class=3Dnew=20
+      title=3D"Wikipedia (page does not exist)"=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DWikipedia&amp;=
+action=3Dedit&amp;redlink=3D1">Wikipedia</A>.=20
+      Capitalization matters after the first letter. </P></TD>
+    <TD><PRE>The ''first letter'' of articles is automatically
+capitalized, so [[wikipedia]] goes to the same place
+as [[Wikipedia]]. Capitalization matters after the
+first letter.
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P><A class=3Dnew title=3D"The weather in London (page does not =
+exist)"=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DThe_weather_in=
+_London&amp;action=3Dedit&amp;redlink=3D1">The=20
+      weather in London</A> is a page that doesn't exist yet. You could =
+create=20
+      it by clicking on the link. </P></TD>
+    <TD><PRE>[[The weather in London]] is a page that doesn't exist
+yet. You could create it by clicking on the link.
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P>You can link to a page section by its title: </P>
+      <UL>
+        <LI><A class=3Dnew title=3D"List of cities by country (page does =
+not exist)"=20
+        =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DList_of_cities=
+_by_country&amp;action=3Dedit&amp;redlink=3D1">List=20
+        of cities by country#Morocco</A>. </LI></UL>
+      <P>If multiple sections have the same title, add a number. <A =
+title=3D""=20
+      =
+href=3D"http://shrubbery.mynetgear.net/wiki/Basic_Wiki_Formatting#Example=
+_section_3">#Example=20
+      section 3</A> goes to the third section named "Example section". =
+</P></TD>
+    <TD><PRE>You can link to a page section by its title:
+
+*[[List of cities by country#Morocco]].
+
+If multiple sections have the same title, add
+a number. [[#Example section 3]] goes to the
+third section named "Example section".
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P>You can make a link point to a different place with a <A =
+class=3Dnew=20
+      title=3D"Help:Piped link (page does not exist)"=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DHelp:Piped_lin=
+k&amp;action=3Dedit&amp;redlink=3D1">piped=20
+      link</A>. Put the link target first, then the pipe character "|", =
+then the=20
+      link text. </P>
+      <UL>
+        <LI><A class=3Dnew title=3D"Help:Link (page does not exist)"=20
+        =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DHelp:Link&amp;=
+action=3Dedit&amp;redlink=3D1">About=20
+        Links</A>=20
+        <LI><A class=3Dnew title=3D"List of cities by country (page does =
+not exist)"=20
+        =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DList_of_cities=
+_by_country&amp;action=3Dedit&amp;redlink=3D1">Cities=20
+        in Morocco</A> </LI></UL>
+      <P>Or you can use the "pipe trick" so that text in parentheses or =
+text=20
+      after a comma does not appear. </P>
+      <UL>
+        <LI><A class=3Dnew title=3D"Spinning (textiles) (page does not =
+exist)"=20
+        =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DSpinning_(text=
+iles)&amp;action=3Dedit&amp;redlink=3D1">Spinning</A>=20
+
+        <LI><A class=3Dnew title=3D"Boston, Massachusetts (page does not =
+exist)"=20
+        =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DBoston,_Massac=
+husetts&amp;action=3Dedit&amp;redlink=3D1">Boston</A>=20
+        </LI></UL></TD>
+    <TD><PRE>
+*[[Help:Link|About Links]]
+*[[List of cities by country#Morocco|
+Cities in Morocco]]
+
+*[[Spinning (textiles)|]]
+*[[Boston, Massachusetts|]]
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P>You can make an external link just by typing a URL: <A=20
+      class=3D"external free" title=3Dhttp://www.nupedia.com=20
+      href=3D"http://www.nupedia.com/" =
+rel=3Dnofollow>http://www.nupedia.com/</A>=20
+      </P>
+      <P>You can give it a title: <A class=3D"external text"=20
+      title=3Dhttp://www.nupedia.com href=3D"http://www.nupedia.com/"=20
+      rel=3Dnofollow>Nupedia</A> </P>
+      <P>Or leave the title blank: <A class=3D"external autonumber"=20
+      title=3Dhttp://www.nupedia.com href=3D"http://www.nupedia.com/"=20
+      rel=3Dnofollow>[1]</A> </P></TD>
+    <TD><PRE>You can make an external link just by typing a URL:
+http://www.nupedia.com
+
+You can give it a title:
+[http://www.nupedia.com Nupedia]
+
+Or leave the title blank:
+[http://www.nupedia.com]
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P>Linking to an e-mail address works the same way: <A=20
+      class=3D"external free" title=3Dmailto:someone@domain.com=20
+      href=3D"mailto:someone@domain.com"=20
+      rel=3Dnofollow>mailto:someone@domain.com</A> or <A =
+class=3D"external text"=20
+      title=3Dmailto:someone@domain.com =
+href=3D"mailto:someone@domain.com"=20
+      rel=3Dnofollow>someone</A> </P></TD>
+    <TD><PRE>Linking to an e-mail address works the same way:
+mailto:someone@domain.com or=20
+[mailto:someone@domain.com someone]
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P>You can <A class=3Dnew title=3D"Help:Redirect (page does not =
+exist)"=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DHelp:Redirect&=
+amp;action=3Dedit&amp;redlink=3D1">redirect</A>=20
+      the user to another page. </P></TD>
+    <TD><PRE>#REDIRECT [[Official position]]
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P><A class=3Dnew title=3D"Help:Category (page does not exist)"=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DHelp:Category&=
+amp;action=3Dedit&amp;redlink=3D1">Category=20
+      links</A> do not show up in line but instead at page bottom <I>and =
+cause=20
+      the page to be</I> listed in the category. </P>
+      <P>Add an extra colon to <I>link</I> to a category in line without =
+causing=20
+      the page to be listed in the category: <A title=3DCategory:Wiki=20
+      =
+href=3D"http://shrubbery.mynetgear.net/wiki/Category:Wiki">Category:Wiki<=
+/A>=20
+      </P></TD>
+    <TD><PRE>[[Help:Category|Category links]] do not show up in line
+but instead at page bottom ''and cause the page to be
+listed in the category.''
+[[Category:Wiki]]
+
+Add an extra colon to ''link'' to a category in line
+without causing the page to be listed in the category:
+[[:Category:Wiki]]
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P>The Wiki reformats linked dates to match the reader's date =
+preferences.=20
+      These three dates will show up the same if you choose a format in =
+your <A=20
+      title=3DSpecial:Preferences=20
+      =
+href=3D"http://shrubbery.mynetgear.net/wiki/Special:Preferences">Preferen=
+ces</A>:=20
+      </P>
+      <UL>
+        <LI><A class=3Dnew title=3D"July 20 (page does not exist)"=20
+        =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DJuly_20&amp;ac=
+tion=3Dedit&amp;redlink=3D1">July=20
+        20</A>, <A class=3Dnew title=3D"1969 (page does not exist)"=20
+        =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3D1969&amp;actio=
+n=3Dedit&amp;redlink=3D1">1969</A>=20
+
+        <LI><A class=3Dnew title=3D"20 July (page does not exist)"=20
+        =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3D20_July&amp;ac=
+tion=3Dedit&amp;redlink=3D1">20=20
+        July</A> <A class=3Dnew title=3D"1969 (page does not exist)"=20
+        =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3D1969&amp;actio=
+n=3Dedit&amp;redlink=3D1">1969</A>=20
+
+        <LI><A class=3Dnew title=3D"1969 (page does not exist)"=20
+        =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3D1969&amp;actio=
+n=3Dedit&amp;redlink=3D1">1969</A>-<A=20
+        class=3Dnew title=3D"07-20 (page does not exist)"=20
+        =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3D07-20&amp;acti=
+on=3Dedit&amp;redlink=3D1">07-20</A>=20
+        </LI></UL></TD>
+    <TD><PRE>The Wiki reformats linked dates to match the reader's
+date preferences. These three dates will show up the
+same if you choose a format in your
+[[Special:Preferences|]]:
+* [[July 20]], [[1969]]
+* [[20 July]] [[1969]]
+* [[1969]]-[[07-20]]
+</PRE></TD></TR></TBODY></TABLE><A =
+id=3DImages.2C_tables.2C_video.2C_and_sounds=20
+name=3DImages.2C_tables.2C_video.2C_and_sounds></A>
+<H3><SPAN class=3Dmw-headline>Images, tables, video, and =
+sounds</SPAN></H3>
+<P>After uploading, just enter the filename, highlight it and press the=20
+"embedded image"-button of the edit_toolbar. </P>
+<P>This will produce the syntax for uploading a file=20
+<B>[[Image:filename.png]]</B> </P>
+<P>This is a very quick introduction. For more information, see: </P>
+<UL>
+  <LI><A class=3Dnew=20
+  title=3D"Help:Images and other uploaded files (page does not exist)"=20
+  =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DHelp:Images_an=
+d_other_uploaded_files&amp;action=3Dedit&amp;redlink=3D1">Help:Images=20
+  and other uploaded files</A> for how to upload files=20
+  <LI><A class=3Dnew=20
+  title=3D"W:en:Wikipedia:Extended image syntax (page does not exist)"=20
+  =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DW:en:Wikipedia=
+:Extended_image_syntax&amp;action=3Dedit&amp;redlink=3D1">w:en:Wikipedia:=
+Extended=20
+  image syntax</A> for how to arrange images on the page=20
+  <LI><A class=3Dnew title=3D"Help:Table (page does not exist)"=20
+  =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DHelp:Table&amp=
+;action=3Dedit&amp;redlink=3D1">Help:Table</A>=20
+  for how to create a table </LI></UL>
+<TABLE border=3D1 cellPadding=3D2>
+  <TBODY>
+  <TR>
+    <TH width=3D1000>What it looks like </TH>
+    <TH width=3D500>What you type </TH></TR>
+  <TR>
+    <TD>
+      <P>A picture, including alternate text: </P>
+      <P><A class=3Dnew title=3DFile:Wiki.png=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DSpecial:Upload=
+&amp;wpDestFile=3DWiki.png">File:Wiki.png</A>=20
+      </P>
+      <P>You can put the image in a frame with a caption: </P>
+      <DIV class=3D"thumb tright">
+      <DIV style=3D"WIDTH: 182px" class=3Dthumbinner><A class=3Dnew=20
+      title=3DFile:Wiki.png=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DSpecial:Upload=
+&amp;wpDestFile=3DWiki.png">File:Wiki.png</A>=20
+
+      <DIV class=3Dthumbcaption>This Wiki's logo</DIV></DIV></DIV></TD>
+    <TD><PRE>A picture, including alternate text:
+
+[[Image:Wiki.png|This Wiki's logo]]
+
+The image in a frame with a caption:
+[[Image:Wiki.png|frame|This Wiki's logo]]
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P>A link to Wikipedia's page for the image: <A class=3Dnew=20
+      title=3D"File:Wiki.png (page does not exist)"=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DFile:Wiki.png&=
+amp;action=3Dedit&amp;redlink=3D1">Image:Wiki.png</A>=20
+      </P>
+      <P>Or a link directly to the image itself: <A class=3Dnew =
+title=3DWiki.png=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DSpecial:Upload=
+&amp;wpDestFile=3DWiki.png">Media:Wiki.png</A>=20
+      </P></TD>
+    <TD><PRE>A link to Wikipedia's page for the image:
+[[:Image:Wiki.png]]
+
+Or a link directly to the image itself:
+[[Media:Wiki.png]]
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P>Use <B>media:</B> links to link directly to sounds or videos: =
+<A=20
+      class=3Dnew title=3D"Sg mrob.ogg"=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DSpecial:Upload=
+&amp;wpDestFile=3DSg_mrob.ogg">A=20
+      sound file</A> </P></TD>
+    <TD><PRE>Use '''media:''' links to link=20
+directly to sounds or videos:=20
+[[media:Sg_mrob.ogg|A sound file]]
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <TABLE border=3D1 cellSpacing=3D0 cellPadding=3D5 align=3Dcenter>
+        <TBODY>
+        <TR>
+          <TH>This </TH>
+          <TH>is </TH></TR>
+        <TR>
+          <TD>a </TD>
+          <TD>table </TD></TR></TBODY></TABLE></TD>
+    <TD><PRE>{| border=3D"1" cellspacing=3D"0"=20
+cellpadding=3D"5" align=3D"center"
+! This
+! is
+|-=20
+| a
+| table
+|-
+|}
+
+</PRE></TD></TR></TBODY></TABLE><A id=3DMathematical_formulas=20
+name=3DMathematical_formulas></A>
+<H3><SPAN class=3Dmw-headline>Mathematical formulas </SPAN></H3>
+<P>You can format mathematical formulas with <A class=3Dnew=20
+title=3D"W:TeX (page does not exist)"=20
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DW:TeX&amp;acti=
+on=3Dedit&amp;redlink=3D1">TeX</A>=20
+markup. See <A class=3Dnew title=3D"Help:Formula (page does not exist)"=20
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DHelp:Formula&a=
+mp;action=3Dedit&amp;redlink=3D1">Help:Formula</A>.=20
+</P>
+<TABLE border=3D1 cellPadding=3D2>
+  <TBODY>
+  <TR>
+    <TH width=3D1000>What it looks like </TH>
+    <TH width=3D500>What you type </TH></TR>
+  <TR>
+    <TD>
+      <P>&lt;math&gt;\sum_{n=3D0}^\infty \frac{x^n}{n!}&lt;/math&gt; =
+</P></TD>
+    <TD><PRE>&lt;math&gt;\sum_{n=3D0}^\infty \frac{x^n}{n!}&lt;/math&gt;
+</PRE></TD></TR></TBODY></TABLE><A id=3DTemplates name=3DTemplates></A>
+<H3><SPAN class=3Dmw-headline>Templates</SPAN></H3>
+<P><B><A class=3Dnew title=3D"Help:Template (page does not exist)"=20
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DHelp:Template&=
+amp;action=3Dedit&amp;redlink=3D1">Templates</A></B>=20
+are segments of Wiki markup that are meant to be copied automatically=20
+("transcluded") into a page. You add them by putting the template's name =
+in=20
+{{double braces}}. </P>
+<P>Some templates take <I>parameters</I>, as well, which you separate =
+with the=20
+pipe character. </P>
+<TABLE border=3D1 cellPadding=3D2>
+  <TBODY>
+  <TR>
+    <TH width=3D1000>What it looks like </TH>
+    <TH width=3D500>What you type </TH></TR>
+  <TR>
+    <TD>
+      <P>This text comes from the page named <A class=3Dnew=20
+      title=3D"Template:Transclusions demo (page does not exist)"=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DTemplate:Trans=
+clusions_demo&amp;action=3Dedit&amp;redlink=3D1">Template:Transclusions=20
+      demo</A>. It has been <A class=3Dnew=20
+      title=3D"En:Transclusion (page does not exist)"=20
+      =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DEn:Transclusio=
+n&amp;action=3Dedit&amp;redlink=3D1">transcluded</A>=20
+      into this page. </P></TD>
+    <TD><PRE>{{Transclusion demo}}
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P><I>This transclusion demo is a little bit of text from the page =
+<A=20
+      title=3D"Help:Transclusion Demo"=20
+      =
+href=3D"http://shrubbery.mynetgear.net/wiki/Help:Transclusion_Demo">Help:=
+Transclusion=20
+      Demo</A> to be included into any file.</I> </P></TD>
+    <TD><PRE>{{:Help:Transclusion Demo}}
+</PRE></TD></TR>
+  <TR>
+    <TD>
+      <P>This template takes two parameters, and creates underlined text =
+with a=20
+      hover box for many modern browsers supporting CSS: </P>
+      <P><SPAN style=3D"BORDER-BOTTOM: 1px dotted"=20
+      title=3D"This is the hover text">Hover your mouse over this =
+text</SPAN> </P>
+      <P>Go to this page to see the H:title template itself: {{<A=20
+      title=3DTemplate:H:title=20
+      =
+href=3D"http://shrubbery.mynetgear.net/wiki/Template:H:title">H:title</A>=
+}}=20
+      </P></TD>
+    <TD><PRE>This template takes two parameters, and
+creates underlined text with a hover box
+for many modern browsers supporting CSS:
+
+{{H:title|This is the hover text|
+Hover your mouse over this text}}
+
+Go to this page to see the H:title template
+itself: {{tl|H:title}}
+</PRE></TD></TR></TBODY></TABLE><!-- =0A=
+NewPP limit report=0A=
+Preprocessor node count: 175/1000000=0A=
+Post-expand include size: 391/2097152 bytes=0A=
+Template argument size: 68/2097152 bytes=0A=
+Expensive parser function count: 0/100=0A=
+--><!-- Saved in parser cache with key =
+wikidb:pcache:idhash:1559-0!1!0!!en!2!edit=3D0 and timestamp =
+20110302155847 -->
+<DIV class=3Dprintfooter>Retrieved from "<A=20
+href=3D"http://shrubbery.mynetgear.net/wiki/Basic_Wiki_Formatting">http:/=
+/shrubbery.mynetgear.net/wiki/Basic_Wiki_Formatting</A>"</DIV>
+<DIV id=3Dcatlinks class=3Dcatlinks>
+<DIV id=3Dmw-normal-catlinks><A title=3DSpecial:Categories=20
+href=3D"http://shrubbery.mynetgear.net/wiki/Special:Categories">Categorie=
+s</A>:=20
+<SPAN dir=3Dltr><A title=3DCategory:Help=20
+href=3D"http://shrubbery.mynetgear.net/wiki/Category:Help">Help</A></SPAN=
+> | <SPAN=20
+dir=3Dltr><A title=3DCategory:Wiki=20
+href=3D"http://shrubbery.mynetgear.net/wiki/Category:Wiki">Wiki</A></SPAN=
+></DIV></DIV><!-- end content -->
+<DIV class=3DvisualClear></DIV></DIV></DIV></DIV>
+<DIV id=3Dcolumn-one>
+<DIV id=3Dp-cactions class=3Dportlet>
+<H5>Views</H5>
+<DIV class=3DpBody>
+<UL>
+  <LI id=3Dca-nstab-main class=3Dselected><A accessKey=3Dc=20
+  title=3D"View the content page [c]"=20
+  =
+href=3D"http://shrubbery.mynetgear.net/wiki/Basic_Wiki_Formatting">Page</=
+A>=20
+  <LI id=3Dca-talk class=3Dnew><A accessKey=3Dt=20
+  title=3D"Discussion about the content page [t]"=20
+  =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DTalk:Basic_Wik=
+i_Formatting&amp;action=3Dedit&amp;redlink=3D1">Discussion</A>=20
+
+  <LI id=3Dca-viewsource><A accessKey=3De=20
+  title=3D"This page is protected.&#10;You can view its source [e]"=20
+  =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DBasic_Wiki_For=
+matting&amp;action=3Dedit">View=20
+  source</A>=20
+  <LI id=3Dca-history><A accessKey=3Dh title=3D"Past revisions of this =
+page [h]"=20
+  =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DBasic_Wiki_For=
+matting&amp;action=3Dhistory">History</A>=20
+  </LI></UL></DIV></DIV>
+<DIV id=3Dp-personal class=3Dportlet>
+<H5>Personal tools</H5>
+<DIV class=3DpBody>
+<UL>
+  <LI id=3Dpt-login><A accessKey=3Do=20
+  title=3D"You are encouraged to log in; however, it is not mandatory =
+[o]"=20
+  =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DSpecial:UserLo=
+gin&amp;returnto=3DBasic_Wiki_Formatting">Log=20
+  in</A> </LI></UL></DIV></DIV>
+<DIV id=3Dp-logo class=3Dportlet><A accessKey=3Dz=20
+style=3D"BACKGROUND-IMAGE: url(/w/skins/myskin/spinoso.png)"=20
+title=3D"Visit the main page [z]"=20
+href=3D"http://shrubbery.mynetgear.net/wiki/Main_Page"></A></DIV>
+<SCRIPT type=3Dtext/javascript> if (window.isMSIE55) fixalpha(); =
+</SCRIPT>
+
+<DIV id=3Dp-navigation class=3D"generated-sidebar portlet">
+<H5>Navigation</H5>
+<DIV class=3DpBody>
+<UL>
+  <LI id=3Dn-The-New-Wiki.21><A=20
+  href=3D"http://shrubbery.mynetgear.net/c/display/W/Home">The New =
+Wiki!</A>=20
+  <LI id=3Dn-mainpage><A title=3D"Visit the main page"=20
+  href=3D"http://shrubbery.mynetgear.net/wiki/Main_Page">Main Page</A>=20
+  <LI id=3Dn-Categories><A=20
+  =
+href=3D"http://shrubbery.mynetgear.net/wiki/Special:Categories">Categorie=
+s</A>=20
+  <LI id=3Dn-My-Photos><A =
+href=3D"http://www.flickr.com/photos/joshua_davis">My=20
+  Photos</A>=20
+  <LI id=3Dn-My-Home-Page><A =
+href=3D"http://joshua_davis.home.mindspring.com/">My=20
+  Home Page</A>=20
+  <LI id=3Dn-My-Links><A href=3D"http://del.icio.us/pgmjsd">My Links</A> =
+
+  <LI id=3Dn-My-Blog><A href=3D"http://www.jroller.com/joshua_davis">My =
+Blog</A>=20
+  <LI id=3Dn-recentchanges><A accessKey=3Dr=20
+  title=3D"The list of recent changes in the wiki [r]"=20
+  =
+href=3D"http://shrubbery.mynetgear.net/wiki/Special:RecentChanges">Recent=
+=20
+  changes</A>=20
+  <LI id=3Dn-randompage><A accessKey=3Dx title=3D"Load a random page =
+[x]"=20
+  href=3D"http://shrubbery.mynetgear.net/wiki/Special:Random">Random =
+page</A>=20
+  <LI id=3Dn-help><A title=3D"The place to find out"=20
+  href=3D"http://shrubbery.mynetgear.net/wiki/Help:Contents">Help</A>=20
+  <LI id=3Dn-The-old-shrubbery-wiki><A=20
+  =
+href=3D"http://shrubbery.mynetgear.net/xwiki/bin/view/Main/WebHome">The =
+old=20
+  shrubbery wiki</A> </LI></UL></DIV></DIV>
+<DIV id=3Dp-search class=3Dportlet>
+<H5><LABEL for=3DsearchInput>Search</LABEL></H5>
+<DIV id=3DsearchBody class=3DpBody>
+<FORM id=3Dsearchform action=3D/w/index.php>
+<DIV><INPUT value=3DSpecial:Search type=3Dhidden name=3Dtitle> <INPUT =
+accessKey=3Df=20
+id=3DsearchInput title=3D"Search Shrubbery [f]" name=3Dsearch> <INPUT =
+id=3DsearchGoButton class=3DsearchButton title=3D"Go to a page with this =
+exact name if exists" value=3DGo type=3Dsubmit name=3Dgo>&nbsp;=20
+<INPUT id=3Dmw-searchButton class=3DsearchButton title=3D"Search the =
+pages for this text" value=3DSearch type=3Dsubmit name=3Dfulltext>=20
+</DIV></FORM></DIV></DIV>
+<DIV id=3Dp-tb class=3Dportlet>
+<H5>Toolbox</H5>
+<DIV class=3DpBody>
+<UL>
+  <LI id=3Dt-whatlinkshere><A accessKey=3Dj=20
+  title=3D"List of all wiki pages that link here [j]"=20
+  =
+href=3D"http://shrubbery.mynetgear.net/wiki/Special:WhatLinksHere/Basic_W=
+iki_Formatting">What=20
+  links here</A>=20
+  <LI id=3Dt-recentchangeslinked><A accessKey=3Dk=20
+  title=3D"Recent changes in pages linked from this page [k]"=20
+  =
+href=3D"http://shrubbery.mynetgear.net/wiki/Special:RecentChangesLinked/B=
+asic_Wiki_Formatting">Related=20
+  changes</A>=20
+  <LI id=3Dt-specialpages><A accessKey=3Dq title=3D"List of all special =
+pages [q]"=20
+  =
+href=3D"http://shrubbery.mynetgear.net/wiki/Special:SpecialPages">Special=
+=20
+  pages</A>=20
+  <LI id=3Dt-print><A accessKey=3Dp title=3D"Printable version of this =
+page [p]"=20
+  =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DBasic_Wiki_For=
+matting&amp;printable=3Dyes"=20
+  rel=3Dalternate>Printable version</A>=20
+  <LI id=3Dt-permalink><A title=3D"Permanent link to this revision of =
+the page"=20
+  =
+href=3D"http://shrubbery.mynetgear.net/w/index.php?title=3DBasic_Wiki_For=
+matting&amp;oldid=3D1860">Permanent=20
+  link</A> </LI></UL></DIV></DIV></DIV><!-- end of the left (by default =
+at least) column -->
+<DIV class=3DvisualClear></DIV>
+<DIV id=3Dfooter>
+<DIV id=3Df-poweredbyico><A href=3D"http://www.mediawiki.org/"><IMG=20
+alt=3D"Powered by MediaWiki"=20
+src=3D"http://shrubbery.mynetgear.net/w/skins/common/images/poweredby_med=
+iawiki_88x31.png"></A></DIV>
+<DIV id=3Df-copyrightico><A =
+href=3D"http://www.gnu.org/copyleft/fdl.html"><IMG=20
+alt=3D"GNU Free Documentation License 1.2"=20
+src=3D"http://shrubbery.mynetgear.net/w/skins/common/images/gnu-fdl.png">=
+</A></DIV>
+<UL id=3Df-list>
+  <LI id=3Dlastmod>This page was last modified on 24 January 2007, at =
+14:52.=20
+  <LI id=3Dviewcount>This page has been accessed 2,157 times.=20
+  <LI id=3Dcopyright>Content is available under <A class=3D"external "=20
+  title=3Dhttp://www.gnu.org/copyleft/fdl.html=20
+  href=3D"http://www.gnu.org/copyleft/fdl.html">GNU Free Documentation =
+License=20
+  1.2</A>.=20
+  <LI id=3Dprivacy><A title=3D"Shrubbery:Privacy policy"=20
+  =
+href=3D"http://shrubbery.mynetgear.net/wiki/Shrubbery:Privacy_policy">Pri=
+vacy=20
+  policy</A>=20
+  <LI id=3Dabout><A title=3DShrubbery:About=20
+  href=3D"http://shrubbery.mynetgear.net/wiki/Shrubbery:About">About =
+Shrubbery</A>=20
+
+  <LI id=3Ddisclaimer><A title=3D"Shrubbery:General disclaimer"=20
+  =
+href=3D"http://shrubbery.mynetgear.net/wiki/Shrubbery:General_disclaimer"=
+>Disclaimers</A>=20
+  </LI></UL></DIV></DIV>
+<SCRIPT type=3Dtext/javascript>if (window.runOnloadHook) =
+runOnloadHook();</SCRIPT>
+<!-- Served in 0.319 secs. --><!-- Google analytics -->
+<SCRIPT type=3Dtext/javascript>=0A=
+var gaJsHost =3D (("https:" =3D=3D document.location.protocol) ? =
+"https://ssl." : "http://www.");=0A=
+document.write(unescape("%3Cscript src=3D'" + gaJsHost + =
+"google-analytics.com/ga.js' type=3D'text/javascript'%3E%3C/script%3E"));=0A=
+</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>=0A=
+try {=0A=
+var pageTracker =3D _gat._getTracker("UA-12905981-1");=0A=
+pageTracker._trackPageview();=0A=
+} catch(err) {}</SCRIPT>
+</BODY></HTML>
+
+------=_NextPart_000_0000_01CBD903.D3815970
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://shrubbery.mynetgear.net/w/skins/common/images/poweredby_mediawiki_88x31.png
+
+iVBORw0KGgoAAAANSUhEUgAAAFgAAAAfCAMAAABUFvrSAAAAA3NCSVQICAjb4U/gAAAClFBMVEUC
+KWuqqtbmxQbRvxS1xc+BdgdzlKmEq76qqqpBeZ3HxHrt7OZbZ1LWxE0lX3hxeUWzq2nY3N5WhKPQ
+dQoAUIThyiSwrTY9RpT29vbGwqSjtsTHzdDAaQoAZplPepgATICdo6vp1Asyao7o59vO1NfQx2Ph
+2XiOkTeKjY3yzQnW1smGla7s2yNemLXflg06hK0wO3h2pLvm2D/1sgfn4akHV4uYscEbLHZEdphO
+hKauspWsrr4ObZ3q2RqqbRTWyS8haJa5xJuFhbgrS4Ipe6WrusXX0rXW1tY4cpfBztff2Zrlqg7w
+yhTIuEyFo7dSkbFskKjShg3Yyhj91geVrb7EvnPy3TXd0WchZZKHp7xmi6Ln1lLdxUWMm7ayv8fT
+zZbe3sm7w8/AcA7w8PDNtzQaW4YmJpoybZTOzcXe3taes8D0ywDh5OZAXIvo5Lzg14rk1zTPzr40
+gafr1RBJZJFCU1rbugvlziGWehNqnbd0nLWlvsv13hsIVIaRkqXF0NfwvANEiq0wToIYX4zgnRHm
+0A7UiRL36Efc4OJMf6PoxxqgpJXYzlX/yQYbdKGNkrv4xhHq4RLO1tzo0TKUbg5biqgGHXn31xDu
+3hnj12rHuUSclS1ijqzWzozm3IXsvxLZ2ebBag2ambbMfRU4dJvlpxG1chKdtcb05D3q6M2LpLXz
+3ynExc5ika/VnBnMzMze3t6mu8h8nbMiY42sv8ufq8AQWozGdBXgz0zWvQ6Oq77gsQlNepnDwMLo
+vQJSg6NGYY4XXIvc1644Q2fu2EdNVV31vAf3zwZ7p73m5uYpapTUfQ8AU4mboKarqK2UtMS6sEDR
+ymyVmYq5taFUWZrt0R/Hdg/L0dTBvnnOy4Hi2pLr2FEpPiAVAAAACXBIWXMAAArwAAAK8AFCrDSY
+AAAEkElEQVRIx+3Q+1tTdRwH8NNYzHkiPTQqmfMCA+MST0NDSiBM8uyEjYVcBoa4jsTtO8SNBDbm
+nGN2RgQBrQ1bGt6mY9SBM7nMS2DJ+k5yXUXwn+kckMT19Dz1ID/0PL1/OJ/P+Xy+39cPX2TNKgVZ
+882q5H94OTz7WGo21NTUzK48YXDl0funj1ZWPhkYX5aon6NiKt+o3PtlcnLyo6lPqzX78L+JdmGv
+dYeNw+HCwo7mwtL0yr3jpY/kWAneqsVDMrHYjbvFPrFbJlb7BDhbcIFbsrCXsbJaHQ57vd7ZWe+N
+uVt4lE7H4/F0jYmpzs4bOK72erlDw5JWs1lmFuThWT5JqEtmlmlb8wQCtrCthNtr2WGoQBAOa5pS
+xLteeHN9zJFOa1I9j7fV6XRePv7bLnFKk+YhLJg1D+MSvMBcYM5r7dJqW1txrphD+AKMD2eFCrr+
+8hTISSn+y+0N+DsRHbz66RMn6h09Pf392z7G8ZMId8jAXsZDeS+zzyEhsn4wsB0Lc4UdSri9Nk+L
+ZxWEwRiGTGJ48WFn+nvXbl5rb2/Pnw7odNb9X9zFsEkEYyM1cF8+9zVgfClGGDCCwLiC8bmp1GDg
+YwIJH1sWFqZpREPX/nj7cFLSJ9OnxsbGzn89HeANFu/spmkNQv/T+A2P/S7Bt04/39im23/xzsac
+nI3ntwesJWuf2fKv4LAswpP0obWFzj5nx6l7OS0tOc/lB/oS5z6sWCFMUYiGop76LmrQcfbepZan
+Wy7duRjoa6A+6KYoDUKxMVbVURQeVyWm/oznWXWcnV5o/YyaUmZS0mql3OOJ42bRRopiYQAQDQB3
+15W0JSWlDeR8xj5FfmBrScLtLQBoEMBmZsYFQOzoqBcAguAGJpPHok7xcA0N+BY/LVQBn6Vu5KC+
+mqalwLMJABaGEJmEDacjrNZ9DkfavYGB99tvHrMOJqx7HUINAtm8KmII6BJNSTE7w4wAMDIVZIKm
+SA8YsQRtNq8wGlNNSRWMSfnWiBBGy2nPdQgX4SZ4Zf22hO87fm8LbE97t/1Tx8REydwr5yBsWoQz
+GRkmzwxKXaO+MlHG8Kh+OJg7Kx/KMOpjgyJ+2QUfw2REuzCVQiFUGP1QKFqC96jhuZ33S2JSU/c5
++vqmz7ZlWz/69fNuqN6zCCtHbGV29r5FNWS32G02CA1BQq7nGt+Uz6SSK/1xU8NQ5feLRGUQfrsE
+V1Rcxb56qfhIX3Zzs+PB5aRj2Y3pPT8dx7CrFRUcPKPsZTYXuYPq3KAhZI91qTCoUJnkevsFCENG
+HxQa3YSI6QUsbGEuUEswiqLc7fj4+f4D8+m6+fGJiebUHWfGG1AUAJTLjB19TdTrtvRmWPRD1aZe
+VbV9NLdXPmQKCl0WIx/VjxLYlA2lVH6FTcoIUZcIRVmYfBgU3TGPHrBeKY2IOvPgAestLcjrHrKo
+HOVHY2TG5iofSRJMlUKBRXpQflVVUSRB8ssBiCwiQfnBWCVZxxAZm0hyGUyS8Sja2Yk2dO54+0pi
+A7myPAaTJNxdS5K3Dm2oJdEnCz+5sPCLq5L/JLxK+QOx6XbtY06PNgAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0000_01CBD903.D3815970
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://shrubbery.mynetgear.net/w/skins/common/images/gnu-fdl.png
+
+iVBORw0KGgoAAAANSUhEUgAAAFgAAAAfCAMAAABUFvrSAAACoFBMVEUAAQAAAgABBAACBQEFCAQH
+CQUKDAgMDwsOEAwPEQ0RExASFBETFBIUFRMVFhQWGBUXGBYYGRcZGxgaHBkbHBocHRsdHxweHx0g
+IR8hIyAiJCEjJCIkJSMrLSovMS4yMzEzNDI0NjM1NzQ6Ozk9Pzw+QD1BQ0FXQiBYRCdGSEVaRSNH
+SUZISUdbRipcRypKS0ldSCteSSxMTktfSi1gSy5hTC9PUU5iTTBkTzFmUDNXWVZrVTdZW1htVzlb
+XVptWUBcXltuWkFdX1xvW0JwXENfYV5xXURgYl9zX0ZiZGF1YUh2YUh3Ykl4Y0p5ZEt2Z0x6ZUx4
+aU58Z059aE96a1Bsbmt7bFF/alFtb2x8bVJ9blNvcW5/clxzdXKCdV+Fd2B4eneGeGGHeWKIemOJ
+e2SKfGV+gH2Mfmd/gX6Agn+Bg4CPgWqChIGDhYKVgH2Fh4SMjouYjHqNj4yajnyPkY6UlpOilYOW
+mJWXmZalmIeam5immYinmomom4qpnIuqnYyeoJ2sn46toI+ipKGuopCto5avo5GkpqOwpJKlp6Sv
+pZimqKWwppqnqaaoqqeqrKm3rKC4raG5rqK6r6O7sKSytLG8sqW9s6a+tKe1t7TDuKu5u7i7vbrG
+u669v7zIwLnCxMHDxcLLw7zFx8TGyMXOxr/HycbIysfRyMHJy8jUzMTNz8vVzcbWzsfP0c7Xz8jQ
+0s/Y0MnR09DZ0crS1NHa0svc08zX1s3d1M3V19Tg2NDc3tvk3NXd39zm3dbe4N3h5ODo4+Lk5uPq
+5OPr5eTm6OXn6ebo6ufp6+jq7Onv6ujr7urx7Ort7+vu8O307u317+7w8u/x8/D38fDy9PHz9fL0
+9/P2+PT3+fb4+vf5+/j6/Pn/+vn7/fr8//v+//ybsc4MAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA
+B3RJTUUH1AQLARkvVukrLgAAAB10RVh0Q29tbWVudABDcmVhdGVkIHdpdGggVGhlIEdJTVDvZCVu
+AAADnklEQVR42rWWh08UQRTGnWxAT7CXu7OhWE7BIMidvYBii8QuFmwIFuxir9gLxIaKIPauSE4P
+gi0qCaKggIDocYvk+1ec2T7ngYmESW7e7LvMb9+++ebNtNrSQq3VFlsTbeNt/GczgmMPO4vd7mJn
+6iwO/H5CJ+LXLhggJJ118k/umGFNsv4Db+l+HTzfqb8uf5EO/hhoOlfz8/FmNqWPLzBUm2sW7v4F
+HnwJqM5aExMZGZOUWQVcDlHBk8h+qHNJdlNgnCOh3mDHM4hn7GoCIk94kDdSAXcknzXwsAFNgkuJ
+yQsc8gwVi4yLNq8ceSEymJB6DXyH3PeZY+Wxnghe4AxURNtsu29++P675m3aWOoZX45MGdyelEjT
+pSn9hzcdcVceHAcxjlLUpRN3sLX0YKkEjiK7oK3ZVekNHUkZykjbv8AXyDQenI8z7Ps/HIpzhM3M
+oF5GPoZCWRUBrdNr3WqgvVm3nCTXrWcQDtzw1GJ6x4Fno8puyO92GjPNhr0KcyQdv5vQRfDrOkie
+clzKZbJFaL/Q7QUmphFvdGEzcCqucdvtIZBGTSaONnPnOZHEgROBt5J52UxwMWI48GjgBzXR+NRM
+sBsRHDiEZpGaCLhlHau1wLRV160qX2lkXuUBUiyCJYU+N2y1Cu1CJfAv2DnwKKBKAv+WwMriAA/8
+ZAvdSCNPblA8tvV1ia4gSt4Q/EIsuaqkYjoHXg04qZmMSg7sORvkGwwUdIDFRa3LAnQrMCxeIgd+
+AuyjJgn5airkL+5ZpKRCNwpYFCCIspUHUOSWZeQepHWO5eYaFZ0x4lrrjcYidvVSIrbSiF0aOBbV
+4ZJ+N8aE25fdo/lfSZ/s1VjA5zinW6VPsJjbbydS+haIBcE0x2v7PBZLz6tb+pTNUCt+JLCnk0zM
+HBhTxvhWRU+mhhSzYGW2PtksdF6sFaFYtpev0+pWXXjQwbgLRKxo/pmXgW9T+VOUls0s78OUqL0i
+VS36zbJ7b3cSOET1aoW+dL6RO7cchWGNghWpalkKeCSN/XM8X7JVr3401R9zqNiIo3UodNgaBStS
+1cCne9Sw8dDjDbpXO0wvArVX1k2MCI9OuEwXPyPM1jhYkaqmaURNYu66PePii1SvfvzPy9MRr1f4
+urDoEbv4iFFjTZfH93t7R8zazAPPi3+KX1+lLfF9E9LAilSNZSSAdkeKxBttfIH/dcVSNKBJVVMF
+/W8T7WaYifk8r4qWubu1UPsDRKKsETdMBFgAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CBD903.D3815970
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://shrubbery.mynetgear.net/w/skins/common/shared.css?207
+
+.mw-plusminus-null {
+	COLOR: #aaa
+}
+.texvc {
+	unicode-bidi: embed; DIRECTION: ltr
+}
+IMG.tex {
+	VERTICAL-ALIGN: middle
+}
+SPAN.texhtml {
+	FONT-FAMILY: serif
+}
+.ontop#wikiPreview {
+	MARGIN-BOTTOM: 1em
+}
+#editform {
+	CLEAR: both
+}
+#toolbar {
+	CLEAR: both
+}
+#wpTextbox1 {
+	CLEAR: both
+}
+DIV#mw-js-message {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; =
+PADDING-BOTTOM: 0.5em; BACKGROUND-COLOR: #fcfcfc; MARGIN: 1em 5%; =
+PADDING-LEFT: 2.5%; PADDING-RIGHT: 2.5%; BORDER-TOP: #ddd 1px solid; =
+BORDER-RIGHT: #ddd 1px solid; PADDING-TOP: 0.5em
+}
+.editsection {
+	FLOAT: right; MARGIN-LEFT: 5px
+}
+TABLE.filehistory {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; =
+BORDER-COLLAPSE: collapse; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: =
+#ccc 1px solid
+}
+TABLE.filehistory TH {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; =
+PADDING-BOTTOM: 0px; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+VERTICAL-ALIGN: top; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px =
+solid; PADDING-TOP: 0px
+}
+TABLE.filehistory TD {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; =
+PADDING-BOTTOM: 0px; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+VERTICAL-ALIGN: top; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px =
+solid; PADDING-TOP: 0px
+}
+TABLE.filehistory TH {
+	TEXT-ALIGN: left
+}
+TABLE.filehistory TD.mw-imagepage-filesize {
+	WHITE-SPACE: nowrap
+}
+TABLE.filehistory TH.mw-imagepage-filesize {
+	WHITE-SPACE: nowrap
+}
+TABLE.filehistory TD.filehistory-selected {
+	FONT-WEIGHT: bold
+}
+LI SPAN.deleted {
+	FONT-STYLE: italic; COLOR: #888; TEXT-DECORATION: line-through
+}
+SPAN.history-deleted {
+	FONT-STYLE: italic; COLOR: #888; TEXT-DECORATION: line-through
+}
+BODY.ltr TD.mw-label {
+	TEXT-ALIGN: right
+}
+BODY.ltr TD.mw-input {
+	TEXT-ALIGN: left
+}
+BODY.ltr TD.mw-submit {
+	TEXT-ALIGN: left
+}
+BODY.rtl TD.mw-label {
+	TEXT-ALIGN: left
+}
+BODY.rtl TD.mw-input {
+	TEXT-ALIGN: right
+}
+BODY.rtl TD.mw-submit {
+	TEXT-ALIGN: right
+}
+TD.mw-label {
+	VERTICAL-ALIGN: top
+}
+TD.mw-submit {
+	WHITE-SPACE: nowrap
+}
+BODY.rtl .thumbcaption {
+	TEXT-ALIGN: right
+}
+BODY.rtl .magnify {
+	FLOAT: left
+}
+BODY.ltr .thumbcaption {
+	TEXT-ALIGN: left
+}
+BODY.ltr .magnify {
+	FLOAT: right
+}
+.mw-hidden-cats-hidden {
+	DISPLAY: none
+}
+.catlinks-allhidden {
+	DISPLAY: none
+}
+P.mw-ipb-conveniencelinks {
+	FLOAT: right; FONT-SIZE: 90%
+}
+P.mw-protect-editreasons {
+	FLOAT: right; FONT-SIZE: 90%
+}
+P.mw-filedelete-editreasons {
+	FLOAT: right; FONT-SIZE: 90%
+}
+P.mw-delete-editreasons {
+	FLOAT: right; FONT-SIZE: 90%
+}
+DIV.searchresult {
+	WIDTH: 38em; FONT-SIZE: 95%
+}
+.mw-search-results LI {
+	PADDING-BOTTOM: 1em; LIST-STYLE-TYPE: none
+}
+.mw-search-result-data {
+	COLOR: green; FONT-SIZE: 97%
+}
+TD#mw-search-menu {
+	PADDING-LEFT: 6em; FONT-SIZE: 85%
+}
+DIV#mw-search-interwiki {
+	BORDER-BOTTOM: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; =
+MARGIN-TOP: 2ex; WIDTH: 18em; FLOAT: right; BORDER-TOP: #aaaaaa 1px =
+solid; BORDER-RIGHT: #aaaaaa 1px solid
+}
+DIV#mw-search-interwiki LI {
+	FONT-SIZE: 95%
+}
+.mw-search-interwiki-more {
+	FLOAT: right; FONT-SIZE: 90%
+}
+SPAN.searchalttitle {
+	FONT-SIZE: 95%
+}
+DIV.searchdidyoumean {
+	MARGIN-TOP: 1ex; MARGIN-BOTTOM: 1ex; COLOR: #c00; FONT-SIZE: 127%
+}
+DIV.searchdidyoumean EM {
+	FONT-WEIGHT: bold
+}
+.searchmatch {
+	FONT-WEIGHT: bold
+}
+DIV.searchresults {
+	BORDER-BOTTOM: darkblue 1px solid; BORDER-LEFT: darkblue 1px solid; =
+PADDING-BOTTOM: 10px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; =
+BORDER-TOP: darkblue 1px solid; BORDER-RIGHT: darkblue 1px solid; =
+PADDING-TOP: 10px
+}
+.mw-userrights-disabled {
+	COLOR: #888
+}
+TABLE.mw-userrights-groups * TD {
+	PADDING-RIGHT: 1.5em
+}
+TABLE.mw-userrights-groups * TH {
+	PADDING-RIGHT: 1.5em
+}
+.os-suggest {
+	Z-INDEX: 99; BORDER-BOTTOM: #aaaaaa 1px solid; POSITION: absolute; =
+BORDER-LEFT: #aaaaaa 1px solid; OVERFLOW-X: hidden; BACKGROUND-COLOR: =
+window; WIDTH: 0px; VISIBILITY: hidden; FONT-SIZE: 95%; OVERFLOW: auto; =
+BORDER-TOP: #aaaaaa 1px solid; TOP: 0px; BORDER-RIGHT: #aaaaaa 1px =
+solid; LEFT: 0px
+}
+TABLE.os-suggest-results {
+	BORDER-RIGHT-WIDTH: 0px; WIDTH: 100%; BORDER-COLLAPSE: collapse; =
+BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; FONT-SIZE: 95%; =
+BORDER-LEFT-WIDTH: 0px; CURSOR: pointer
+}
+TD.os-suggest-result {
+	PADDING-BOTTOM: 2px; BACKGROUND-COLOR: window; PADDING-LEFT: 2px; =
+PADDING-RIGHT: 2px; WHITE-SPACE: nowrap; COLOR: windowtext; PADDING-TOP: =
+2px
+}
+TD.os-suggest-result-hl {
+	PADDING-BOTTOM: 2px; BACKGROUND-COLOR: window; PADDING-LEFT: 2px; =
+PADDING-RIGHT: 2px; WHITE-SPACE: nowrap; COLOR: windowtext; PADDING-TOP: =
+2px
+}
+TD.os-suggest-result-hl {
+	BACKGROUND-COLOR: #4c59a6; COLOR: white
+}
+TD.os-suggest-result-hl-webkit {
+	BACKGROUND-COLOR: #4c59a6; COLOR: white
+}
+TD.os-suggest-result-hl {
+	BACKGROUND-COLOR: highlight; COLOR: highlighttext
+}
+.os-suggest-toggle {
+	POSITION: relative; FONT-SIZE: 65%; LEFT: 1ex
+}
+.os-suggest-toggle-def {
+	POSITION: absolute; VISIBILITY: hidden; FONT-SIZE: 65%; TOP: 0px; LEFT: =
+0px
+}
+.autocomment {
+	COLOR: gray
+}
+#pagehistory .history-user {
+	MARGIN-LEFT: 0.4em; MARGIN-RIGHT: 0.2em
+}
+#pagehistory SPAN.minor {
+	FONT-WEIGHT: bold
+}
+#pagehistory LI {
+	BORDER-BOTTOM: white 1px solid; BORDER-LEFT: white 1px solid; =
+BORDER-TOP: white 1px solid; BORDER-RIGHT: white 1px solid
+}
+#pagehistory LI.selected {
+	BORDER-BOTTOM: #aaa 1px dashed; BORDER-LEFT: #aaa 1px dashed; =
+BACKGROUND-COLOR: #f9f9f9; BORDER-TOP: #aaa 1px dashed; BORDER-RIGHT: =
+#aaa 1px dashed
+}
+TABLE.mw-listgrouprights-table {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; =
+BORDER-COLLAPSE: collapse; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: =
+#ccc 1px solid
+}
+TABLE.mw-statistics-table {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; =
+BORDER-COLLAPSE: collapse; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: =
+#ccc 1px solid
+}
+TABLE.mw-tags-table {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; =
+BORDER-COLLAPSE: collapse; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: =
+#ccc 1px solid
+}
+TABLE.mw-listgrouprights-table TR {
+	VERTICAL-ALIGN: top
+}
+TABLE.mw-listgrouprights-table TD {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; =
+PADDING-BOTTOM: 0.5em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: =
+0.5em
+}
+TABLE.mw-listgrouprights-table TH {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; =
+PADDING-BOTTOM: 0.5em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: =
+0.5em
+}
+TABLE.mw-statistics-table TD {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; =
+PADDING-BOTTOM: 0.5em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: =
+0.5em
+}
+TABLE.mw-statistics-table TH {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; =
+PADDING-BOTTOM: 0.5em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: =
+0.5em
+}
+TABLE.mw-tags-table TD {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; =
+PADDING-BOTTOM: 0.5em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: =
+0.5em
+}
+TABLE.mw-tags-table TH {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; =
+PADDING-BOTTOM: 0.5em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: =
+0.5em
+}
+TD.mw-statistics-numbers {
+	TEXT-ALIGN: right
+}
+H4.mw-specialpagesgroup {
+	PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #dcdcdc; MARGIN: 0.3em 0em 0em; =
+PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px
+}
+.mw-specialpagerestricted {
+	FONT-WEIGHT: bold
+}
+#shared-image-dup {
+	FONT-STYLE: italic
+}
+#shared-image-conflict {
+	FONT-STYLE: italic
+}
+TABLE.mw-emailuser-table {
+	WIDTH: 98%
+}
+TD#mw-emailuser-sender {
+	FONT-WEIGHT: bold
+}
+TD#mw-emailuser-recipient {
+	FONT-WEIGHT: bold
+}
+TABLE#mw-prefixindex-list-table {
+	BACKGROUND-COLOR: transparent; WIDTH: 98%
+}
+TABLE#mw-prefixindex-nav-table {
+	BACKGROUND-COLOR: transparent; WIDTH: 98%
+}
+TD#mw-prefixindex-nav-form {
+	TEXT-ALIGN: right; MARGIN-BOTTOM: 1em; FONT-SIZE: smaller; =
+VERTICAL-ALIGN: top
+}
+DIV.mw-warning-with-logexcerpt {
+	BORDER-BOTTOM: #2f6fab 2px solid; BORDER-LEFT: #2f6fab 2px solid; =
+PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; =
+MARGIN-BOTTOM: 3px; BORDER-TOP: #2f6fab 2px solid; BORDER-RIGHT: #2f6fab =
+2px solid; PADDING-TOP: 3px
+}
+DIV.mw-warning-with-logexcerpt UL LI {
+	FONT-SIZE: 90%
+}
+SPAN.mw-revdelundel-link {
+	FONT-FAMILY: monospace; FONT-SIZE: smaller
+}
+STRONG.mw-revdelundel-link {
+	FONT-FAMILY: monospace; FONT-SIZE: smaller
+}
+A.feedlink {
+	PADDING-LEFT: 16px; BACKGROUND: url(images/feed-icon.png) no-repeat =
+left center
+}
+
+------=_NextPart_000_0000_01CBD903.D3815970
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://shrubbery.mynetgear.net/w/skins/common/commonPrint.css?207
+
+A.stub {
+	COLOR: #ba0000; TEXT-DECORATION: none
+}
+A.new {
+	COLOR: #ba0000; TEXT-DECORATION: none
+}
+#toc {
+	BORDER-BOTTOM: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; =
+PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #f9f9f9; PADDING-LEFT: 5px; =
+PADDING-RIGHT: 5px; BORDER-TOP: #aaaaaa 1px solid; BORDER-RIGHT: #aaaaaa =
+1px solid; PADDING-TOP: 5px
+}
+.tocindent {
+	MARGIN-LEFT: 2em
+}
+.tocline {
+	MARGIN-BOTTOM: 0px
+}
+DIV.floatright {
+	BORDER-BOTTOM: white 0.8em solid; POSITION: relative; BORDER-LEFT: =
+white 1.4em solid; MARGIN: 0px; FLOAT: right; CLEAR: right; BORDER-TOP: =
+white 0.5em solid; BORDER-RIGHT: white 0px solid
+}
+DIV.floatright P {
+	FONT-STYLE: italic
+}
+DIV.floatleft {
+	BORDER-BOTTOM: white 0.8em solid; POSITION: relative; BORDER-LEFT: =
+white 0px solid; MARGIN: 0.3em 0.5em 0.5em 0px; FLOAT: left; BORDER-TOP: =
+white 0.5em solid; BORDER-RIGHT: white 1.4em solid
+}
+DIV.floatleft P {
+	FONT-STYLE: italic
+}
+DIV.thumb {
+	BORDER-BOTTOM-STYLE: solid; BORDER-BOTTOM-COLOR: white; =
+BORDER-RIGHT-STYLE: solid; BORDER-TOP-COLOR: white; WIDTH: auto; =
+BORDER-TOP-STYLE: solid; MARGIN-BOTTOM: 0.5em; BORDER-RIGHT-COLOR: =
+white; BORDER-LEFT-STYLE: solid; OVERFLOW: hidden; BORDER-LEFT-COLOR: =
+white
+}
+DIV.thumb DIV {
+	BORDER-BOTTOM: #cccccc 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#cccccc 1px solid; PADDING-BOTTOM: 3px !important; BACKGROUND-COLOR: =
+#f9f9f9; PADDING-LEFT: 3px !important; PADDING-RIGHT: 3px !important; =
+FONT-SIZE: 94%; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px =
+solid; PADDING-TOP: 3px !important
+}
+DIV.thumb DIV A IMG {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; =
+BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+DIV.thumb DIV DIV.thumbcaption {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0.1em; BORDER-RIGHT-STYLE: =
+none; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-STYLE: none; =
+BORDER-LEFT-STYLE: none; PADDING-TOP: 0.3em
+}
+DIV.magnify {
+	DISPLAY: none
+}
+DIV.tright {
+	BORDER-RIGHT-WIDTH: 0px; FLOAT: right; BORDER-TOP-WIDTH: 0.5em; =
+BORDER-BOTTOM-WIDTH: 0.8em; CLEAR: right; BORDER-LEFT-WIDTH: 1.4em
+}
+DIV.tleft {
+	BORDER-RIGHT-WIDTH: 1.4em; FLOAT: left; BORDER-TOP-WIDTH: 0.5em; =
+BORDER-BOTTOM-WIDTH: 0.8em; BORDER-LEFT-WIDTH: 0px; MARGIN-RIGHT: 0.5em
+}
+IMG.thumbborder {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; =
+BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid
+}
+TABLE.rimage {
+	POSITION: relative; TEXT-ALIGN: center; WIDTH: 1pt; MARGIN-BOTTOM: 1em; =
+FLOAT: right; MARGIN-LEFT: 1em
+}
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; BACKGROUND: white; COLOR: black; PADDING-TOP: 0px
+}
+.noprint {
+	DISPLAY: none
+}
+DIV#jump-to-nav {
+	DISPLAY: none
+}
+DIV.top {
+	DISPLAY: none
+}
+DIV#column-one {
+	DISPLAY: none
+}
+#colophon {
+	DISPLAY: none
+}
+.editsection {
+	DISPLAY: none
+}
+.toctoggle {
+	DISPLAY: none
+}
+.tochidden {
+	DISPLAY: none
+}
+DIV#f-poweredbyico {
+	DISPLAY: none
+}
+DIV#f-copyrightico {
+	DISPLAY: none
+}
+LI#viewcount {
+	DISPLAY: none
+}
+LI#about {
+	DISPLAY: none
+}
+LI#disclaimer {
+	DISPLAY: none
+}
+LI#privacy {
+	DISPLAY: none
+}
+UL {
+	LIST-STYLE-TYPE: square
+}
+#content {
+	BORDER-BOTTOM-STYLE: none !important; PADDING-BOTTOM: 0px !important; =
+BORDER-RIGHT-STYLE: none !important; MARGIN: 0px; PADDING-LEFT: 0px =
+!important; PADDING-RIGHT: 0px !important; BORDER-TOP-STYLE: none =
+!important; BACKGROUND: none transparent scroll repeat 0% 0%; =
+BORDER-LEFT-STYLE: none !important; PADDING-TOP: 0px !important
+}
+#footer {
+	BACKGROUND: white; COLOR: black; BORDER-TOP: black 1px solid
+}
+H1 {
+	FONT-WEIGHT: bold
+}
+H2 {
+	FONT-WEIGHT: bold
+}
+H3 {
+	FONT-WEIGHT: bold
+}
+H4 {
+	FONT-WEIGHT: bold
+}
+H5 {
+	FONT-WEIGHT: bold
+}
+H6 {
+	FONT-WEIGHT: bold
+}
+P {
+	LINE-HEIGHT: 1.2em; MARGIN: 1em 0px
+}
+.documentDescription {
+	LINE-HEIGHT: 1.2em; MARGIN: 1em 0px
+}
+.tocindent P {
+	MARGIN: 0px
+}
+PRE {
+	BORDER-BOTTOM: black 1pt dashed; BORDER-LEFT: black 1pt dashed; =
+PADDING-BOTTOM: 1em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; WHITE-SPACE: =
+pre; BACKGROUND: white; COLOR: black; FONT-SIZE: 8pt; OVERFLOW: auto; =
+BORDER-TOP: black 1pt dashed; BORDER-RIGHT: black 1pt dashed; =
+PADDING-TOP: 1em
+}
+TABLE.listing {
+	BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; =
+BORDER-COLLAPSE: collapse; BORDER-TOP: black 1pt solid; BORDER-RIGHT: =
+black 1pt solid
+}
+TABLE.listing TD {
+	BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; =
+BORDER-COLLAPSE: collapse; BORDER-TOP: black 1pt solid; BORDER-RIGHT: =
+black 1pt solid
+}
+A {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; =
+PADDING-RIGHT: 0px !important; BACKGROUND: none transparent scroll =
+repeat 0% 0%; COLOR: black !important; PADDING-TOP: 0px !important
+}
+A:link {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #520; =
+TEXT-DECORATION: underline
+}
+A:visited {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #520; =
+TEXT-DECORATION: underline
+}
+#content A.text.external:after {
+	CONTENT: " (" attr(href) ") "
+}
+#content A.autonumber.external:after {
+	CONTENT: " (" attr(href) ") "
+}
+#globalWrapper {
+	MIN-WIDTH: 0px !important; WIDTH: 100% !important
+}
+#content {
+	BACKGROUND: white; COLOR: black
+}
+#column-content {
+	MARGIN: 0px
+}
+#column-content #content {
+	PADDING-BOTTOM: 1em; MARGIN: 0px; PADDING-LEFT: 1em; PADDING-RIGHT: =
+1em; PADDING-TOP: 1em
+}
+A {
+	COLOR: black !important; TEXT-DECORATION: none !important
+}
+A.external {
+	COLOR: black !important; TEXT-DECORATION: none !important
+}
+A.new {
+	COLOR: black !important; TEXT-DECORATION: none !important
+}
+A.stub {
+	COLOR: black !important; TEXT-DECORATION: none !important
+}
+A {
+=09
+}
+A.external {
+=09
+}
+A.new {
+=09
+}
+A.stub {
+=09
+}
+IMG {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; BORDER-LEFT-STYLE: none
+}
+IMG.tex {
+	VERTICAL-ALIGN: middle
+}
+SPAN.texhtml {
+	FONT-FAMILY: serif
+}
+#siteNotice {
+	DISPLAY: none
+}
+TABLE.gallery {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; =
+PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #ffffff; MARGIN: 2px; =
+PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BORDER-TOP: #cccccc 1px solid; =
+BORDER-RIGHT: #cccccc 1px solid; PADDING-TOP: 2px
+}
+TABLE.gallery TR {
+	VERTICAL-ALIGN: top
+}
+DIV.gallerybox {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; =
+BACKGROUND-COLOR: #f9f9f9; MARGIN: 2px; WIDTH: 150px; BORDER-TOP: =
+#cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+DIV.gallerybox DIV.thumb {
+	BORDER-BOTTOM: #cccccc 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#cccccc 1px solid; MARGIN: 2px; BORDER-TOP: #cccccc 1px solid; =
+BORDER-RIGHT: #cccccc 1px solid
+}
+DIV.gallerytext {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; FONT-SIZE: =
+94%; PADDING-TOP: 2px
+}
+TABLE.diff {
+	BACKGROUND: white
+}
+TD.diff-otitle {
+	BACKGROUND: #ffffff
+}
+TD.diff-ntitle {
+	BACKGROUND: #ffffff
+}
+TD.diff-addedline {
+	BORDER-BOTTOM: black 2px solid; BORDER-LEFT: black 2px solid; =
+BACKGROUND: #ccffcc; FONT-SIZE: smaller; BORDER-TOP: black 2px solid; =
+BORDER-RIGHT: black 2px solid
+}
+TD.diff-deletedline {
+	BORDER-BOTTOM: black 2px dotted; BORDER-LEFT: black 2px dotted; =
+BACKGROUND: #ffffaa; FONT-SIZE: smaller; BORDER-TOP: black 2px dotted; =
+BORDER-RIGHT: black 2px dotted
+}
+TD.diff-context {
+	BACKGROUND: #eeeeee; FONT-SIZE: smaller
+}
+.diffchange {
+	COLOR: silver; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+
+------=_NextPart_000_0000_01CBD903.D3815970
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://shrubbery.mynetgear.net/w/skins/monobook/main.css?207
+
+#column-content {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0.6em -12.2em; PADDING-LEFT: 0px; =
+WIDTH: 100%; PADDING-RIGHT: 0px; FLOAT: right; PADDING-TOP: 0px
+}
+#content {
+	Z-INDEX: 2; POSITION: relative; PADDING-BOTTOM: 1em; MARGIN: 2.8em 0px =
+0px 12.2em; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; PADDING-TOP: 0px
+}
+#column-one {
+	PADDING-TOP: 160px
+}
+#content {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; =
+LINE-HEIGHT: 1.5em; BACKGROUND: white; COLOR: black; BORDER-TOP: #aaa =
+1px solid; BORDER-RIGHT: #aaa 1px
+}
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; FONT: x-small sans-serif; BACKGROUND: url(headbg.jpg) #f9f9f9 =
+no-repeat 0px 0px; COLOR: black; PADDING-TOP: 0px
+}
+#globalWrapper {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; =
+PADDING-RIGHT: 0px; FONT-SIZE: 127%; PADDING-TOP: 0px
+}
+.visualClear {
+	CLEAR: both
+}
+TABLE {
+	BACKGROUND-COLOR: white; COLOR: black; FONT-SIZE: 100%
+}
+FIELDSET TABLE {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+A {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #002bb8; =
+TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #5a3696
+}
+A:active {
+	COLOR: #faa700
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+A.stub {
+	COLOR: #772233
+}
+A.new {
+	COLOR: #ba0000
+}
+#p-personal A.new {
+	COLOR: #ba0000
+}
+A.new:visited {
+	COLOR: #a55858
+}
+#p-personal A.new:visited {
+	COLOR: #a55858
+}
+IMG {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; VERTICAL-ALIGN: middle; BORDER-LEFT-STYLE: none
+}
+P {
+	LINE-HEIGHT: 1.5em; MARGIN: 0.4em 0px 0.5em
+}
+P IMG {
+	MARGIN: 0px
+}
+HR {
+	BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: #aaa; MARGIN: 0.2em 0px; =
+BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 1px; COLOR: =
+#aaa; BORDER-LEFT-WIDTH: 0px
+}
+H1 {
+	BORDER-BOTTOM: #aaa 1px solid; PADDING-BOTTOM: 0.17em; MARGIN: 0px; =
+BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: black; =
+FONT-WEIGHT: normal; PADDING-TOP: 0.5em
+}
+H2 {
+	BORDER-BOTTOM: #aaa 1px solid; PADDING-BOTTOM: 0.17em; MARGIN: 0px; =
+BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: black; =
+FONT-WEIGHT: normal; PADDING-TOP: 0.5em
+}
+H3 {
+	BORDER-BOTTOM: #aaa 1px solid; PADDING-BOTTOM: 0.17em; MARGIN: 0px; =
+BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: black; =
+FONT-WEIGHT: normal; PADDING-TOP: 0.5em
+}
+H4 {
+	BORDER-BOTTOM: #aaa 1px solid; PADDING-BOTTOM: 0.17em; MARGIN: 0px; =
+BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: black; =
+FONT-WEIGHT: normal; PADDING-TOP: 0.5em
+}
+H5 {
+	BORDER-BOTTOM: #aaa 1px solid; PADDING-BOTTOM: 0.17em; MARGIN: 0px; =
+BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: black; =
+FONT-WEIGHT: normal; PADDING-TOP: 0.5em
+}
+H6 {
+	BORDER-BOTTOM: #aaa 1px solid; PADDING-BOTTOM: 0.17em; MARGIN: 0px; =
+BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: black; =
+FONT-WEIGHT: normal; PADDING-TOP: 0.5em
+}
+H1 {
+	FONT-SIZE: 188%
+}
+H1 .editsection {
+	FONT-SIZE: 53%
+}
+H2 {
+	FONT-SIZE: 150%
+}
+H2 .editsection {
+	FONT-SIZE: 67%
+}
+H3 {
+	BORDER-BOTTOM-STYLE: none; FONT-WEIGHT: bold
+}
+H4 {
+	BORDER-BOTTOM-STYLE: none; FONT-WEIGHT: bold
+}
+H5 {
+	BORDER-BOTTOM-STYLE: none; FONT-WEIGHT: bold
+}
+H6 {
+	BORDER-BOTTOM-STYLE: none; FONT-WEIGHT: bold
+}
+H3 {
+	FONT-SIZE: 132%
+}
+H3 .editsection {
+	FONT-SIZE: 76%; FONT-WEIGHT: normal
+}
+H4 {
+	FONT-SIZE: 116%
+}
+H4 .editsection {
+	FONT-SIZE: 86%; FONT-WEIGHT: normal
+}
+H5 {
+	FONT-SIZE: 100%
+}
+H5 .editsection {
+	FONT-WEIGHT: normal
+}
+H6 {
+	FONT-SIZE: 80%
+}
+H6 .editsection {
+	FONT-SIZE: 125%; FONT-WEIGHT: normal
+}
+UL {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.5em; LIST-STYLE-TYPE: square; =
+MARGIN: 0.3em 0px 0px 1.5em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+LIST-STYLE-IMAGE: url(bullet.gif); PADDING-TOP: 0px
+}
+OL {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.5em; MARGIN: 0.3em 0px 0px 3.2em; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; =
+PADDING-TOP: 0px
+}
+LI {
+	MARGIN-BOTTOM: 0.1em
+}
+DT {
+	MARGIN-BOTTOM: 0.1em; FONT-WEIGHT: bold
+}
+DL {
+	MARGIN-TOP: 0.2em; MARGIN-BOTTOM: 0.5em
+}
+DD {
+	LINE-HEIGHT: 1.5em; MARGIN-BOTTOM: 0.1em; MARGIN-LEFT: 2em
+}
+FIELDSET {
+	BORDER-BOTTOM: #2f6fab 1px solid; BORDER-LEFT: #2f6fab 1px solid; =
+PADDING-BOTTOM: 1em; LINE-HEIGHT: 1.5em; MARGIN: 1em 0px; PADDING-LEFT: =
+1em; PADDING-RIGHT: 1em; BORDER-TOP: #2f6fab 1px solid; BORDER-RIGHT: =
+#2f6fab 1px solid; PADDING-TOP: 0px
+}
+FIELDSET.nested {
+	PADDING-BOTTOM: 0.5em; MARGIN: 0px 0px 0.5em; PADDING-LEFT: 0.5em; =
+PADDING-RIGHT: 0.5em; PADDING-TOP: 0px
+}
+LEGEND {
+	PADDING-BOTTOM: 0.5em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; =
+FONT-SIZE: 95%; PADDING-TOP: 0.5em
+}
+FORM {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; MARGIN: 0px; =
+BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none
+}
+TEXTAREA {
+	PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.1em; WIDTH: 100%; PADDING-RIGHT: =
+0.1em; PADDING-TOP: 0.1em
+}
+INPUT.historysubmit {
+	PADDING-BOTTOM: 0.3em !important; PADDING-LEFT: 0.3em !important; =
+PADDING-RIGHT: 0.3em !important; HEIGHT: 1.7em !important; MARGIN-LEFT: =
+1.6em; FONT-SIZE: 94%; CURSOR: pointer; PADDING-TOP: 0px !important
+}
+SELECT {
+	VERTICAL-ALIGN: top
+}
+ABBR {
+	BORDER-BOTTOM: black 1px dotted; BACKGROUND: none transparent scroll =
+repeat 0% 0%; COLOR: black; CURSOR: help
+}
+ACRONYM {
+	BORDER-BOTTOM: black 1px dotted; BACKGROUND: none transparent scroll =
+repeat 0% 0%; COLOR: black; CURSOR: help
+}
+.explain {
+	BORDER-BOTTOM: black 1px dotted; BACKGROUND: none transparent scroll =
+repeat 0% 0%; COLOR: black; CURSOR: help
+}
+Q {
+	FONT-STYLE: italic; FONT-FAMILY: Times, "Times New Roman", serif
+}
+CODE {
+	BACKGROUND-COLOR: #f9f9f9
+}
+PRE {
+	BORDER-BOTTOM: #2f6fab 1px dashed; BORDER-LEFT: #2f6fab 1px dashed; =
+PADDING-BOTTOM: 1em; LINE-HEIGHT: 1.1em; BACKGROUND-COLOR: #f9f9f9; =
+PADDING-LEFT: 1em; PADDING-RIGHT: 1em; COLOR: black; BORDER-TOP: #2f6fab =
+1px dashed; BORDER-RIGHT: #2f6fab 1px dashed; PADDING-TOP: 1em
+}
+#siteSub {
+	DISPLAY: none
+}
+#jump-to-nav {
+	DISPLAY: none
+}
+#contentSub {
+	LINE-HEIGHT: 1.2em; MARGIN: 0px 0px 1.4em 1em; WIDTH: auto; COLOR: =
+#7d7d7d; FONT-SIZE: 84%
+}
+#contentSub2 {
+	LINE-HEIGHT: 1.2em; MARGIN: 0px 0px 1.4em 1em; WIDTH: auto; COLOR: =
+#7d7d7d; FONT-SIZE: 84%
+}
+SPAN.subpages {
+	DISPLAY: block
+}
+#bodyContent H1 {
+	MARGIN-BOTTOM: 0.6em
+}
+#bodyContent H2 {
+	MARGIN-BOTTOM: 0.6em
+}
+#bodyContent H3 {
+	MARGIN-BOTTOM: 0.3em
+}
+#bodyContent H4 {
+	MARGIN-BOTTOM: 0.3em
+}
+#bodyContent H5 {
+	MARGIN-BOTTOM: 0.3em
+}
+#firstHeading {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.2em; MARGIN-BOTTOM: 0.1em
+}
+.usermessage {
+	BORDER-BOTTOM: #ffa500 1px solid; BORDER-LEFT: #ffa500 1px solid; =
+PADDING-BOTTOM: 0.5em; BACKGROUND-COLOR: #ffce7b; MARGIN: 2em 0px 1em; =
+PADDING-LEFT: 1em; PADDING-RIGHT: 1em; COLOR: black; VERTICAL-ALIGN: =
+middle; BORDER-TOP: #ffa500 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: =
+#ffa500 1px solid; PADDING-TOP: 0.5em
+}
+#siteNotice {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 0.9em; =
+PADDING-RIGHT: 0.9em; FONT-SIZE: 95%; PADDING-TOP: 0px
+}
+#siteNotice P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+.success {
+	COLOR: green; FONT-SIZE: larger
+}
+.error {
+	COLOR: red; FONT-SIZE: larger
+}
+.errorbox {
+	BORDER-BOTTOM: 2px solid; BORDER-LEFT: 2px solid; PADDING-BOTTOM: =
+0.5em; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; MARGIN-BOTTOM: 2em; FLOAT: =
+left; COLOR: #000; FONT-SIZE: larger; BORDER-TOP: 2px solid; =
+BORDER-RIGHT: 2px solid; PADDING-TOP: 0.5em
+}
+.successbox {
+	BORDER-BOTTOM: 2px solid; BORDER-LEFT: 2px solid; PADDING-BOTTOM: =
+0.5em; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; MARGIN-BOTTOM: 2em; FLOAT: =
+left; COLOR: #000; FONT-SIZE: larger; BORDER-TOP: 2px solid; =
+BORDER-RIGHT: 2px solid; PADDING-TOP: 0.5em
+}
+.errorbox {
+	BORDER-BOTTOM-COLOR: red; BACKGROUND-COLOR: #fff2f2; BORDER-TOP-COLOR: =
+red; BORDER-RIGHT-COLOR: red; BORDER-LEFT-COLOR: red
+}
+.successbox {
+	BORDER-BOTTOM-COLOR: green; BACKGROUND-COLOR: #dfd; BORDER-TOP-COLOR: =
+green; BORDER-RIGHT-COLOR: green; BORDER-LEFT-COLOR: green
+}
+.errorbox H2 {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; MARGIN: 0px 0.5em =
+0px 0px; DISPLAY: inline; BORDER-TOP-STYLE: none; FONT-SIZE: 1em; =
+BORDER-LEFT-STYLE: none; FONT-WEIGHT: bold
+}
+.successbox H2 {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; MARGIN: 0px 0.5em =
+0px 0px; DISPLAY: inline; BORDER-TOP-STYLE: none; FONT-SIZE: 1em; =
+BORDER-LEFT-STYLE: none; FONT-WEIGHT: bold
+}
+.catlinks {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; =
+PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #f9f9f9; MARGIN-TOP: 1em; =
+PADDING-LEFT: 5px; PADDING-RIGHT: 5px; CLEAR: both; BORDER-TOP: #aaa 1px =
+solid; BORDER-RIGHT: #aaa 1px solid; PADDING-TOP: 5px
+}
+.documentDescription {
+	LINE-HEIGHT: 1.5em; MARGIN: 1em 0px; DISPLAY: block; FONT-WEIGHT: bold
+}
+.documentByLine {
+	TEXT-ALIGN: right; COLOR: #76797c; CLEAR: both; FONT-SIZE: 90%; =
+FONT-WEIGHT: normal
+}
+.center {
+	TEXT-ALIGN: center; WIDTH: 100%
+}
+*.center * {
+	MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+.small {
+	FONT-SIZE: 94%
+}
+.small * {
+	FONT-SIZE: 94%
+}
+TABLE.small {
+	FONT-SIZE: 100%
+}
+#toc {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; =
+PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #f9f9f9; PADDING-LEFT: 5px; =
+PADDING-RIGHT: 5px; FONT-SIZE: 95%; BORDER-TOP: #aaa 1px solid; =
+BORDER-RIGHT: #aaa 1px solid; PADDING-TOP: 5px
+}
+.toc {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; =
+PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #f9f9f9; PADDING-LEFT: 5px; =
+PADDING-RIGHT: 5px; FONT-SIZE: 95%; BORDER-TOP: #aaa 1px solid; =
+BORDER-RIGHT: #aaa 1px solid; PADDING-TOP: 5px
+}
+.mw-warning {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; =
+PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #f9f9f9; PADDING-LEFT: 5px; =
+PADDING-RIGHT: 5px; FONT-SIZE: 95%; BORDER-TOP: #aaa 1px solid; =
+BORDER-RIGHT: #aaa 1px solid; PADDING-TOP: 5px
+}
+#toc H2 {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: =
+none; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; =
+BORDER-TOP-STYLE: none; FONT-SIZE: 100%; BORDER-LEFT-STYLE: none; =
+FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.toc H2 {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: =
+none; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; =
+BORDER-TOP-STYLE: none; FONT-SIZE: 100%; BORDER-LEFT-STYLE: none; =
+FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+#toc #toctitle {
+	TEXT-ALIGN: center
+}
+.toc #toctitle {
+	TEXT-ALIGN: center
+}
+#toc .toctitle {
+	TEXT-ALIGN: center
+}
+.toc .toctitle {
+	TEXT-ALIGN: center
+}
+#toc UL {
+	TEXT-ALIGN: left; LIST-STYLE-TYPE: none; PADDING-LEFT: 0px; =
+MARGIN-LEFT: 0px; LIST-STYLE-IMAGE: none
+}
+.toc UL {
+	TEXT-ALIGN: left; LIST-STYLE-TYPE: none; PADDING-LEFT: 0px; =
+MARGIN-LEFT: 0px; LIST-STYLE-IMAGE: none
+}
+#toc UL UL {
+	MARGIN: 0px 0px 0px 2em
+}
+.toc UL UL {
+	MARGIN: 0px 0px 0px 2em
+}
+#toc .toctoggle {
+	FONT-SIZE: 94%
+}
+.toc .toctoggle {
+	FONT-SIZE: 94%
+}
+.mw-warning {
+	TEXT-ALIGN: center; MARGIN-LEFT: 50px; MARGIN-RIGHT: 50px
+}
+DIV.floatright {
+	POSITION: relative; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px 0px 0.5em =
+0.5em; FLOAT: right; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; =
+CLEAR: right; BORDER-LEFT-WIDTH: 0px
+}
+TABLE.floatright {
+	POSITION: relative; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px 0px 0.5em =
+0.5em; FLOAT: right; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; =
+CLEAR: right; BORDER-LEFT-WIDTH: 0px
+}
+DIV.floatright P {
+	FONT-STYLE: italic
+}
+DIV.floatleft {
+	POSITION: relative; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px 0.5em 0.5em =
+0px; FLOAT: left; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; =
+CLEAR: left; BORDER-LEFT-WIDTH: 0px
+}
+TABLE.floatleft {
+	POSITION: relative; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px 0.5em 0.5em =
+0px; FLOAT: left; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; =
+CLEAR: left; BORDER-LEFT-WIDTH: 0px
+}
+DIV.floatleft P {
+	FONT-STYLE: italic
+}
+DIV.thumb {
+	BORDER-BOTTOM-STYLE: solid; BORDER-BOTTOM-COLOR: white; =
+BORDER-RIGHT-STYLE: solid; BORDER-TOP-COLOR: white; WIDTH: auto; =
+BORDER-TOP-STYLE: solid; MARGIN-BOTTOM: 0.5em; BORDER-RIGHT-COLOR: =
+white; BORDER-LEFT-STYLE: solid; BORDER-LEFT-COLOR: white
+}
+DIV.thumbinner {
+	BORDER-BOTTOM: #ccc 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #ccc =
+1px solid; PADDING-BOTTOM: 3px !important; BACKGROUND-COLOR: #f9f9f9; =
+PADDING-LEFT: 3px !important; PADDING-RIGHT: 3px !important; FONT-SIZE: =
+94%; OVERFLOW: hidden; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc =
+1px solid; PADDING-TOP: 3px !important
+}
+HTML .thumbimage {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BORDER-TOP: =
+#ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+HTML .thumbcaption {
+	BORDER-BOTTOM-STYLE: none; TEXT-ALIGN: left; PADDING-BOTTOM: 3px =
+!important; LINE-HEIGHT: 1.4em; BORDER-RIGHT-STYLE: none; PADDING-LEFT: =
+3px !important; PADDING-RIGHT: 3px !important; BORDER-TOP-STYLE: none; =
+FONT-SIZE: 94%; BORDER-LEFT-STYLE: none; PADDING-TOP: 3px !important
+}
+DIV.magnify {
+	BORDER-BOTTOM-STYLE: none !important; BORDER-RIGHT-STYLE: none =
+!important; BORDER-TOP-STYLE: none !important; BACKGROUND: none =
+transparent scroll repeat 0% 0%; FLOAT: right; BORDER-LEFT-STYLE: none =
+!important
+}
+DIV.magnify A {
+	BORDER-BOTTOM-STYLE: none !important; BORDER-RIGHT-STYLE: none =
+!important; DISPLAY: block; BORDER-TOP-STYLE: none !important; =
+BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT-STYLE: =
+none !important
+}
+DIV.magnify IMG {
+	BORDER-BOTTOM-STYLE: none !important; BORDER-RIGHT-STYLE: none =
+!important; DISPLAY: block; BORDER-TOP-STYLE: none !important; =
+BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT-STYLE: =
+none !important
+}
+DIV.tright {
+	BORDER-RIGHT-WIDTH: 0px; FLOAT: right; BORDER-TOP-WIDTH: 0.5em; =
+BORDER-BOTTOM-WIDTH: 0.8em; CLEAR: right; BORDER-LEFT-WIDTH: 1.4em
+}
+DIV.tleft {
+	BORDER-RIGHT-WIDTH: 1.4em; FLOAT: left; BORDER-TOP-WIDTH: 0.5em; =
+BORDER-BOTTOM-WIDTH: 0.8em; CLEAR: left; BORDER-LEFT-WIDTH: 0px; =
+MARGIN-RIGHT: 0.5em
+}
+IMG.thumbborder {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; =
+BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid
+}
+.hiddenStructure {
+	DISPLAY: none
+}
+TABLE.rimage {
+	POSITION: relative; TEXT-ALIGN: center; MARGIN-BOTTOM: 1em; FLOAT: =
+right; MARGIN-LEFT: 1em
+}
+.toccolours {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; =
+PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #f9f9f9; PADDING-LEFT: 5px; =
+PADDING-RIGHT: 5px; FONT-SIZE: 95%; BORDER-TOP: #aaa 1px solid; =
+BORDER-RIGHT: #aaa 1px solid; PADDING-TOP: 5px
+}
+.special LI {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.4em; MARGIN: 0px; PADDING-LEFT: =
+0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#bodyContent A.external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(external.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href^=3D'gopher://'] {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(external.png) no-repeat right center; PADDING-TOP: 0px
+}
+.rtl #bodyContent A.external {
+	BACKGROUND-IMAGE: url(external-rtl.png)
+}
+.rtl #bodyContent A[href^=3D'gopher://'] {
+	BACKGROUND-IMAGE: url(external-rtl.png)
+}
+#bodyContent A[href^=3D'https://'] {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 16px; PADDING-RIGHT: 16px; =
+BACKGROUND: url(lock_icon.gif) no-repeat right center; PADDING-TOP: 0px
+}
+.link-https {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 16px; PADDING-RIGHT: 16px; =
+BACKGROUND: url(lock_icon.gif) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href^=3D'mailto:'] {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 18px; PADDING-RIGHT: 18px; =
+BACKGROUND: url(mail_icon.gif) no-repeat right center; PADDING-TOP: 0px
+}
+.link-mailto {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 18px; PADDING-RIGHT: 18px; =
+BACKGROUND: url(mail_icon.gif) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href^=3D'news://'] {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 18px; PADDING-RIGHT: 18px; =
+BACKGROUND: url(news_icon.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href^=3D'ftp://'] {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 18px; PADDING-RIGHT: 18px; =
+BACKGROUND: url(file_icon.gif) no-repeat right center; PADDING-TOP: 0px
+}
+.link-ftp {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 18px; PADDING-RIGHT: 18px; =
+BACKGROUND: url(file_icon.gif) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href^=3D'irc://'] {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 18px; PADDING-RIGHT: 18px; =
+BACKGROUND: url(discussionitem_icon.gif) no-repeat right center; =
+PADDING-TOP: 0px
+}
+#bodyContent A[href^=3D'irc://'].extiw {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 18px; PADDING-RIGHT: 18px; =
+BACKGROUND: url(discussionitem_icon.gif) no-repeat right center; =
+PADDING-TOP: 0px
+}
+.link-irc {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 18px; PADDING-RIGHT: 18px; =
+BACKGROUND: url(discussionitem_icon.gif) no-repeat right center; =
+PADDING-TOP: 0px
+}
+#bodyContent A[href$=3D'.ogg'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(audio.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href$=3D'.OGG'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(audio.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href$=3D'.mid'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(audio.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href$=3D'.MID'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(audio.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href$=3D'.midi'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(audio.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href$=3D'.MIDI'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(audio.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href$=3D'.mp3'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(audio.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href$=3D'.MP3'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(audio.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href$=3D'.wav'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(audio.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href$=3D'.WAV'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(audio.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href$=3D'.wma'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(audio.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href$=3D'.WMA'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(audio.png) no-repeat right center; PADDING-TOP: 0px
+}
+.link-audio {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(audio.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href$=3D'.ogm'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(video.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href$=3D'.OGM'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(video.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href$=3D'.avi'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(video.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href$=3D'.AVI'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(video.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href$=3D'.mpeg'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(video.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href$=3D'.MPEG'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(video.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href$=3D'.mpg'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(video.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href$=3D'.MPG'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(video.png) no-repeat right center; PADDING-TOP: 0px
+}
+.link-video {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; =
+BACKGROUND: url(video.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href$=3D'.pdf'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; =
+BACKGROUND: url(document.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href$=3D'.PDF'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; =
+BACKGROUND: url(document.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href*=3D'.pdf#'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; =
+BACKGROUND: url(document.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href*=3D'.PDF#'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; =
+BACKGROUND: url(document.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href*=3D'.pdf?'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; =
+BACKGROUND: url(document.png) no-repeat right center; PADDING-TOP: 0px
+}
+#bodyContent A[href*=3D'.PDF?'].external {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; =
+BACKGROUND: url(document.png) no-repeat right center; PADDING-TOP: 0px
+}
+.link-document {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; =
+BACKGROUND: url(document.png) no-repeat right center; PADDING-TOP: 0px
+}
+.rtl #bodyContent A.external {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: left 50%
+}
+.rtl A.feedlink {
+	PADDING-LEFT: 0px; PADDING-RIGHT: 16px; BACKGROUND-POSITION: right 50%
+}
+.ltr #bodyContent A.external {
+	PADDING-LEFT: 0px
+}
+#bodyContent A.extiw {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: =
+none transparent scroll repeat 0% 0%; COLOR: #36b; PADDING-TOP: 0px
+}
+#bodyContent A.extiw:active {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: =
+none transparent scroll repeat 0% 0%; COLOR: #36b; PADDING-TOP: 0px
+}
+#bodyContent A.external {
+	COLOR: #36b
+}
+#bodyContent .plainlinks A {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; =
+PADDING-RIGHT: 0px !important; BACKGROUND: none transparent scroll =
+repeat 0% 0%; PADDING-TOP: 0px !important
+}
+.portlet {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: =
+none; MARGIN: 0px 0px 0.5em; PADDING-LEFT: 0px; WIDTH: 11.6em; =
+PADDING-RIGHT: 0px; BORDER-TOP-STYLE: none; FLOAT: none; =
+BORDER-LEFT-STYLE: none; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.portlet H4 {
+	WHITE-SPACE: nowrap; FONT-SIZE: 95%; FONT-WEIGHT: normal
+}
+.portlet H5 {
+	PADDING-BOTTOM: 0px; TEXT-TRANSFORM: lowercase; PADDING-LEFT: 0.5em; =
+PADDING-RIGHT: 1em; DISPLAY: inline; WHITE-SPACE: nowrap; BACKGROUND: =
+none transparent scroll repeat 0% 0%; HEIGHT: 1em; FONT-SIZE: 91%; =
+FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+.portlet H6 {
+	BORDER-BOTTOM: #2f6fab 1px; BORDER-LEFT: #2f6fab 1px solid; =
+PADDING-BOTTOM: 0px; TEXT-TRANSFORM: lowercase; PADDING-LEFT: 1em; =
+PADDING-RIGHT: 1em; DISPLAY: block; WHITE-SPACE: nowrap; BACKGROUND: =
+#ffae2e; HEIGHT: 1.2em; FONT-SIZE: 1em; BORDER-TOP: #2f6fab 1px solid; =
+FONT-WEIGHT: normal; BORDER-RIGHT: #2f6fab 1px solid; PADDING-TOP: 0px
+}
+.pBody {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; =
+PADDING-BOTTOM: 0.3em; BACKGROUND-COLOR: white; PADDING-LEFT: 0.5em; =
+PADDING-RIGHT: 0.8em; BORDER-COLLAPSE: collapse; COLOR: black; =
+FONT-SIZE: 95%; BORDER-TOP: #aaa 1px solid; BORDER-RIGHT: #aaa 1px =
+solid; PADDING-TOP: 0px
+}
+.portlet H1 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+.portlet H2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+.portlet H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+.portlet H4 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+.portlet UL {
+	LINE-HEIGHT: 1.5em; LIST-STYLE-TYPE: square; FONT-SIZE: 95%; =
+LIST-STYLE-IMAGE: url(bullet.gif)
+}
+.portlet LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+#p-logo {
+	Z-INDEX: 3; POSITION: absolute; WIDTH: 12em; HEIGHT: 155px; OVERFLOW: =
+visible; TOP: 0px; LEFT: 0px
+}
+#p-logo H5 {
+	DISPLAY: none
+}
+#p-logo A {
+	WIDTH: 12.2em; DISPLAY: block; BACKGROUND-REPEAT: no-repeat; =
+BACKGROUND-POSITION: 35% 50%; HEIGHT: 155px; TEXT-DECORATION: none
+}
+#p-logo A:hover {
+	WIDTH: 12.2em; DISPLAY: block; BACKGROUND-REPEAT: no-repeat; =
+BACKGROUND-POSITION: 35% 50%; HEIGHT: 155px; TEXT-DECORATION: none
+}
+#p-search {
+	Z-INDEX: 3; POSITION: relative
+}
+INPUT.searchButton {
+	MARGIN-TOP: 1px; FONT-SIZE: 95%
+}
+#searchGoButton {
+	PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; FONT-WEIGHT: bold
+}
+#searchInput {
+	MARGIN: 0px; WIDTH: 10.9em; FONT-SIZE: 95%
+}
+#p-search .pBody {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0.4em; PADDING-LEFT: 0.4em; =
+PADDING-RIGHT: 0.4em; PADDING-TOP: 0.5em
+}
+#p-search #searchform DIV DIV {
+	MARGIN-TOP: 0.4em; FONT-SIZE: 95%
+}
+#p-personal {
+	Z-INDEX: 0; POSITION: absolute; TOP: 0px; LEFT: 0px
+}
+#p-personal {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.2em; =
+BORDER-RIGHT-STYLE: none; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; =
+PADDING-RIGHT: 0px; WHITE-SPACE: nowrap; BORDER-TOP-STYLE: none; =
+BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT-STYLE: =
+none; OVERFLOW: visible; PADDING-TOP: 0px
+}
+#p-personal H5 {
+	DISPLAY: none
+}
+#p-personal .portlet {
+	Z-INDEX: 0; BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; =
+BORDER-RIGHT-STYLE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; BORDER-TOP-STYLE: none; BACKGROUND: none transparent scroll repeat =
+0% 0%; BORDER-LEFT-STYLE: none; OVERFLOW: visible; PADDING-TOP: 0px
+}
+#p-personal .pBody {
+	Z-INDEX: 0; BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; =
+BORDER-RIGHT-STYLE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; BORDER-TOP-STYLE: none; BACKGROUND: none transparent scroll repeat =
+0% 0%; BORDER-LEFT-STYLE: none; OVERFLOW: visible; PADDING-TOP: 0px
+}
+#p-personal UL {
+	Z-INDEX: 0; BORDER-BOTTOM-STYLE: none; TEXT-ALIGN: right; =
+PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.4em; BORDER-RIGHT-STYLE: none; =
+LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 3em; PADDING-RIGHT: =
+2em; BORDER-TOP-STYLE: none; BACKGROUND: none transparent scroll repeat =
+0% 0%; COLOR: #2f6fab; BORDER-LEFT-STYLE: none; CURSOR: default; =
+PADDING-TOP: 0px
+}
+#p-personal LI {
+	Z-INDEX: 0; BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; =
+LINE-HEIGHT: 1.2em; BORDER-RIGHT-STYLE: none; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 0px; DISPLAY: inline; BORDER-TOP-STYLE: none; BACKGROUND: =
+none transparent scroll repeat 0% 0%; COLOR: #2f6fab; MARGIN-LEFT: 1em; =
+BORDER-LEFT-STYLE: none; PADDING-TOP: 0px
+}
+#p-personal LI A {
+	PADDING-BOTTOM: 0.2em; BACKGROUND: none transparent scroll repeat 0% =
+0%; COLOR: #005896; TEXT-DECORATION: none
+}
+#p-personal LI A:hover {
+	PADDING-BOTTOM: 0.2em; BACKGROUND-COLOR: white; TEXT-DECORATION: none
+}
+#p-personal LI.active A:hover {
+	BACKGROUND-COLOR: transparent
+}
+LI#pt-userpage {
+	TEXT-TRANSFORM: none; PADDING-LEFT: 20px; BACKGROUND: url(user.gif) =
+no-repeat left top
+}
+LI#pt-anonuserpage {
+	TEXT-TRANSFORM: none; PADDING-LEFT: 20px; BACKGROUND: url(user.gif) =
+no-repeat left top
+}
+LI#pt-login {
+	TEXT-TRANSFORM: none; PADDING-LEFT: 20px; BACKGROUND: url(user.gif) =
+no-repeat left top
+}
+#p-personal UL {
+	TEXT-TRANSFORM: lowercase
+}
+#p-personal LI.active {
+	FONT-WEIGHT: bold
+}
+#p-cactions {
+	POSITION: absolute; LINE-HEIGHT: 1.1em; LIST-STYLE-TYPE: none; MARGIN: =
+0px; PADDING-LEFT: 1em; WIDTH: 76%; BORDER-COLLAPSE: collapse; =
+WHITE-SPACE: nowrap; BACKGROUND: none transparent scroll repeat 0% 0%; =
+FONT-SIZE: 95%; OVERFLOW: visible; TOP: 1.3em; LEFT: 11.5em
+}
+#p-cactions UL {
+	LIST-STYLE-TYPE: none
+}
+#p-cactions LI {
+	BORDER-BOTTOM: #aaa 1px; BORDER-LEFT: #aaa 1px solid; PADDING-BOTTOM: =
+0.1em; MARGIN: 0px 0.3em 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+DISPLAY: inline; BACKGROUND: white; OVERFLOW: visible; BORDER-TOP: #aaa =
+1px solid; BORDER-RIGHT: #aaa 1px solid; PADDING-TOP: 0px
+}
+#p-cactions LI.selected {
+	BORDER-BOTTOM-COLOR: #fabd23; PADDING-BOTTOM: 0.2em; BORDER-TOP-COLOR: =
+#fabd23; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-RIGHT-COLOR: =
+#fabd23; BORDER-LEFT-COLOR: #fabd23; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+#p-cactions LI A {
+	Z-INDEX: 0; POSITION: relative; BORDER-BOTTOM-STYLE: none; =
+PADDING-BOTTOM: 0.3em; BORDER-RIGHT-STYLE: none; BACKGROUND-COLOR: =
+#fbfbfb; MARGIN: 0px; PADDING-LEFT: 0.8em; PADDING-RIGHT: 0.8em; =
+BORDER-TOP-STYLE: none; COLOR: #002bb8; BORDER-LEFT-STYLE: none; =
+TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+#p-cactions LI.selected A {
+	Z-INDEX: 3; PADDING-BOTTOM: 0.2em !important; BACKGROUND-COLOR: white; =
+PADDING-LEFT: 1em !important; PADDING-RIGHT: 1em !important; =
+PADDING-TOP: 0px !important
+}
+#p-cactions .new A {
+	COLOR: #ba0000
+}
+#p-cactions LI A:hover {
+	Z-INDEX: 3; BACKGROUND-COLOR: white; TEXT-DECORATION: none
+}
+#p-cactions H5 {
+	DISPLAY: none
+}
+#p-cactions LI.istalk {
+	MARGIN-RIGHT: 0px
+}
+#p-cactions LI.istalk A {
+	PADDING-RIGHT: 0.5em
+}
+#p-cactions #ca-addsection A {
+	PADDING-LEFT: 0.4em; PADDING-RIGHT: 0.4em
+}
+LI#ca-talk {
+	MARGIN-RIGHT: 1.6em
+}
+LI#ca-watch {
+	MARGIN-LEFT: 1.6em
+}
+LI#ca-unwatch {
+	MARGIN-LEFT: 1.6em
+}
+LI#ca-varlang-0 {
+	MARGIN-LEFT: 1.6em
+}
+LI#ca-print {
+	MARGIN-LEFT: 1.6em
+}
+#p-cactions .pBody {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: =
+transparent; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: =
+0px; BORDER-BOTTOM-WIDTH: 0px; FONT-SIZE: 1em; BORDER-LEFT-WIDTH: 0px; =
+PADDING-TOP: 0px
+}
+#p-cactions .hiddenStructure {
+	DISPLAY: none
+}
+#p-cactions LI A {
+	TEXT-TRANSFORM: lowercase
+}
+#p-lang {
+	Z-INDEX: 3; POSITION: relative
+}
+#t-ispermalink {
+	COLOR: #999
+}
+#t-iscite {
+	COLOR: #999
+}
+#footer {
+	BORDER-BOTTOM: #fabd23 1px solid; TEXT-ALIGN: center; PADDING-BOTTOM: =
+1.2em; BACKGROUND-COLOR: white; MARGIN: 0.6em 0px 1em; PADDING-LEFT: =
+0px; PADDING-RIGHT: 0px; FONT-SIZE: 90%; BORDER-TOP: #fabd23 1px solid; =
+PADDING-TOP: 0.4em
+}
+#footer LI {
+	MARGIN: 0px 1.3em; DISPLAY: inline
+}
+#f-poweredbyico {
+	POSITION: relative; MARGIN: 0px 8px; TOP: -2px
+}
+#f-copyrightico {
+	POSITION: relative; MARGIN: 0px 8px; TOP: -2px
+}
+#f-poweredbyico {
+	FLOAT: right; HEIGHT: 1%
+}
+#f-copyrightico {
+	FLOAT: left; HEIGHT: 1%
+}
+#preftoc {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; =
+PADDING-RIGHT: 0px; CLEAR: both; PADDING-TOP: 0px
+}
+#preftoc LI {
+	BACKGROUND-COLOR: #f0f0f0; COLOR: #000
+}
+#preftoc LI {
+	Z-INDEX: 3; BORDER-BOTTOM: #fff 0px solid; POSITION: relative; =
+BORDER-LEFT: #fff 1px solid; PADDING-BOTTOM: 3px; LIST-STYLE-TYPE: none; =
+MARGIN: 1px -2px 1px 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+WHITE-SPACE: nowrap; FLOAT: left; BORDER-TOP: #fff 1px solid; =
+LIST-STYLE-IMAGE: none; BORDER-RIGHT: #716f64 1px solid; PADDING-TOP: =
+2px
+}
+#preftoc LI.selected {
+	BORDER-BOTTOM: #aaa 1px; BORDER-LEFT: #aaa 1px solid; BACKGROUND-COLOR: =
+#f9f9f9; BORDER-TOP: #aaa 1px solid; TOP: 1px; CURSOR: default; =
+FONT-WEIGHT: bold; MARGIN-RIGHT: -3px; BORDER-RIGHT: #aaa 1px solid; =
+PADDING-TOP: 2px
+}
+#preftoc > LI.selected {
+	TOP: 2px
+}
+#preftoc A {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 0.7em; =
+PADDING-RIGHT: 0.7em; DISPLAY: block; COLOR: #000; TEXT-DECORATION: =
+none; PADDING-TOP: 0px
+}
+#preftoc A:active {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 0.7em; =
+PADDING-RIGHT: 0.7em; DISPLAY: block; COLOR: #000; TEXT-DECORATION: =
+none; PADDING-TOP: 0px
+}
+#preftoc LI.selected A {
+	CURSOR: default; TEXT-DECORATION: none
+}
+#prefcontrol {
+	CLEAR: both; PADDING-TOP: 2em
+}
+#preferences {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; =
+PADDING-BOTTOM: 1.5em; BACKGROUND-COLOR: #f9f9f9; MARGIN: 0px; =
+PADDING-LEFT: 1.5em; PADDING-RIGHT: 1.5em; CLEAR: both; BORDER-TOP: #aaa =
+1px solid; BORDER-RIGHT: #aaa 1px solid; PADDING-TOP: 1.5em
+}
+.prefsection {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: =
+none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; PADDING-TOP: 0px
+}
+.prefsection FIELDSET {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; FLOAT: =
+left; BORDER-TOP: #aaa 1px solid; MARGIN-RIGHT: 2em; BORDER-RIGHT: #aaa =
+1px solid
+}
+.prefsection LEGEND {
+	FONT-WEIGHT: bold
+}
+.prefsection TABLE {
+	BACKGROUND-COLOR: #f9f9f9
+}
+.prefsection LEGEND {
+	BACKGROUND-COLOR: #f9f9f9
+}
+.mainLegend {
+	DISPLAY: none
+}
+DIV.prefsectiontip {
+	PADDING-BOTTOM: 0.2em; PADDING-LEFT: 2em; PADDING-RIGHT: 2em; COLOR: =
+#666; FONT-SIZE: x-small; PADDING-TOP: 0.2em
+}
+.btnSavePrefs {
+	PADDING-LEFT: 0.3em; PADDING-RIGHT: 0.3em; FONT-WEIGHT: bold
+}
+.preferences-login {
+	MARGIN-BOTTOM: 1.5em; CLEAR: both
+}
+.prefcache {
+	MARGIN-TOP: 2em; FONT-SIZE: 90%
+}
+DIV#userloginForm FORM {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; =
+PADDING-BOTTOM: 1.5em; BACKGROUND-COLOR: #f9f9f9; MARGIN: 0px 3em 1em =
+0px; PADDING-LEFT: 2em; PADDING-RIGHT: 2em; FLOAT: left; CLEAR: both; =
+BORDER-TOP: #aaa 1px solid; BORDER-RIGHT: #aaa 1px solid; PADDING-TOP: =
+1.5em
+}
+DIV#userlogin FORM#userlogin2 {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; =
+PADDING-BOTTOM: 1.5em; BACKGROUND-COLOR: #f9f9f9; MARGIN: 0px 3em 1em =
+0px; PADDING-LEFT: 2em; PADDING-RIGHT: 2em; FLOAT: left; CLEAR: both; =
+BORDER-TOP: #aaa 1px solid; BORDER-RIGHT: #aaa 1px solid; PADDING-TOP: =
+1.5em
+}
+.rtl DIV#userloginForm FORM {
+	FLOAT: right
+}
+.rtl DIV#userlogin FORM#userlogin2 {
+	FLOAT: right
+}
+DIV#userloginForm TABLE {
+	BACKGROUND-COLOR: #f9f9f9
+}
+DIV#userlogin FORM#userlogin2 TABLE {
+	BACKGROUND-COLOR: #f9f9f9
+}
+DIV#userloginForm H2 {
+	PADDING-TOP: 0px
+}
+DIV#userlogin FORM#userlogin2 H2 {
+	PADDING-TOP: 0px
+}
+DIV#userlogin .captcha {
+	BORDER-BOTTOM: #bbb 1px solid; BORDER-LEFT: #bbb 1px solid; =
+PADDING-BOTTOM: 1.5em; BACKGROUND-COLOR: white; PADDING-LEFT: 2em; =
+PADDING-RIGHT: 2em; BORDER-TOP: #bbb 1px solid; BORDER-RIGHT: #bbb 1px =
+solid; PADDING-TOP: 1.5em
+}
+DIV#userloginForm .captcha {
+	BORDER-BOTTOM: #bbb 1px solid; BORDER-LEFT: #bbb 1px solid; =
+PADDING-BOTTOM: 1.5em; BACKGROUND-COLOR: white; PADDING-LEFT: 2em; =
+PADDING-RIGHT: 2em; BORDER-TOP: #bbb 1px solid; BORDER-RIGHT: #bbb 1px =
+solid; PADDING-TOP: 1.5em
+}
+#loginend {
+	CLEAR: both
+}
+#signupend {
+	CLEAR: both
+}
+#userloginprompt {
+	FONT-SIZE: 85%
+}
+#languagelinks {
+	FONT-SIZE: 85%
+}
+#login-sectiontip {
+	LINE-HEIGHT: 1.2; FONT-SIZE: 85%; PADDING-TOP: 2em
+}
+#userlogin .loginText {
+	WIDTH: 12em
+}
+#userlogin .loginPassword {
+	WIDTH: 12em
+}
+#userloginlink A {
+	FONT-WEIGHT: bold
+}
+#wpLoginattempt {
+	FONT-WEIGHT: bold
+}
+#wpCreateaccount {
+	FONT-WEIGHT: bold
+}
+* > HTML #p-cactions LI {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; BORDER-LEFT-STYLE: none
+}
+* > HTML #p-cactions LI A {
+	BORDER-BOTTOM: #aaa 1px; BORDER-LEFT: #aaa 1px solid; BORDER-TOP: #aaa =
+1px solid; BORDER-RIGHT: #aaa 1px solid
+}
+* > HTML #p-cactions LI.selected A {
+	BORDER-BOTTOM-COLOR: #fabd23; BORDER-TOP-COLOR: #fabd23; =
+BORDER-RIGHT-COLOR: #fabd23; BORDER-LEFT-COLOR: #fabd23
+}
+* > HTML #f-poweredbyico {
+	WIDTH: 88px
+}
+* > HTML #f-copyrightico {
+	WIDTH: 88px
+}
+* > HTML #bodyContent {
+	PADDING-BOTTOM: 25px; OVERFLOW-X: auto; WIDTH: 100%
+}
+* > HTML #bodyContent PRE {
+	PADDING-BOTTOM: 25px; OVERFLOW-X: auto; WIDTH: 100%
+}
+* HTML #footer {
+	MARGIN-TOP: 0px
+}
+* HTML #column-content {
+	DISPLAY: inline; MARGIN-BOTTOM: 0px
+}
+* HTML DIV.editsection {
+	FONT-SIZE: smaller
+}
+#pagehistory LI.selected {
+	POSITION: relative
+}
+* > HTML #column-content {
+	FLOAT: none
+}
+* > HTML #column-one {
+	POSITION: absolute; TOP: 0px; LEFT: 0px
+}
+* > HTML #footer {
+	MARGIN-LEFT: 13.2em
+}
+.redirectText {
+	MARGIN: 5px; FONT-SIZE: 150%
+}
+.printfooter {
+	DISPLAY: none
+}
+.not-patrolled {
+	BACKGROUND-COLOR: #ffa
+}
+DIV.patrollink {
+	TEXT-ALIGN: right; CLEAR: both; FONT-SIZE: 75%
+}
+SPAN.newpage {
+	FONT-WEIGHT: bold
+}
+SPAN.minor {
+	FONT-WEIGHT: bold
+}
+SPAN.bot {
+	FONT-WEIGHT: bold
+}
+SPAN.unpatrolled {
+	COLOR: red; FONT-WEIGHT: bold
+}
+.sharedUploadNotice {
+	FONT-STYLE: italic
+}
+SPAN.updatedmarker {
+	BACKGROUND-COLOR: #0f0; COLOR: black
+}
+TABLE.gallery {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; =
+PADDING-BOTTOM: 2px; BACKGROUND-COLOR: white; MARGIN: 2px; PADDING-LEFT: =
+2px; PADDING-RIGHT: 2px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc =
+1px solid; PADDING-TOP: 2px
+}
+TABLE.gallery TR {
+	VERTICAL-ALIGN: top
+}
+TABLE.gallery TD {
+	BORDER-BOTTOM: white 2px solid; BORDER-LEFT: white 2px solid; =
+BACKGROUND-COLOR: #f9f9f9; VERTICAL-ALIGN: top; BORDER-TOP: white 2px =
+solid; BORDER-RIGHT: white 2px solid
+}
+TABLE.gallery TD.galleryheader {
+	TEXT-ALIGN: center; FONT-WEIGHT: bold
+}
+TABLE.gallery CAPTION {
+	FONT-WEIGHT: bold
+}
+DIV.gallerybox {
+	MARGIN: 2px
+}
+DIV.gallerybox DIV.thumb {
+	BORDER-BOTTOM: #ccc 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #ccc =
+1px solid; MARGIN: 2px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc =
+1px solid
+}
+DIV.gallerytext {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; FONT-SIZE: =
+94%; OVERFLOW: hidden; PADDING-TOP: 2px
+}
+SPAN.comment {
+	FONT-STYLE: italic
+}
+SPAN.changedby {
+	FONT-SIZE: 95%
+}
+.previewnote {
+	BORDER-BOTTOM: #aaa 1px solid; PADDING-BOTTOM: 1em; TEXT-INDENT: 3em; =
+MARGIN-BOTTOM: 1em; COLOR: #c00
+}
+.previewnote P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+.editExternally {
+	BORDER-BOTTOM: gray 1px solid; TEXT-ALIGN: center; BORDER-LEFT: gray =
+1px solid; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #ffffff; MARGIN-TOP: =
+0.5em; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; FLOAT: left; FONT-SIZE: =
+small; BORDER-TOP: gray 1px solid; BORDER-RIGHT: gray 1px solid; =
+PADDING-TOP: 3px
+}
+.editExternallyHelp {
+	FONT-STYLE: italic; COLOR: gray
+}
+.toggle {
+	TEXT-INDENT: -2em; MARGIN-LEFT: 2em
+}
+TABLE.mw_metadata {
+	WIDTH: 300px; MARGIN-BOTTOM: 0.5em; MARGIN-LEFT: 0.5em; FONT-SIZE: =
+0.8em
+}
+TABLE.mw_metadata CAPTION {
+	FONT-WEIGHT: bold
+}
+TABLE.mw_metadata TH {
+	FONT-WEIGHT: normal
+}
+TABLE.mw_metadata TD {
+	PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.1em; PADDING-RIGHT: 0.1em; =
+PADDING-TOP: 0.1em
+}
+TABLE.mw_metadata {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-COLLAPSE: =
+collapse; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none
+}
+TABLE.mw_metadata TD {
+	BORDER-BOTTOM: #aaaaaa 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#aaaaaa 1px solid; PADDING-LEFT: 0.1em; PADDING-RIGHT: 0.1em; =
+BORDER-TOP: #aaaaaa 1px solid; BORDER-RIGHT: #aaaaaa 1px solid
+}
+TABLE.mw_metadata TH {
+	BORDER-BOTTOM: #aaaaaa 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#aaaaaa 1px solid; PADDING-LEFT: 0.1em; PADDING-RIGHT: 0.1em; =
+BORDER-TOP: #aaaaaa 1px solid; BORDER-RIGHT: #aaaaaa 1px solid
+}
+TABLE.mw_metadata TH {
+	BACKGROUND-COLOR: #f9f9f9
+}
+TABLE.mw_metadata TD {
+	BACKGROUND-COLOR: #fcfcfc
+}
+TABLE.collapsed TR.collapsable {
+	DISPLAY: none
+}
+UL#filetoc {
+	BORDER-BOTTOM: #aaaaaa 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#aaaaaa 1px solid; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #f9f9f9; =
+PADDING-LEFT: 5px; PADDING-RIGHT: 5px; MARGIN-BOTTOM: 0.5em; =
+MARGIN-LEFT: 0px; FONT-SIZE: 95%; BORDER-TOP: #aaaaaa 1px solid; =
+MARGIN-RIGHT: 0px; BORDER-RIGHT: #aaaaaa 1px solid; PADDING-TOP: 5px
+}
+#filetoc LI {
+	LIST-STYLE-TYPE: none; PADDING-RIGHT: 2em; DISPLAY: inline
+}
+INPUT#wpSummary {
+	WIDTH: 80%
+}
+INPUT#wpSave {
+	MARGIN-RIGHT: 0.33em
+}
+INPUT#wpDiff {
+	MARGIN-RIGHT: 0.33em
+}
+#wpSave {
+	FONT-WEIGHT: bold
+}
+TABLE.revisionform_default {
+	BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid; =
+BORDER-TOP: #000000 1px solid; BORDER-RIGHT: #000000 1px solid
+}
+TABLE.revisionform_focus {
+	BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid; =
+BACKGROUND-COLOR: #00bbff; BORDER-TOP: #000000 1px solid; BORDER-RIGHT: =
+#000000 1px solid
+}
+TR.revision_tr_default {
+	BACKGROUND-COLOR: #eeeeee
+}
+TR.revision_tr_first {
+	BACKGROUND-COLOR: #dddddd
+}
+P.revision_saved {
+	COLOR: green; FONT-WEIGHT: bold
+}
+#mw_trackbacks {
+	BORDER-BOTTOM: #bbbbff 1px solid; BORDER-LEFT: #bbbbff 1px solid; =
+PADDING-BOTTOM: 0.2em; BACKGROUND-COLOR: #eeeeff; PADDING-LEFT: 0.2em; =
+PADDING-RIGHT: 0.2em; BORDER-TOP: #bbbbff 1px solid; BORDER-RIGHT: =
+#bbbbff 1px solid; PADDING-TOP: 0.2em
+}
+#allmessagestable TH {
+	BACKGROUND-COLOR: #b2b2ff
+}
+#allmessagestable TR.orig {
+	BACKGROUND-COLOR: #ffe2e2
+}
+#allmessagestable TR.new {
+	BACKGROUND-COLOR: #e2ffe2
+}
+#allmessagestable TR.def {
+	BACKGROUND-COLOR: #f0f0ff
+}
+DIV.noarticletext {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; =
+PADDING-BOTTOM: 0.2em; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; =
+BACKGROUND: #fff; COLOR: #000; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: =
+#ccc 1px solid; PADDING-TOP: 0.2em
+}
+DIV#searchTargetContainer {
+	WIDTH: 90%; BACKGROUND: white; TOP: 10px; LEFT: 10px
+}
+DIV#searchTarget {
+	BORDER-BOTTOM: blue 1px solid; BORDER-LEFT: blue 1px solid; =
+PADDING-BOTTOM: 3px; MARGIN: 5px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; =
+BACKGROUND: #f0f0f0; BORDER-TOP: blue 1px solid; BORDER-RIGHT: blue 1px =
+solid; PADDING-TOP: 3px
+}
+DIV#searchTarget UL LI {
+	LIST-STYLE-TYPE: none
+}
+DIV#searchTarget UL LI:before {
+	COLOR: orange; CONTENT: "=BB "
+}
+DIV#searchTargetHide {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; =
+PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: =
+#dcdcdc; FLOAT: right; BORDER-TOP: black 1px solid; BORDER-RIGHT: black =
+1px solid; PADDING-TOP: 2px
+}
+#powersearch P {
+	MARGIN-TOP: 0px
+}
+DIV.multipageimagenavbox {
+	BORDER-BOTTOM: silver 1px solid; BORDER-LEFT: silver 1px solid; =
+PADDING-BOTTOM: 4px; MARGIN: 1em; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; =
+BACKGROUND: #f0f0f0; BORDER-TOP: silver 1px solid; BORDER-RIGHT: silver =
+1px solid; PADDING-TOP: 4px
+}
+DIV.multipageimagenavbox DIV.thumb {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; MARGIN-LEFT: 2em; BORDER-LEFT-STYLE: none; MARGIN-RIGHT: 2em
+}
+DIV.multipageimagenavbox HR {
+	MARGIN: 6px
+}
+TABLE.multipageimage TD {
+	TEXT-ALIGN: center
+}
+TABLE#sv-ext {
+	PADDING-BOTTOM: 0em; MARGIN: 1em; PADDING-LEFT: 0em; PADDING-RIGHT: =
+0em; PADDING-TOP: 0em
+}
+TABLE#sv-hooks {
+	PADDING-BOTTOM: 0em; MARGIN: 1em; PADDING-LEFT: 0em; PADDING-RIGHT: =
+0em; PADDING-TOP: 0em
+}
+TABLE#sv-software {
+	PADDING-BOTTOM: 0em; MARGIN: 1em; PADDING-LEFT: 0em; PADDING-RIGHT: =
+0em; PADDING-TOP: 0em
+}
+#sv-ext TD {
+	BORDER-BOTTOM: #a0a0a0 1px solid; BORDER-LEFT: #a0a0a0 1px solid; =
+PADDING-BOTTOM: 0px; PADDING-LEFT: 0.15em; PADDING-RIGHT: 0.15em; =
+BORDER-TOP: #a0a0a0 1px solid; BORDER-RIGHT: #a0a0a0 1px solid; =
+PADDING-TOP: 0px
+}
+#sv-hooks TD {
+	BORDER-BOTTOM: #a0a0a0 1px solid; BORDER-LEFT: #a0a0a0 1px solid; =
+PADDING-BOTTOM: 0px; PADDING-LEFT: 0.15em; PADDING-RIGHT: 0.15em; =
+BORDER-TOP: #a0a0a0 1px solid; BORDER-RIGHT: #a0a0a0 1px solid; =
+PADDING-TOP: 0px
+}
+#sv-software TD {
+	BORDER-BOTTOM: #a0a0a0 1px solid; BORDER-LEFT: #a0a0a0 1px solid; =
+PADDING-BOTTOM: 0px; PADDING-LEFT: 0.15em; PADDING-RIGHT: 0.15em; =
+BORDER-TOP: #a0a0a0 1px solid; BORDER-RIGHT: #a0a0a0 1px solid; =
+PADDING-TOP: 0px
+}
+#sv-ext TH {
+	BORDER-BOTTOM: #a0a0a0 1px solid; BORDER-LEFT: #a0a0a0 1px solid; =
+PADDING-BOTTOM: 0px; PADDING-LEFT: 0.15em; PADDING-RIGHT: 0.15em; =
+BORDER-TOP: #a0a0a0 1px solid; BORDER-RIGHT: #a0a0a0 1px solid; =
+PADDING-TOP: 0px
+}
+#sv-hooks TH {
+	BORDER-BOTTOM: #a0a0a0 1px solid; BORDER-LEFT: #a0a0a0 1px solid; =
+PADDING-BOTTOM: 0px; PADDING-LEFT: 0.15em; PADDING-RIGHT: 0.15em; =
+BORDER-TOP: #a0a0a0 1px solid; BORDER-RIGHT: #a0a0a0 1px solid; =
+PADDING-TOP: 0px
+}
+#sv-software TH {
+	BORDER-BOTTOM: #a0a0a0 1px solid; BORDER-LEFT: #a0a0a0 1px solid; =
+PADDING-BOTTOM: 0px; PADDING-LEFT: 0.15em; PADDING-RIGHT: 0.15em; =
+BORDER-TOP: #a0a0a0 1px solid; BORDER-RIGHT: #a0a0a0 1px solid; =
+PADDING-TOP: 0px
+}
+#sv-ext TH {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f0f0f0; PADDING-LEFT: 0.15em; =
+PADDING-RIGHT: 0.15em; COLOR: black; PADDING-TOP: 0px
+}
+#sv-hooks TH {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f0f0f0; PADDING-LEFT: 0.15em; =
+PADDING-RIGHT: 0.15em; COLOR: black; PADDING-TOP: 0px
+}
+#sv-software TH {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f0f0f0; PADDING-LEFT: 0.15em; =
+PADDING-RIGHT: 0.15em; COLOR: black; PADDING-TOP: 0px
+}
+TR.sv-space {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; HEIGHT: 0.8em; BORDER-LEFT-STYLE: none
+}
+TR.sv-space TD {
+	DISPLAY: none
+}
+.TablePager {
+	MIN-WIDTH: 80%
+}
+.TablePager_nav A {
+	TEXT-DECORATION: none
+}
+.TablePager {
+	BORDER-COLLAPSE: collapse
+}
+.TablePager {
+	BORDER-BOTTOM: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; =
+PADDING-BOTTOM: 0px; PADDING-LEFT: 0.15em; PADDING-RIGHT: 0.15em; =
+BORDER-TOP: #aaaaaa 1px solid; BORDER-RIGHT: #aaaaaa 1px solid; =
+PADDING-TOP: 0px
+}
+.TablePager TD {
+	BORDER-BOTTOM: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; =
+PADDING-BOTTOM: 0px; PADDING-LEFT: 0.15em; PADDING-RIGHT: 0.15em; =
+BORDER-TOP: #aaaaaa 1px solid; BORDER-RIGHT: #aaaaaa 1px solid; =
+PADDING-TOP: 0px
+}
+.TablePager TH {
+	BORDER-BOTTOM: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; =
+PADDING-BOTTOM: 0px; PADDING-LEFT: 0.15em; PADDING-RIGHT: 0.15em; =
+BORDER-TOP: #aaaaaa 1px solid; BORDER-RIGHT: #aaaaaa 1px solid; =
+PADDING-TOP: 0px
+}
+.TablePager TH {
+	BACKGROUND-COLOR: #eeeeff
+}
+.TablePager TD {
+	BACKGROUND-COLOR: #ffffff
+}
+.TablePager TR:hover TD {
+	BACKGROUND-COLOR: #eeeeff
+}
+.imagelist TD {
+	WHITE-SPACE: nowrap
+}
+.imagelist TH {
+	WHITE-SPACE: nowrap
+}
+.imagelist .TablePager_col_links {
+	BACKGROUND-COLOR: #eeeeff
+}
+.imagelist .TablePager_col_img_description {
+	WHITE-SPACE: normal
+}
+.imagelist TH.TablePager_sort {
+	BACKGROUND-COLOR: #ccccff
+}
+.templatesUsed {
+	MARGIN-TOP: 1.5em
+}
+.mw-summary-preview {
+	MARGIN: 0.1em 0px
+}
+DIV.mw-lag-warn-normal {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 3px; MARGIN: 3px auto; =
+PADDING-LEFT: 3px; PADDING-RIGHT: 3px; PADDING-TOP: 3px
+}
+DIV.mw-lag-warn-high {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 3px; MARGIN: 3px auto; =
+PADDING-LEFT: 3px; PADDING-RIGHT: 3px; PADDING-TOP: 3px
+}
+DIV.mw-lag-warn-normal {
+	BORDER-BOTTOM: #ffcc66 1px solid; BORDER-LEFT: #ffcc66 1px solid; =
+BACKGROUND-COLOR: #ffffcc; BORDER-TOP: #ffcc66 1px solid; BORDER-RIGHT: =
+#ffcc66 1px solid
+}
+DIV.mw-lag-warn-high {
+	BORDER-BOTTOM: #ff0033 2px solid; BORDER-LEFT: #ff0033 2px solid; =
+BACKGROUND-COLOR: #ffcccc; BORDER-TOP: #ff0033 2px solid; FONT-WEIGHT: =
+bold; BORDER-RIGHT: #ff0033 2px solid
+}
+.MediaTransformError {
+	PADDING-BOTTOM: 0.1em; BACKGROUND-COLOR: #ccc; PADDING-LEFT: 0.1em; =
+PADDING-RIGHT: 0.1em; PADDING-TOP: 0.1em
+}
+.MediaTransformError TD {
+	TEXT-ALIGN: center; FONT-SIZE: 90%; VERTICAL-ALIGN: middle
+}
+DIV#mw-search-interwiki-caption {
+	TEXT-ALIGN: center; FONT-SIZE: 95%; FONT-WEIGHT: bold
+}
+.mw-search-interwiki-project {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0.2em; PADDING-LEFT: 0.2em; =
+PADDING-RIGHT: 0.15em; BACKGROUND: #cae8ff; FONT-SIZE: 97%; PADDING-TOP: =
+0.15em
+}
+.os-suggest {
+	FONT-SIZE: 127%
+}
+
+------=_NextPart_000_0000_01CBD903.D3815970
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: 7bit
+Content-Location: http://shrubbery.mynetgear.net/w/index.php?title=-&action=raw&maxage=18000&gen=css
+
+A.new {
+	COLOR: #cc2200
+}
+#quickbar A.new {
+	COLOR: #cc2200
+}
+
+------=_NextPart_000_0000_01CBD903.D3815970
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://shrubbery.mynetgear.net/w/skins/common/wikibits.js?207
+
+// MediaWiki JavaScript support functions=0A=
+=0A=
+var clientPC =3D navigator.userAgent.toLowerCase(); // Get client info=0A=
+var is_gecko =3D /gecko/.test( clientPC ) &&=0A=
+	!/khtml|spoofer|netscape\/7\.0/.test(clientPC);=0A=
+var webkit_match =3D clientPC.match(/applewebkit\/(\d+)/);=0A=
+if (webkit_match) {=0A=
+	var is_safari =3D clientPC.indexOf('applewebkit') !=3D -1 &&=0A=
+		clientPC.indexOf('spoofer') =3D=3D -1;=0A=
+	var is_safari_win =3D is_safari && clientPC.indexOf('windows') !=3D -1;=0A=
+	var webkit_version =3D parseInt(webkit_match[1]);=0A=
+}=0A=
+var is_khtml =3D navigator.vendor =3D=3D 'KDE' ||=0A=
+	( document.childNodes && !document.all && !navigator.taintEnabled );=0A=
+// For accesskeys; note that FF3+ is included here!=0A=
+var is_ff2 =3D /firefox\/[2-9]|minefield\/3/.test( clientPC );=0A=
+var is_ff2_ =3D /firefox\/2/.test( clientPC );=0A=
+// These aren't used here, but some custom scripts rely on them=0A=
+var is_ff2_win =3D is_ff2 && clientPC.indexOf('windows') !=3D -1;=0A=
+var is_ff2_x11 =3D is_ff2 && clientPC.indexOf('x11') !=3D -1;=0A=
+if (clientPC.indexOf('opera') !=3D -1) {=0A=
+	var is_opera =3D true;=0A=
+	var is_opera_preseven =3D window.opera && !document.childNodes;=0A=
+	var is_opera_seven =3D window.opera && document.childNodes;=0A=
+	var is_opera_95 =3D /opera\/(9.[5-9]|[1-9][0-9])/.test( clientPC );=0A=
+}=0A=
+=0A=
+// Global external objects used by this script.=0A=
+/*extern ta, stylepath, skin */=0A=
+=0A=
+// add any onload functions in this hook (please don't hard-code any =
+events in the xhtml source)=0A=
+var doneOnloadHook;=0A=
+=0A=
+if (!window.onloadFuncts) {=0A=
+	var onloadFuncts =3D [];=0A=
+}=0A=
+=0A=
+function addOnloadHook(hookFunct) {=0A=
+	// Allows add-on scripts to add onload functions=0A=
+	if(!doneOnloadHook) {=0A=
+		onloadFuncts[onloadFuncts.length] =3D hookFunct;=0A=
+	} else {=0A=
+		hookFunct();  // bug in MSIE script loading=0A=
+	}=0A=
+}=0A=
+=0A=
+function hookEvent(hookName, hookFunct) {=0A=
+	addHandler(window, hookName, hookFunct);=0A=
+}=0A=
+=0A=
+function importScript(page) {=0A=
+	var uri =3D wgScript + '?title=3D' +=0A=
+		encodeURIComponent(page.replace(/ =
+/g,'_')).replace('%2F','/').replace('%3A',':') +=0A=
+		'&action=3Draw&ctype=3Dtext/javascript';=0A=
+	return importScriptURI(uri);=0A=
+}=0A=
+ =0A=
+var loadedScripts =3D {}; // included-scripts tracker=0A=
+function importScriptURI(url) {=0A=
+	if (loadedScripts[url]) {=0A=
+		return null;=0A=
+	}=0A=
+	loadedScripts[url] =3D true;=0A=
+	var s =3D document.createElement('script');=0A=
+	s.setAttribute('src',url);=0A=
+	s.setAttribute('type','text/javascript');=0A=
+	document.getElementsByTagName('head')[0].appendChild(s);=0A=
+	return s;=0A=
+}=0A=
+ =0A=
+function importStylesheet(page) {=0A=
+	return importStylesheetURI(wgScript + =
+'?action=3Draw&ctype=3Dtext/css&title=3D' + =
+encodeURIComponent(page.replace(/ /g,'_')));=0A=
+}=0A=
+ =0A=
+function importStylesheetURI(url) {=0A=
+	return document.createStyleSheet ? document.createStyleSheet(url) : =
+appendCSS('@import "' + url + '";');=0A=
+}=0A=
+ =0A=
+function appendCSS(text) {=0A=
+	var s =3D document.createElement('style');=0A=
+	s.type =3D 'text/css';=0A=
+	s.rel =3D 'stylesheet';=0A=
+	if (s.styleSheet) s.styleSheet.cssText =3D text //IE=0A=
+	else s.appendChild(document.createTextNode(text + '')) //Safari =
+sometimes borks on null=0A=
+	document.getElementsByTagName('head')[0].appendChild(s);=0A=
+	return s;=0A=
+}=0A=
+=0A=
+// special stylesheet links=0A=
+if (typeof stylepath !=3D 'undefined' && typeof skin !=3D 'undefined') {=0A=
+	if (is_opera_preseven) {=0A=
+		importStylesheetURI(stylepath+'/'+skin+'/Opera6Fixes.css');=0A=
+	} else if (is_opera_seven && !is_opera_95) {=0A=
+		importStylesheetURI(stylepath+'/'+skin+'/Opera7Fixes.css');=0A=
+	} else if (is_opera_95) {=0A=
+		importStylesheetURI(stylepath+'/'+skin+'/Opera9Fixes.css');=0A=
+	} else if (is_khtml) {=0A=
+		importStylesheetURI(stylepath+'/'+skin+'/KHTMLFixes.css');=0A=
+	} else if (is_ff2_) {=0A=
+		importStylesheetURI(stylepath+'/'+skin+'/FF2Fixes.css');=0A=
+	}=0A=
+}=0A=
+=0A=
+if (wgBreakFrames) {=0A=
+	// Un-trap us from framesets=0A=
+	if (window.top !=3D window) {=0A=
+		window.top.location =3D window.location;=0A=
+	}=0A=
+}=0A=
+=0A=
+function showTocToggle() {=0A=
+	if (document.createTextNode) {=0A=
+		// Uses DOM calls to avoid document.write + XHTML issues=0A=
+=0A=
+		var linkHolder =3D document.getElementById('toctitle');=0A=
+		if (!linkHolder) {=0A=
+			return;=0A=
+		}=0A=
+=0A=
+		var outerSpan =3D document.createElement('span');=0A=
+		outerSpan.className =3D 'toctoggle';=0A=
+=0A=
+		var toggleLink =3D document.createElement('a');=0A=
+		toggleLink.id =3D 'togglelink';=0A=
+		toggleLink.className =3D 'internal';=0A=
+		toggleLink.href =3D 'javascript:toggleToc()';=0A=
+		toggleLink.appendChild(document.createTextNode(tocHideText));=0A=
+=0A=
+		outerSpan.appendChild(document.createTextNode('['));=0A=
+		outerSpan.appendChild(toggleLink);=0A=
+		outerSpan.appendChild(document.createTextNode(']'));=0A=
+=0A=
+		linkHolder.appendChild(document.createTextNode(' '));=0A=
+		linkHolder.appendChild(outerSpan);=0A=
+=0A=
+		var cookiePos =3D document.cookie.indexOf("hidetoc=3D");=0A=
+		if (cookiePos > -1 && document.cookie.charAt(cookiePos + 8) =3D=3D 1) {=0A=
+			toggleToc();=0A=
+		}=0A=
+	}=0A=
+}=0A=
+=0A=
+function changeText(el, newText) {=0A=
+	// Safari work around=0A=
+	if (el.innerText) {=0A=
+		el.innerText =3D newText;=0A=
+	} else if (el.firstChild && el.firstChild.nodeValue) {=0A=
+		el.firstChild.nodeValue =3D newText;=0A=
+	}=0A=
+}=0A=
+=0A=
+function toggleToc() {=0A=
+	var toc =3D =
+document.getElementById('toc').getElementsByTagName('ul')[0];=0A=
+	var toggleLink =3D document.getElementById('togglelink');=0A=
+=0A=
+	if (toc && toggleLink && toc.style.display =3D=3D 'none') {=0A=
+		changeText(toggleLink, tocHideText);=0A=
+		toc.style.display =3D 'block';=0A=
+		document.cookie =3D "hidetoc=3D0";=0A=
+	} else {=0A=
+		changeText(toggleLink, tocShowText);=0A=
+		toc.style.display =3D 'none';=0A=
+		document.cookie =3D "hidetoc=3D1";=0A=
+	}=0A=
+}=0A=
+=0A=
+var mwEditButtons =3D [];=0A=
+var mwCustomEditButtons =3D []; // eg to add in MediaWiki:Common.js=0A=
+=0A=
+function escapeQuotes(text) {=0A=
+	var re =3D new RegExp("'","g");=0A=
+	text =3D text.replace(re,"\\'");=0A=
+	re =3D new RegExp("\\n","g");=0A=
+	text =3D text.replace(re,"\\n");=0A=
+	return escapeQuotesHTML(text);=0A=
+}=0A=
+=0A=
+function escapeQuotesHTML(text) {=0A=
+	var re =3D new RegExp('&',"g");=0A=
+	text =3D text.replace(re,"&amp;");=0A=
+	re =3D new RegExp('"',"g");=0A=
+	text =3D text.replace(re,"&quot;");=0A=
+	re =3D new RegExp('<',"g");=0A=
+	text =3D text.replace(re,"&lt;");=0A=
+	re =3D new RegExp('>',"g");=0A=
+	text =3D text.replace(re,"&gt;");=0A=
+	return text;=0A=
+}=0A=
+=0A=
+=0A=
+/**=0A=
+ * Set the accesskey prefix based on browser detection.=0A=
+ */=0A=
+var tooltipAccessKeyPrefix =3D 'alt-';=0A=
+if (is_opera) {=0A=
+	tooltipAccessKeyPrefix =3D 'shift-esc-';=0A=
+} else if (!is_safari_win && is_safari && webkit_version > 526) {=0A=
+	tooltipAccessKeyPrefix =3D 'ctrl-alt-';=0A=
+} else if (!is_safari_win && (is_safari=0A=
+		|| clientPC.indexOf('mac') !=3D -1=0A=
+		|| clientPC.indexOf('konqueror') !=3D -1 )) {=0A=
+	tooltipAccessKeyPrefix =3D 'ctrl-';=0A=
+} else if (is_ff2) {=0A=
+	tooltipAccessKeyPrefix =3D 'alt-shift-';=0A=
+}=0A=
+var tooltipAccessKeyRegexp =3D /\[(ctrl-)?(alt-)?(shift-)?(esc-)?(.)\]$/;=0A=
+=0A=
+/**=0A=
+ * Add the appropriate prefix to the accesskey shown in the tooltip.=0A=
+ * If the nodeList parameter is given, only those nodes are updated;=0A=
+ * otherwise, all the nodes that will probably have accesskeys by=0A=
+ * default are updated.=0A=
+ *=0A=
+ * @param Array nodeList -- list of elements to update=0A=
+ */=0A=
+function updateTooltipAccessKeys( nodeList ) {=0A=
+	if ( !nodeList ) {=0A=
+		// skins without a "column-one" element don't seem to have links with =
+accesskeys either=0A=
+		var columnOne =3D document.getElementById("column-one");=0A=
+		if ( columnOne )=0A=
+			updateTooltipAccessKeys( columnOne.getElementsByTagName("a") );=0A=
+		// these are rare enough that no such optimization is needed=0A=
+		updateTooltipAccessKeys( document.getElementsByTagName("input") );=0A=
+		updateTooltipAccessKeys( document.getElementsByTagName("label") );=0A=
+		return;=0A=
+	}=0A=
+=0A=
+	for ( var i =3D 0; i < nodeList.length; i++ ) {=0A=
+		var element =3D nodeList[i];=0A=
+		var tip =3D element.getAttribute("title");=0A=
+		if ( tip && tooltipAccessKeyRegexp.exec(tip) ) {=0A=
+			tip =3D tip.replace(tooltipAccessKeyRegexp,=0A=
+					  "["+tooltipAccessKeyPrefix+"$5]");=0A=
+			element.setAttribute("title", tip );=0A=
+		}=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+ * Add a link to one of the portlet menus on the page, including:=0A=
+ *=0A=
+ * p-cactions: Content actions (shown as tabs above the main content in =
+Monobook)=0A=
+ * p-personal: Personal tools (shown at the top right of the page in =
+Monobook)=0A=
+ * p-navigation: Navigation=0A=
+ * p-tb: Toolbox=0A=
+ *=0A=
+ * This function exists for the convenience of custom JS authors.  All=0A=
+ * but the first three parameters are optional, though providing at=0A=
+ * least an id and a tooltip is recommended.=0A=
+ *=0A=
+ * By default the new link will be added to the end of the list.  To=0A=
+ * add the link before a given existing item, pass the DOM node of=0A=
+ * that item (easily obtained with document.getElementById()) as the=0A=
+ * nextnode parameter; to add the link _after_ an existing item, pass=0A=
+ * the node's nextSibling instead.=0A=
+ *=0A=
+ * @param String portlet -- id of the target portlet ("p-cactions", =
+"p-personal", "p-navigation" or "p-tb")=0A=
+ * @param String href -- link URL=0A=
+ * @param String text -- link text (will be automatically lowercased by =
+CSS for p-cactions in Monobook)=0A=
+ * @param String id -- id of the new item, should be unique and =
+preferably have the appropriate prefix ("ca-", "pt-", "n-" or "t-")=0A=
+ * @param String tooltip -- text to show when hovering over the link, =
+without accesskey suffix=0A=
+ * @param String accesskey -- accesskey to activate this link (one =
+character, try to avoid conflicts)=0A=
+ * @param Node nextnode -- the DOM node before which the new item should =
+be added, should be another item in the same list=0A=
+ *=0A=
+ * @return Node -- the DOM node of the new item (an LI element) or null=0A=
+ */=0A=
+function addPortletLink(portlet, href, text, id, tooltip, accesskey, =
+nextnode) {=0A=
+	var node =3D document.getElementById(portlet);=0A=
+	if ( !node ) return null;=0A=
+	node =3D node.getElementsByTagName( "ul" )[0];=0A=
+	if ( !node ) return null;=0A=
+=0A=
+	var link =3D document.createElement( "a" );=0A=
+	link.appendChild( document.createTextNode( text ) );=0A=
+	link.href =3D href;=0A=
+=0A=
+	var item =3D document.createElement( "li" );=0A=
+	item.appendChild( link );=0A=
+	if ( id ) item.id =3D id;=0A=
+=0A=
+	if ( accesskey ) {=0A=
+		link.setAttribute( "accesskey", accesskey );=0A=
+		tooltip +=3D " ["+accesskey+"]";=0A=
+	}=0A=
+	if ( tooltip ) {=0A=
+		link.setAttribute( "title", tooltip );=0A=
+	}=0A=
+	if ( accesskey && tooltip ) {=0A=
+		updateTooltipAccessKeys( new Array( link ) );=0A=
+	}=0A=
+=0A=
+	if ( nextnode && nextnode.parentNode =3D=3D node )=0A=
+		node.insertBefore( item, nextnode );=0A=
+	else=0A=
+		node.appendChild( item );  // IE compatibility (?)=0A=
+=0A=
+	return item;=0A=
+}=0A=
+=0A=
+function getInnerText(el) {=0A=
+	if (typeof el =3D=3D "string") return el;=0A=
+	if (typeof el =3D=3D "undefined") { return el };=0A=
+	if (el.textContent) return el.textContent; // not needed but it is =
+faster=0A=
+	if (el.innerText) return el.innerText;     // IE doesn't have =
+textContent=0A=
+	var str =3D "";=0A=
+=0A=
+	var cs =3D el.childNodes;=0A=
+	var l =3D cs.length;=0A=
+	for (var i =3D 0; i < l; i++) {=0A=
+		switch (cs[i].nodeType) {=0A=
+			case 1: //ELEMENT_NODE=0A=
+				str +=3D ts_getInnerText(cs[i]);=0A=
+				break;=0A=
+			case 3:	//TEXT_NODE=0A=
+				str +=3D cs[i].nodeValue;=0A=
+				break;=0A=
+		}=0A=
+	}=0A=
+	return str;=0A=
+}=0A=
+=0A=
+=0A=
+/**=0A=
+ * Set up accesskeys/tooltips from the deprecated ta array.  If doId=0A=
+ * is specified, only set up for that id.  Note that this function is=0A=
+ * deprecated and will not be supported indefinitely -- use=0A=
+ * updateTooltipAccessKey() instead.=0A=
+ *=0A=
+ * @param mixed doId string or null=0A=
+ */=0A=
+function akeytt( doId ) {=0A=
+	// A lot of user scripts (and some of the code below) break if=0A=
+	// ta isn't defined, so we make sure it is.  Explictly using=0A=
+	// window.ta avoids a "ta is not defined" error.=0A=
+	if (!window.ta) window.ta =3D new Array;=0A=
+=0A=
+	// Make a local, possibly restricted, copy to avoid clobbering=0A=
+	// the original.=0A=
+	var ta;=0A=
+	if ( doId ) {=0A=
+		ta =3D [doId];=0A=
+	} else {=0A=
+		ta =3D window.ta;=0A=
+	}=0A=
+=0A=
+	// Now deal with evil deprecated ta=0A=
+	var watchCheckboxExists =3D document.getElementById( 'wpWatchthis' ) ? =
+true : false;=0A=
+	for (var id in ta) {=0A=
+		var n =3D document.getElementById(id);=0A=
+		if (n) {=0A=
+			var a =3D null;=0A=
+			var ak =3D '';=0A=
+			// Are we putting accesskey in it=0A=
+			if (ta[id][0].length > 0) {=0A=
+				// Is this object a object? If not assume it's the next child.=0A=
+=0A=
+				if (n.nodeName.toLowerCase() =3D=3D "a") {=0A=
+					a =3D n;=0A=
+				} else {=0A=
+					a =3D n.childNodes[0];=0A=
+				}=0A=
+			 	// Don't add an accesskey for the watch tab if the watch=0A=
+			 	// checkbox is also available.=0A=
+				if (a && ((id !=3D 'ca-watch' && id !=3D 'ca-unwatch') || =
+!watchCheckboxExists)) {=0A=
+					a.accessKey =3D ta[id][0];=0A=
+					ak =3D ' ['+tooltipAccessKeyPrefix+ta[id][0]+']';=0A=
+				}=0A=
+			} else {=0A=
+				// We don't care what type the object is when assigning tooltip=0A=
+				a =3D n;=0A=
+				ak =3D '';=0A=
+			}=0A=
+=0A=
+			if (a) {=0A=
+				a.title =3D ta[id][1]+ak;=0A=
+			}=0A=
+		}=0A=
+	}=0A=
+}=0A=
+=0A=
+var checkboxes;=0A=
+var lastCheckbox;=0A=
+=0A=
+function setupCheckboxShiftClick() {=0A=
+	checkboxes =3D [];=0A=
+	lastCheckbox =3D null;=0A=
+	var inputs =3D document.getElementsByTagName('input');=0A=
+	addCheckboxClickHandlers(inputs);=0A=
+}=0A=
+=0A=
+function addCheckboxClickHandlers(inputs, start) {=0A=
+	if ( !start) start =3D 0;=0A=
+=0A=
+	var finish =3D start + 250;=0A=
+	if ( finish > inputs.length )=0A=
+		finish =3D inputs.length;=0A=
+=0A=
+	for ( var i =3D start; i < finish; i++ ) {=0A=
+		var cb =3D inputs[i];=0A=
+		if ( !cb.type || cb.type.toLowerCase() !=3D 'checkbox' )=0A=
+			continue;=0A=
+		var end =3D checkboxes.length;=0A=
+		checkboxes[end] =3D cb;=0A=
+		cb.index =3D end;=0A=
+		cb.onclick =3D checkboxClickHandler;=0A=
+	}=0A=
+=0A=
+	if ( finish < inputs.length ) {=0A=
+		setTimeout( function () {=0A=
+			addCheckboxClickHandlers(inputs, finish);=0A=
+		}, 200 );=0A=
+	}=0A=
+}=0A=
+=0A=
+function checkboxClickHandler(e) {=0A=
+	if (typeof e =3D=3D 'undefined') {=0A=
+		e =3D window.event;=0A=
+	}=0A=
+	if ( !e.shiftKey || lastCheckbox =3D=3D=3D null ) {=0A=
+		lastCheckbox =3D this.index;=0A=
+		return true;=0A=
+	}=0A=
+	var endState =3D this.checked;=0A=
+	var start, finish;=0A=
+	if ( this.index < lastCheckbox ) {=0A=
+		start =3D this.index + 1;=0A=
+		finish =3D lastCheckbox;=0A=
+	} else {=0A=
+		start =3D lastCheckbox;=0A=
+		finish =3D this.index - 1;=0A=
+	}=0A=
+	for (var i =3D start; i <=3D finish; ++i ) {=0A=
+		checkboxes[i].checked =3D endState;=0A=
+	}=0A=
+	lastCheckbox =3D this.index;=0A=
+	return true;=0A=
+}=0A=
+=0A=
+function toggle_element_activation(ida,idb) {=0A=
+	if (!document.getElementById) {=0A=
+		return;=0A=
+	}=0A=
+	document.getElementById(ida).disabled=3Dtrue;=0A=
+	document.getElementById(idb).disabled=3Dfalse;=0A=
+}=0A=
+=0A=
+function toggle_element_check(ida,idb) {=0A=
+	if (!document.getElementById) {=0A=
+		return;=0A=
+	}=0A=
+	document.getElementById(ida).checked=3Dtrue;=0A=
+	document.getElementById(idb).checked=3Dfalse;=0A=
+}=0A=
+=0A=
+/*=0A=
+	Written by Jonathan Snook, http://www.snook.ca/jonathan=0A=
+	Add-ons by Robert Nyman, http://www.robertnyman.com=0A=
+	Author says "The credit comment is all it takes, no license. Go crazy =
+with it!:-)"=0A=
+	From =
+http://www.robertnyman.com/2005/11/07/the-ultimate-getelementsbyclassname=
+/=0A=
+*/=0A=
+function getElementsByClassName(oElm, strTagName, oClassNames){=0A=
+	var arrReturnElements =3D new Array();=0A=
+	if ( typeof( oElm.getElementsByClassName ) =3D=3D "function" ) {=0A=
+		/* Use a native implementation where possible FF3, Saf3.2, Opera 9.5 */=0A=
+		var arrNativeReturn =3D oElm.getElementsByClassName( oClassNames );=0A=
+		if ( strTagName =3D=3D "*" )=0A=
+			return arrNativeReturn;=0A=
+		for ( var h=3D0; h < arrNativeReturn.length; h++ ) {=0A=
+			if( arrNativeReturn[h].tagName.toLowerCase() =3D=3D =
+strTagName.toLowerCase() )=0A=
+				arrReturnElements[arrReturnElements.length] =3D arrNativeReturn[h];=0A=
+		}=0A=
+		return arrReturnElements;=0A=
+	}=0A=
+	var arrElements =3D (strTagName =3D=3D "*" && oElm.all)? oElm.all : =
+oElm.getElementsByTagName(strTagName);=0A=
+	var arrRegExpClassNames =3D new Array();=0A=
+	if(typeof oClassNames =3D=3D "object"){=0A=
+		for(var i=3D0; i<oClassNames.length; i++){=0A=
+			arrRegExpClassNames[arrRegExpClassNames.length] =3D=0A=
+				new RegExp("(^|\\s)" + oClassNames[i].replace(/\-/g, "\\-") + =
+"(\\s|$)");=0A=
+		}=0A=
+	}=0A=
+	else{=0A=
+		arrRegExpClassNames[arrRegExpClassNames.length] =3D=0A=
+			new RegExp("(^|\\s)" + oClassNames.replace(/\-/g, "\\-") + "(\\s|$)");=0A=
+	}=0A=
+	var oElement;=0A=
+	var bMatchesAll;=0A=
+	for(var j=3D0; j<arrElements.length; j++){=0A=
+		oElement =3D arrElements[j];=0A=
+		bMatchesAll =3D true;=0A=
+		for(var k=3D0; k<arrRegExpClassNames.length; k++){=0A=
+			if(!arrRegExpClassNames[k].test(oElement.className)){=0A=
+				bMatchesAll =3D false;=0A=
+				break;=0A=
+			}=0A=
+		}=0A=
+		if(bMatchesAll){=0A=
+			arrReturnElements[arrReturnElements.length] =3D oElement;=0A=
+		}=0A=
+	}=0A=
+	return (arrReturnElements)=0A=
+}=0A=
+=0A=
+function redirectToFragment(fragment) {=0A=
+	var match =3D navigator.userAgent.match(/AppleWebKit\/(\d+)/);=0A=
+	if (match) {=0A=
+		var webKitVersion =3D parseInt(match[1]);=0A=
+		if (webKitVersion < 420) {=0A=
+			// Released Safari w/ WebKit 418.9.1 messes up horribly=0A=
+			// Nightlies of 420+ are ok=0A=
+			return;=0A=
+		}=0A=
+	}=0A=
+	if (is_gecko) {=0A=
+		// Mozilla needs to wait until after load, otherwise the window =
+doesn't scroll=0A=
+		addOnloadHook(function () {=0A=
+			if (window.location.hash =3D=3D "")=0A=
+				window.location.hash =3D fragment;=0A=
+		});=0A=
+	} else {=0A=
+		if (window.location.hash =3D=3D "")=0A=
+			window.location.hash =3D fragment;=0A=
+	}=0A=
+}=0A=
+=0A=
+/*=0A=
+ * Table sorting script based on one (c) 1997-2006 Stuart Langridge and =
+Joost=0A=
+ * de Valk:=0A=
+ * http://www.joostdevalk.nl/code/sortable-table/=0A=
+ * http://www.kryogenix.org/code/browser/sorttable/=0A=
+ *=0A=
+ * @todo don't break on colspans/rowspans (bug 8028)=0A=
+ * @todo language-specific digit grouping/decimals (bug 8063)=0A=
+ * @todo support all accepted date formats (bug 8226)=0A=
+ */=0A=
+=0A=
+var ts_image_path =3D stylepath+"/common/images/";=0A=
+var ts_image_up =3D "sort_up.gif";=0A=
+var ts_image_down =3D "sort_down.gif";=0A=
+var ts_image_none =3D "sort_none.gif";=0A=
+var ts_europeandate =3D wgContentLanguage !=3D "en"; // The =
+non-American-inclined can change to "true"=0A=
+var ts_alternate_row_colors =3D false;=0A=
+var ts_number_transform_table =3D null;=0A=
+var ts_number_regex =3D null;=0A=
+=0A=
+function sortables_init() {=0A=
+	var idnum =3D 0;=0A=
+	// Find all tables with class sortable and make them sortable=0A=
+	var tables =3D getElementsByClassName(document, "table", "sortable");=0A=
+	for (var ti =3D 0; ti < tables.length ; ti++) {=0A=
+		if (!tables[ti].id) {=0A=
+			tables[ti].setAttribute('id','sortable_table_id_'+idnum);=0A=
+			++idnum;=0A=
+		}=0A=
+		ts_makeSortable(tables[ti]);=0A=
+	}=0A=
+}=0A=
+=0A=
+function ts_makeSortable(table) {=0A=
+	var firstRow;=0A=
+	if (table.rows && table.rows.length > 0) {=0A=
+		if (table.tHead && table.tHead.rows.length > 0) {=0A=
+			firstRow =3D table.tHead.rows[table.tHead.rows.length-1];=0A=
+		} else {=0A=
+			firstRow =3D table.rows[0];=0A=
+		}=0A=
+	}=0A=
+	if (!firstRow) return;=0A=
+=0A=
+	// We have a first row: assume it's the header, and make its contents =
+clickable links=0A=
+	for (var i =3D 0; i < firstRow.cells.length; i++) {=0A=
+		var cell =3D firstRow.cells[i];=0A=
+		if ((" "+cell.className+" ").indexOf(" unsortable ") =3D=3D -1) {=0A=
+			cell.innerHTML +=3D '&nbsp;&nbsp;'=0A=
+				+ '<a href=3D"#" class=3D"sortheader" '=0A=
+				+ 'onclick=3D"ts_resortTable(this);return false;">'=0A=
+				+ '<span class=3D"sortarrow">'=0A=
+				+ '<img src=3D"'=0A=
+				+ ts_image_path=0A=
+				+ ts_image_none=0A=
+				+ '" alt=3D"&darr;"/></span></a>';=0A=
+		}=0A=
+	}=0A=
+	if (ts_alternate_row_colors) {=0A=
+		ts_alternate(table);=0A=
+	}=0A=
+}=0A=
+=0A=
+function ts_getInnerText(el) {=0A=
+	return getInnerText( el );=0A=
+}=0A=
+=0A=
+function ts_resortTable(lnk) {=0A=
+	// get the span=0A=
+	var span =3D lnk.getElementsByTagName('span')[0];=0A=
+=0A=
+	var td =3D lnk.parentNode;=0A=
+	var tr =3D td.parentNode;=0A=
+	var column =3D td.cellIndex;=0A=
+=0A=
+	var table =3D tr.parentNode;=0A=
+	while (table && !(table.tagName && table.tagName.toLowerCase() =3D=3D =
+'table'))=0A=
+		table =3D table.parentNode;=0A=
+	if (!table) return;=0A=
+=0A=
+	if (table.rows.length <=3D 1) return;=0A=
+=0A=
+	// Generate the number transform table if it's not done already=0A=
+	if (ts_number_transform_table =3D=3D null) {=0A=
+		ts_initTransformTable();=0A=
+	}=0A=
+=0A=
+	// Work out a type for the column=0A=
+	// Skip the first row if that's where the headings are=0A=
+	var rowStart =3D (table.tHead && table.tHead.rows.length > 0 ? 0 : 1);=0A=
+=0A=
+	var itm =3D "";=0A=
+	for (var i =3D rowStart; i < table.rows.length; i++) {=0A=
+		if (table.rows[i].cells.length > column) {=0A=
+			itm =3D ts_getInnerText(table.rows[i].cells[column]);=0A=
+			itm =3D itm.replace(/^[\s\xa0]+/, "").replace(/[\s\xa0]+$/, "");=0A=
+			if (itm !=3D "") break;=0A=
+		}=0A=
+	}=0A=
+=0A=
+	// TODO: bug 8226, localised date formats=0A=
+	var sortfn =3D ts_sort_generic;=0A=
+	var preprocessor =3D ts_toLowerCase;=0A=
+	if (/^\d\d[\/. -][a-zA-Z]{3}[\/. -]\d\d\d\d$/.test(itm)) {=0A=
+		preprocessor =3D ts_dateToSortKey;=0A=
+	} else if (/^\d\d[\/.-]\d\d[\/.-]\d\d\d\d$/.test(itm)) {=0A=
+		preprocessor =3D ts_dateToSortKey;=0A=
+	} else if (/^\d\d[\/.-]\d\d[\/.-]\d\d$/.test(itm)) {=0A=
+		preprocessor =3D ts_dateToSortKey;=0A=
+	// pound dollar euro yen currency cents=0A=
+	} else if (/(^[\u00a3$\u20ac\u00a4\u00a5]|\u00a2$)/.test(itm)) {=0A=
+		preprocessor =3D ts_currencyToSortKey;=0A=
+	} else if (ts_number_regex.test(itm)) {=0A=
+		preprocessor =3D ts_parseFloat;=0A=
+	}=0A=
+=0A=
+	var reverse =3D (span.getAttribute("sortdir") =3D=3D 'down');=0A=
+=0A=
+	var newRows =3D new Array();=0A=
+	var staticRows =3D new Array();=0A=
+	for (var j =3D rowStart; j < table.rows.length; j++) {=0A=
+		var row =3D table.rows[j];=0A=
+		if((" "+row.className+" ").indexOf(" unsortable ") < 0) {=0A=
+			var keyText =3D ts_getInnerText(row.cells[column]);=0A=
+			var oldIndex =3D (reverse ? -j : j);=0A=
+			var preprocessed =3D preprocessor( keyText );=0A=
+=0A=
+			newRows[newRows.length] =3D new Array(row, preprocessed, oldIndex);=0A=
+		} else staticRows[staticRows.length] =3D new Array(row, false, =
+j-rowStart);=0A=
+	}=0A=
+=0A=
+	newRows.sort(sortfn);=0A=
+=0A=
+	var arrowHTML;=0A=
+	if (reverse) {=0A=
+		arrowHTML =3D '<img src=3D"'+ ts_image_path + ts_image_down + '" =
+alt=3D"&darr;"/>';=0A=
+		newRows.reverse();=0A=
+		span.setAttribute('sortdir','up');=0A=
+	} else {=0A=
+		arrowHTML =3D '<img src=3D"'+ ts_image_path + ts_image_up + '" =
+alt=3D"&uarr;"/>';=0A=
+		span.setAttribute('sortdir','down');=0A=
+	}=0A=
+=0A=
+	for (var i =3D 0; i < staticRows.length; i++) {=0A=
+		var row =3D staticRows[i];=0A=
+		newRows.splice(row[2], 0, row);=0A=
+	}=0A=
+=0A=
+	// We appendChild rows that already exist to the tbody, so it moves =
+them rather than creating new ones=0A=
+	// don't do sortbottom rows=0A=
+	for (var i =3D 0; i < newRows.length; i++) {=0A=
+		if ((" "+newRows[i][0].className+" ").indexOf(" sortbottom ") =3D=3D =
+-1)=0A=
+			table.tBodies[0].appendChild(newRows[i][0]);=0A=
+	}=0A=
+	// do sortbottom rows only=0A=
+	for (var i =3D 0; i < newRows.length; i++) {=0A=
+		if ((" "+newRows[i][0].className+" ").indexOf(" sortbottom ") !=3D -1)=0A=
+			table.tBodies[0].appendChild(newRows[i][0]);=0A=
+	}=0A=
+=0A=
+	// Delete any other arrows there may be showing=0A=
+	var spans =3D getElementsByClassName(tr, "span", "sortarrow");=0A=
+	for (var i =3D 0; i < spans.length; i++) {=0A=
+		spans[i].innerHTML =3D '<img src=3D"'+ ts_image_path + ts_image_none + =
+'" alt=3D"&darr;"/>';=0A=
+	}=0A=
+	span.innerHTML =3D arrowHTML;=0A=
+=0A=
+	if (ts_alternate_row_colors) {=0A=
+		ts_alternate(table);=0A=
+	}=0A=
+}=0A=
+=0A=
+function ts_initTransformTable() {=0A=
+	if ( typeof wgSeparatorTransformTable =3D=3D "undefined"=0A=
+			|| ( wgSeparatorTransformTable[0] =3D=3D '' && =
+wgDigitTransformTable[2] =3D=3D '' ) )=0A=
+	{=0A=
+		digitClass =3D "[0-9,.]";=0A=
+		ts_number_transform_table =3D false;=0A=
+	} else {=0A=
+		ts_number_transform_table =3D {};=0A=
+		// Unpack the transform table=0A=
+		// Separators=0A=
+		ascii =3D wgSeparatorTransformTable[0].split("\t");=0A=
+		localised =3D wgSeparatorTransformTable[1].split("\t");=0A=
+		for ( var i =3D 0; i < ascii.length; i++ ) { =0A=
+			ts_number_transform_table[localised[i]] =3D ascii[i];=0A=
+		}=0A=
+		// Digits=0A=
+		ascii =3D wgDigitTransformTable[0].split("\t");=0A=
+		localised =3D wgDigitTransformTable[1].split("\t");=0A=
+		for ( var i =3D 0; i < ascii.length; i++ ) { =0A=
+			ts_number_transform_table[localised[i]] =3D ascii[i];=0A=
+		}=0A=
+=0A=
+		// Construct regex for number identification=0A=
+		digits =3D ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ',', =
+'\\.'];=0A=
+		maxDigitLength =3D 1;=0A=
+		for ( var digit in ts_number_transform_table ) {=0A=
+			// Escape regex metacharacters=0A=
+			digits.push( =0A=
+				digit.replace( /[\\\\$\*\+\?\.\(\)\|\{\}\[\]\-]/,=0A=
+					function( s ) { return '\\' + s; } )=0A=
+			);=0A=
+			if (digit.length > maxDigitLength) {=0A=
+				maxDigitLength =3D digit.length;=0A=
+			}=0A=
+		}=0A=
+		if ( maxDigitLength > 1 ) {=0A=
+			digitClass =3D '[' + digits.join( '', digits ) + ']';=0A=
+		} else {=0A=
+			digitClass =3D '(' + digits.join( '|', digits ) + ')';=0A=
+		}=0A=
+	}=0A=
+=0A=
+	// We allow a trailing percent sign, which we just strip.  This works =
+fine=0A=
+	// if percents and regular numbers aren't being mixed.=0A=
+	ts_number_regex =3D new RegExp(=0A=
+		"^(" +=0A=
+			"[+-]?[0-9][0-9,]*(\\.[0-9,]*)?(E[+-]?[0-9][0-9,]*)?" + // =
+Fortran-style scientific=0A=
+			"|" +=0A=
+			"[+-]?" + digitClass + "+%?" + // Generic localised=0A=
+		")$", "i"=0A=
+	);=0A=
+}=0A=
+=0A=
+function ts_toLowerCase( s ) {=0A=
+	return s.toLowerCase();=0A=
+}=0A=
+=0A=
+function ts_dateToSortKey(date) {	=0A=
+	// y2k notes: two digit years less than 50 are treated as 20XX, greater =
+than 50 are treated as 19XX=0A=
+	if (date.length =3D=3D 11) {=0A=
+		switch (date.substr(3,3).toLowerCase()) {=0A=
+			case "jan": var month =3D "01"; break;=0A=
+			case "feb": var month =3D "02"; break;=0A=
+			case "mar": var month =3D "03"; break;=0A=
+			case "apr": var month =3D "04"; break;=0A=
+			case "may": var month =3D "05"; break;=0A=
+			case "jun": var month =3D "06"; break;=0A=
+			case "jul": var month =3D "07"; break;=0A=
+			case "aug": var month =3D "08"; break;=0A=
+			case "sep": var month =3D "09"; break;=0A=
+			case "oct": var month =3D "10"; break;=0A=
+			case "nov": var month =3D "11"; break;=0A=
+			case "dec": var month =3D "12"; break;=0A=
+			// default: var month =3D "00";=0A=
+		}=0A=
+		return date.substr(7,4)+month+date.substr(0,2);=0A=
+	} else if (date.length =3D=3D 10) {=0A=
+		if (ts_europeandate =3D=3D false) {=0A=
+			return date.substr(6,4)+date.substr(0,2)+date.substr(3,2);=0A=
+		} else {=0A=
+			return date.substr(6,4)+date.substr(3,2)+date.substr(0,2);=0A=
+		}=0A=
+	} else if (date.length =3D=3D 8) {=0A=
+		yr =3D date.substr(6,2);=0A=
+		if (parseInt(yr) < 50) { =0A=
+			yr =3D '20'+yr; =0A=
+		} else { =0A=
+			yr =3D '19'+yr; =0A=
+		}=0A=
+		if (ts_europeandate =3D=3D true) {=0A=
+			return yr+date.substr(3,2)+date.substr(0,2);=0A=
+		} else {=0A=
+			return yr+date.substr(0,2)+date.substr(3,2);=0A=
+		}=0A=
+	}=0A=
+	return "00000000";=0A=
+}=0A=
+=0A=
+function ts_parseFloat( s ) {=0A=
+	if ( !s ) {=0A=
+		return 0;=0A=
+	}=0A=
+	if (ts_number_transform_table !=3D false) {=0A=
+		var newNum =3D '', c;=0A=
+		=0A=
+		for ( var p =3D 0; p < s.length; p++ ) {=0A=
+			c =3D s.charAt( p );=0A=
+			if (c in ts_number_transform_table) {=0A=
+				newNum +=3D ts_number_transform_table[c];=0A=
+			} else {=0A=
+				newNum +=3D c;=0A=
+			}=0A=
+		}=0A=
+		s =3D newNum;=0A=
+	}=0A=
+=0A=
+	num =3D parseFloat(s.replace(/,/g, ""));=0A=
+	return (isNaN(num) ? 0 : num);=0A=
+}=0A=
+=0A=
+function ts_currencyToSortKey( s ) {=0A=
+	return ts_parseFloat(s.replace(/[^0-9.,]/g,''));=0A=
+}=0A=
+=0A=
+function ts_sort_generic(a, b) {=0A=
+	return a[1] < b[1] ? -1 : a[1] > b[1] ? 1 : a[2] - b[2];=0A=
+}=0A=
+=0A=
+function ts_alternate(table) {=0A=
+	// Take object table and get all it's tbodies.=0A=
+	var tableBodies =3D table.getElementsByTagName("tbody");=0A=
+	// Loop through these tbodies=0A=
+	for (var i =3D 0; i < tableBodies.length; i++) {=0A=
+		// Take the tbody, and get all it's rows=0A=
+		var tableRows =3D tableBodies[i].getElementsByTagName("tr");=0A=
+		// Loop through these rows=0A=
+		// Start at 1 because we want to leave the heading row untouched=0A=
+		for (var j =3D 0; j < tableRows.length; j++) {=0A=
+			// Check if j is even, and apply classes for both possible results=0A=
+			var oldClasses =3D tableRows[j].className.split(" ");=0A=
+			var newClassName =3D "";=0A=
+			for (var k =3D 0; k < oldClasses.length; k++) {=0A=
+				if (oldClasses[k] !=3D "" && oldClasses[k] !=3D "even" && =
+oldClasses[k] !=3D "odd")=0A=
+					newClassName +=3D oldClasses[k] + " ";=0A=
+			}=0A=
+			tableRows[j].className =3D newClassName + (j % 2 =3D=3D 0 ? "even" : =
+"odd");=0A=
+		}=0A=
+	}=0A=
+}=0A=
+=0A=
+/*=0A=
+ * End of table sorting code=0A=
+ */=0A=
+ =0A=
+ =0A=
+/**=0A=
+ * Add a cute little box at the top of the screen to inform the user of=0A=
+ * something, replacing any preexisting message.=0A=
+ *=0A=
+ * @param String -or- Dom Object message HTML to be put inside the right =
+div=0A=
+ * @param String className   Used in adding a class; should be different =
+for each=0A=
+ *   call to allow CSS/JS to hide different boxes.  null =3D no class =
+used.=0A=
+ * @return Boolean       True on success, false on failure=0A=
+ */=0A=
+function jsMsg( message, className ) {=0A=
+	if ( !document.getElementById ) {=0A=
+		return false;=0A=
+	}=0A=
+	// We special-case skin structures provided by the software.  Skins that=0A=
+	// choose to abandon or significantly modify our formatting can just =
+define=0A=
+	// an mw-js-message div to start with.=0A=
+	var messageDiv =3D document.getElementById( 'mw-js-message' );=0A=
+	if ( !messageDiv ) {=0A=
+		messageDiv =3D document.createElement( 'div' );=0A=
+		if ( document.getElementById( 'column-content' )=0A=
+		&& document.getElementById( 'content' ) ) {=0A=
+			// MonoBook, presumably=0A=
+			document.getElementById( 'content' ).insertBefore(=0A=
+				messageDiv,=0A=
+				document.getElementById( 'content' ).firstChild=0A=
+			);=0A=
+		} else if ( document.getElementById('content')=0A=
+		&& document.getElementById( 'article' ) ) {=0A=
+			// Non-Monobook but still recognizable (old-style)=0A=
+			document.getElementById( 'article').insertBefore(=0A=
+				messageDiv,=0A=
+				document.getElementById( 'article' ).firstChild=0A=
+			);=0A=
+		} else {=0A=
+			return false;=0A=
+		}=0A=
+	}=0A=
+=0A=
+	messageDiv.setAttribute( 'id', 'mw-js-message' );=0A=
+	messageDiv.style.display =3D 'block';=0A=
+	if( className ) {=0A=
+		messageDiv.setAttribute( 'class', 'mw-js-message-'+className );=0A=
+	}=0A=
+	=0A=
+	if (typeof message =3D=3D=3D 'object') {=0A=
+		while (messageDiv.hasChildNodes()) // Remove old content=0A=
+			messageDiv.removeChild(messageDiv.firstChild);=0A=
+		messageDiv.appendChild (message); // Append new content=0A=
+	}=0A=
+	else {=0A=
+		messageDiv.innerHTML =3D message;=0A=
+	}=0A=
+	return true;=0A=
+}=0A=
+=0A=
+/**=0A=
+ * Inject a cute little progress spinner after the specified element=0A=
+ *=0A=
+ * @param element Element to inject after=0A=
+ * @param id Identifier string (for use with removeSpinner(), below)=0A=
+ */=0A=
+function injectSpinner( element, id ) {=0A=
+	var spinner =3D document.createElement( "img" );=0A=
+	spinner.id =3D "mw-spinner-" + id;=0A=
+	spinner.src =3D stylepath + "/common/images/spinner.gif";=0A=
+	spinner.alt =3D spinner.title =3D "...";=0A=
+	if( element.nextSibling ) {=0A=
+		element.parentNode.insertBefore( spinner, element.nextSibling );=0A=
+	} else {=0A=
+		element.parentNode.appendChild( spinner );=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+ * Remove a progress spinner added with injectSpinner()=0A=
+ *=0A=
+ * @param id Identifier string=0A=
+ */=0A=
+function removeSpinner( id ) {=0A=
+	var spinner =3D document.getElementById( "mw-spinner-" + id );=0A=
+	if( spinner ) {=0A=
+		spinner.parentNode.removeChild( spinner );=0A=
+	}=0A=
+}=0A=
+=0A=
+function runOnloadHook() {=0A=
+	// don't run anything below this for non-dom browsers=0A=
+	if (doneOnloadHook || !(document.getElementById && =
+document.getElementsByTagName)) {=0A=
+		return;=0A=
+	}=0A=
+=0A=
+	// set this before running any hooks, since any errors below=0A=
+	// might cause the function to terminate prematurely=0A=
+	doneOnloadHook =3D true;=0A=
+=0A=
+	updateTooltipAccessKeys( null );=0A=
+	akeytt( null );=0A=
+	setupCheckboxShiftClick();=0A=
+	sortables_init();=0A=
+=0A=
+	// Run any added-on functions=0A=
+	for (var i =3D 0; i < onloadFuncts.length; i++) {=0A=
+		onloadFuncts[i]();=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+ * Add an event handler to an element=0A=
+ *=0A=
+ * @param Element element Element to add handler to=0A=
+ * @param String attach Event to attach to=0A=
+ * @param callable handler Event handler callback=0A=
+ */=0A=
+function addHandler( element, attach, handler ) {=0A=
+	if( window.addEventListener ) {=0A=
+		element.addEventListener( attach, handler, false );=0A=
+	} else if( window.attachEvent ) {=0A=
+		element.attachEvent( 'on' + attach, handler );=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+ * Add a click event handler to an element=0A=
+ *=0A=
+ * @param Element element Element to add handler to=0A=
+ * @param callable handler Event handler callback=0A=
+ */=0A=
+function addClickHandler( element, handler ) {=0A=
+	addHandler( element, 'click', handler );=0A=
+}=0A=
+=0A=
+/**=0A=
+ * Removes an event handler from an element=0A=
+ *=0A=
+ * @param Element element Element to remove handler from=0A=
+ * @param String remove Event to remove=0A=
+ * @param callable handler Event handler callback to remove=0A=
+ */=0A=
+function removeHandler( element, remove, handler ) {=0A=
+	if( window.removeEventListener ) {=0A=
+		element.removeEventListener( remove, handler, false );=0A=
+	} else if( window.detachEvent ) {=0A=
+		element.detachEvent( 'on' + remove, handler );=0A=
+	}=0A=
+}=0A=
+//note: all skins should call runOnloadHook() at the end of html output,=0A=
+//      so the below should be redundant. It's there just in case.=0A=
+hookEvent("load", runOnloadHook);=0A=
+
+------=_NextPart_000_0000_01CBD903.D3815970
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://shrubbery.mynetgear.net/w/skins/common/ajax.js?207
+
+// remote scripting library=0A=
+// (c) copyright 2005 modernmethod, inc=0A=
+var sajax_debug_mode =3D false;=0A=
+var sajax_request_type =3D "GET";=0A=
+=0A=
+/**=0A=
+* if sajax_debug_mode is true, this function outputs given the message =
+into =0A=
+* the element with id =3D sajax_debug; if no such element exists in the =
+document, =0A=
+* it is injected.=0A=
+*/=0A=
+function sajax_debug(text) {=0A=
+	if (!sajax_debug_mode) return false;=0A=
+=0A=
+	var e=3D document.getElementById('sajax_debug');=0A=
+=0A=
+	if (!e) {=0A=
+		e=3D document.createElement("p");=0A=
+		e.className=3D 'sajax_debug';=0A=
+		e.id=3D 'sajax_debug';=0A=
+=0A=
+		var b=3D document.getElementsByTagName("body")[0];=0A=
+=0A=
+		if (b.firstChild) b.insertBefore(e, b.firstChild);=0A=
+		else b.appendChild(e);=0A=
+	}=0A=
+=0A=
+	var m=3D document.createElement("div");=0A=
+	m.appendChild( document.createTextNode( text ) );=0A=
+=0A=
+	e.appendChild( m );=0A=
+=0A=
+	return true;=0A=
+}=0A=
+=0A=
+/**=0A=
+* compatibility wrapper for creating a new XMLHttpRequest object.=0A=
+*/=0A=
+function sajax_init_object() {=0A=
+	sajax_debug("sajax_init_object() called..")=0A=
+	var A;=0A=
+	try {=0A=
+		// Try the new style before ActiveX so we don't=0A=
+		// unnecessarily trigger warnings in IE 7 when=0A=
+		// set to prompt about ActiveX usage=0A=
+		A =3D new XMLHttpRequest();=0A=
+	} catch (e) {=0A=
+		try {=0A=
+			A=3Dnew ActiveXObject("Msxml2.XMLHTTP");=0A=
+		} catch (e) {=0A=
+			try {=0A=
+				A=3Dnew ActiveXObject("Microsoft.XMLHTTP");=0A=
+			} catch (oc) {=0A=
+				A=3Dnull;=0A=
+			}=0A=
+		}=0A=
+	}=0A=
+	if (!A)=0A=
+		sajax_debug("Could not create connection object.");=0A=
+=0A=
+	return A;=0A=
+}=0A=
+=0A=
+/**=0A=
+* Perform an ajax call to mediawiki. Calls are handeled by =
+AjaxDispatcher.php=0A=
+*   func_name - the name of the function to call. Must be registered in =
+$wgAjaxExportList=0A=
+*   args - an array of arguments to that function=0A=
+*   target - the target that will handle the result of the call. If this =
+is a function,=0A=
+*            if will be called with the XMLHttpRequest as a parameter; =
+if it's an input=0A=
+*            element, its value will be set to the resultText; if it's =
+another type of=0A=
+*            element, its innerHTML will be set to the resultText.=0A=
+*=0A=
+* Example:=0A=
+*    sajax_do_call('doFoo', [1, 2, 3], =
+document.getElementById("showFoo"));=0A=
+*=0A=
+* This will call the doFoo function via MediaWiki's AjaxDispatcher, with=0A=
+* (1, 2, 3) as the parameter list, and will show the result in the =
+element=0A=
+* with id =3D showFoo=0A=
+*/=0A=
+function sajax_do_call(func_name, args, target) {=0A=
+	var i, x, n;=0A=
+	var uri;=0A=
+	var post_data;=0A=
+	uri =3D wgServer +=0A=
+		((wgScript =3D=3D null) ? (wgScriptPath + "/index.php") : wgScript) +=0A=
+		"?action=3Dajax";=0A=
+	if (sajax_request_type =3D=3D "GET") {=0A=
+		if (uri.indexOf("?") =3D=3D -1)=0A=
+			uri =3D uri + "?rs=3D" + encodeURIComponent(func_name);=0A=
+		else=0A=
+			uri =3D uri + "&rs=3D" + encodeURIComponent(func_name);=0A=
+		for (i =3D 0; i < args.length; i++)=0A=
+			uri =3D uri + "&rsargs[]=3D" + encodeURIComponent(args[i]);=0A=
+		//uri =3D uri + "&rsrnd=3D" + new Date().getTime();=0A=
+		post_data =3D null;=0A=
+	} else {=0A=
+		post_data =3D "rs=3D" + encodeURIComponent(func_name);=0A=
+		for (i =3D 0; i < args.length; i++)=0A=
+			post_data =3D post_data + "&rsargs[]=3D" + =
+encodeURIComponent(args[i]);=0A=
+	}=0A=
+	x =3D sajax_init_object();=0A=
+	if (!x) {=0A=
+		alert("AJAX not supported");=0A=
+		return false;=0A=
+	}=0A=
+=0A=
+	try {=0A=
+		x.open(sajax_request_type, uri, true);=0A=
+	} catch (e) {=0A=
+		if (window.location.hostname =3D=3D "localhost") {=0A=
+			alert("Your browser blocks XMLHttpRequest to 'localhost', try using a =
+real hostname for development/testing.");=0A=
+		}=0A=
+		throw e;=0A=
+	}=0A=
+	if (sajax_request_type =3D=3D "POST") {=0A=
+		x.setRequestHeader("Method", "POST " + uri + " HTTP/1.1");=0A=
+		x.setRequestHeader("Content-Type", =
+"application/x-www-form-urlencoded");=0A=
+	}=0A=
+	x.setRequestHeader("Pragma", "cache=3Dyes");=0A=
+	x.setRequestHeader("Cache-Control", "no-transform");=0A=
+	x.onreadystatechange =3D function() {=0A=
+		if (x.readyState !=3D 4)=0A=
+			return;=0A=
+=0A=
+		sajax_debug("received (" + x.status + " " + x.statusText + ") " + =
+x.responseText);=0A=
+=0A=
+		//if (x.status !=3D 200)=0A=
+		//	alert("Error: " + x.status + " " + x.statusText + ": " + =
+x.responseText);=0A=
+		//else=0A=
+=0A=
+		if ( typeof( target ) =3D=3D 'function' ) {=0A=
+			target( x );=0A=
+		}=0A=
+		else if ( typeof( target ) =3D=3D 'object' ) {=0A=
+			if ( target.tagName =3D=3D 'INPUT' ) {=0A=
+				if (x.status =3D=3D 200) target.value=3D x.responseText;=0A=
+				//else alert("Error: " + x.status + " " + x.statusText + " (" + =
+x.responseText + ")");=0A=
+			}=0A=
+			else {=0A=
+				if (x.status =3D=3D 200) target.innerHTML =3D x.responseText;=0A=
+				else target.innerHTML=3D "<div class=3D'error'>Error: " + x.status + =
+" " + x.statusText + " (" + x.responseText + ")</div>";=0A=
+			}=0A=
+		}=0A=
+		else {=0A=
+			alert("bad target for sajax_do_call: not a function or object: " + =
+target);=0A=
+		}=0A=
+=0A=
+		return;=0A=
+	}=0A=
+=0A=
+	sajax_debug(func_name + " uri =3D " + uri + " / post =3D " + post_data);=0A=
+	x.send(post_data);=0A=
+	sajax_debug(func_name + " waiting..");=0A=
+	delete x;=0A=
+=0A=
+	return true;=0A=
+}=0A=
+=0A=
+/**=0A=
+ * @return boolean whether the browser supports XMLHttpRequest=0A=
+ */=0A=
+function wfSupportsAjax() {=0A=
+	var request =3D sajax_init_object();=0A=
+	var supportsAjax =3D request ? true : false;=0A=
+	delete request;=0A=
+	return supportsAjax;=0A=
+}=0A=
+=0A=
+
+------=_NextPart_000_0000_01CBD903.D3815970
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://shrubbery.mynetgear.net/w/index.php?title=-&action=raw&gen=js&useskin=monobook
+
+/* generated javascript */=0A=
+var skin =3D 'monobook';=0A=
+var stylepath =3D '/w/skins';=0A=
+=0A=
+/* MediaWiki:Common.js */=0A=
+/* Any JavaScript here will be loaded for all users on every page load. =
+*/=0A=
+=0A=
+/* MediaWiki:Monobook.js */=0A=
+/* Any JavaScript here will be loaded for users using the MonoBook skin =
+*/
+------=_NextPart_000_0000_01CBD903.D3815970--

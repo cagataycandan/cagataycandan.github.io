@@ -1,0 +1,496 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>EE 306 : An Application of Bayes Theorem in Communications</title><meta name="generator" content="MATLAB 7.14"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2016-03-16"><meta name="DC.source" content="bayesian_updates.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, tt, code { font-size:12px; }
+pre { margin:0px 0px 20px; }
+pre.error { color:red; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+
+  </style></head><body><div class="content"><h1>EE 306 : An Application of Bayes Theorem in Communications</h1><p>We revisit the problem discussed in the lecture hours.</p><p>Assume that <i>S</i> is a binary random variable taking values 0 and 1 with the probability of <i>p</i> and <i>q</i> = 1 - <i>p</i>, respectively.</p><p><img src="bayesian_updates_eq16621.png" alt="$$ S = \left\{ \begin{array}{lll} 1,  &amp; \ &amp; \textrm{with probability p} \\ 0, &amp; \ &amp;\textrm{with probability 1-p = q} \end{array} \right. $$"></p><p>We observe not <i>S</i>, but its noise corrupted version:</p><p><img src="bayesian_updates_eq60595.png" alt="$$ X_k = S + N_k \quad k=\{1,2, \ldots, N \} $$"></p><p>Here <img src="bayesian_updates_eq37991.png" alt="$X_k$"> is the k'th observation. <img src="bayesian_updates_eq30808.png" alt="$N_k$"> is the random variable representing noise which corrupts the signal <i>S</i>. We assume that the random variable <img src="bayesian_updates_eq30808.png" alt="$N_k$"> is independent and identically Gaussian distributed with zero mean and variance <img src="bayesian_updates_eq19321.png" alt="$\sigma_n^2$">,</p><p><img src="bayesian_updates_eq71181.png" alt="$$ N_k \sim N_{n_k}(0, \sigma_n^2)  = \frac{1}{\sqrt{2\pi}}&#xA;\exp \left( -\frac{n_k^2}{2 \sigma_n^2} \right). $$"></p><p>One can visualize the situation as follows. The transmitter sends either 1 or 0; which is the information bit to be delivered to the receiver. The receiver observes the signal <i>S</i> in the presence of noise. (The noise is Gaussian distributed as noted above.) Assume that <img src="bayesian_updates_eq94566.png" alt="$X_1$"> is 1.01. If <img src="bayesian_updates_eq68961.png" alt="$S$"> is 1, the noise <img src="bayesian_updates_eq50536.png" alt="$N_1$"> has to be 0.01 to produce this observation. Similarly, if <img src="bayesian_updates_eq68961.png" alt="$S$"> is 0, the noise <img src="bayesian_updates_eq50536.png" alt="$N_1$"> has to be 1.01 to produce the same observation. Our goal is to decide on S given an observation, say <img src="bayesian_updates_eq94566.png" alt="$X_1$">. It is intuitively clear that for <img src="bayesian_updates_eq77478.png" alt="$X_1 = 1.01$">, the event of <img src="bayesian_updates_eq97446.png" alt="$S=1$"> is more likely than <img src="bayesian_updates_eq50851.png" alt="$S=0$">. We would like to quantify this intuition by working out the probability of <img src="bayesian_updates_eq68961.png" alt="$S$"> given <img src="bayesian_updates_eq94566.png" alt="$X_1$">, in terms of density functions it is <img src="bayesian_updates_eq03378.png" alt="$f_{S|X_1}(s|x_1)$">.</p><p>The distribution of the <img src="bayesian_updates_eq68961.png" alt="$S$"> before we observe <img src="bayesian_updates_eq94566.png" alt="$X_1$"> is called the a-priori distribution of <img src="bayesian_updates_eq68961.png" alt="$S$">. From the problem statement, the a-priori density can be written as</p><p><img src="bayesian_updates_eq79405.png" alt="$$ f_S(s) = p_0\delta(s) + p_1\delta(s-1). $$"></p><p>The conditional density <img src="bayesian_updates_eq03378.png" alt="$f_{S|X_1}(s|x_1)$"> can be written as</p><p><img src="bayesian_updates_eq30997.png" alt="$$ f_{S|X_1 }(s|x_1) = \frac { f_{X_1|S}(x_1 | s) f_S(s) }&#xA;   { f_{X_1} (x_1) }. $$"></p><p>The density on the left, <img src="bayesian_updates_eq44699.png" alt="$f_{S|X_1 }(s|x_1)$"> is called the posterior density. Stated differently, our goal is to calculate the posterior density.</p><p>From the observation model, the random variable <img src="bayesian_updates_eq94566.png" alt="$X_1$"> given <img src="bayesian_updates_eq85002.png" alt="$S=s$"> is distributed as</p><p><img src="bayesian_updates_eq67801.png" alt="$$ X_1 | s  \sim N_{x_1}(s, \sigma_n^2) $$"></p><p>This result is easy to see, once we interpret this result as fixing the random variable <i>S</i> to a constant numerical value shown as <i>s</i>. In other words, <img src="bayesian_updates_eq94566.png" alt="$X_1$"> given <img src="bayesian_updates_eq85002.png" alt="$S=s$"> is a new random variable and <i>s</i> is just a parameter of this distribution (it is not any more a random variable after fixing its value).</p><p>Then, the posterior density can be written as <img src="bayesian_updates_eq44699.png" alt="$f_{S|X_1 }(s|x_1)$"></p><p><img src="bayesian_updates_eq42459.png" alt="$$f_{S|X_1 }(s|x_1) = \frac{ N_{x_1}(s, \sigma_n^2) (p_0\delta(s) +&#xA;p_1\delta(s-1) ) }&#xA;   { f_{X_1} (x_1) }&#xA;=&#xA;\frac{ p_0 N_{x_1}(0, \sigma_n^2) \delta(s)  + p_1 N_{x_1}(1, \sigma_n^2)\delta(s-1) }&#xA;   { f_{X_1} (x_1) }&#xA;$$"></p><p>The denominator of the ratio given above can be calculated from the relation</p><p><img src="bayesian_updates_eq42347.png" alt="$$ f_{X_1} (x_1) = \int_{-\infty}^{\infty} f_{X_1 , S }(x_1, s) ds =&#xA;\int_{-\infty}^{\infty} f_{X_1 | S }(x_1|s) f_S(s)&#xA;ds $$"></p><p>which is simply the integral of the numerator of the posterior density.</p><p><img src="bayesian_updates_eq48140.png" alt="$$ f_{X_1} (x_1) = \int_{-\infty}^{\infty}&#xA;\left(p_0 N_{x_1}(0, \sigma_n^2) \delta(s)  + p_1 N_{x_1}(1, \sigma_n^2)\delta(s-1)&#xA;\right) ds&#xA;= p_0 N_{x_1}(0, \sigma_n^2) + p_1 N_{x_1}(1, \sigma_n^2)&#xA;$$"></p><p>It should be noted that the denominator is just a scalar (a constant value) which does not functionally affect the density on the right hand side; but it is present to scale the right hand side of the equation such that the the area under the density is normalized to 1. It can be immediately verified that with this normalization the area under the density is indeed 1.</p><p>The posterior density can be finalized as</p><p><img src="bayesian_updates_eq53158.png" alt="$$ f_{S|X_1 }(s|x_1) = \frac{ p_0 N_{x_1}(0, \sigma_n^2)}&#xA; { p_0 N_{x_1}(0, \sigma_n^2) + p_1 N_{x_1}(1, \sigma_n^2) } \delta(s)&#xA;+&#xA;\frac{ p_1 N_{x_1}(1, \sigma_n^2)}&#xA; { p_0 N_{x_1}(0, \sigma_n^2) + p_1 N_{x_1}(1, \sigma_n^2) } \delta(s-1).&#xA;$$"></p><p>Note that, the posterior distribution updates the probability of the event <img src="bayesian_updates_eq50851.png" alt="$S=0$"> from <img src="bayesian_updates_eq34038.png" alt="$p_0$"> to <img src="bayesian_updates_eq04530.png" alt="$\widehat{p}_0$"> by processing the observation. Similarly, <img src="bayesian_updates_eq28925.png" alt="$p_1$"> is updated to <img src="bayesian_updates_eq31177.png" alt="$\widehat{p}_1$">:</p><p><img src="bayesian_updates_eq33935.png" alt="$$ \widehat{p}_0 = \frac{ p_0 N_{x_1}(0, \sigma_n^2)}&#xA; { p_0 N_{x_1}(0, \sigma_n^2) + p_1 N_{x_1}(1, \sigma_n^2) },&#xA;$$"></p><p><img src="bayesian_updates_eq27763.png" alt="$$ \widehat{p}_1 = \frac{ p_1 N_{x_1}(1, \sigma_n^2)}&#xA; { p_0 N_{x_1}(0, \sigma_n^2) + p_1 N_{x_1}(1, \sigma_n^2) },&#xA;$$"></p><p>Hence, the prior density is updated from</p><p><img src="bayesian_updates_eq93978.png" alt="$$ f_S(s) = p_0\delta(s) + p_1\delta(s-1), $$"></p><p>to the posterior</p><p><img src="bayesian_updates_eq17931.png" alt="$$ f_{S|X_1}(s|x_1) = \widehat{p}_0 \delta(s) + \widehat{p}_1&#xA;\delta(s-1). $$"></p><p>Now, we numerically study this mentioned update using MATLAB's computational facilities.</p><p>To do that, we first define the Gaussian distribution</p><pre class="codeinput">pdfNormal = @(x,mu,var) 1/sqrt(2*pi*var)*exp(-(x-mu).^2/2/var);
+</pre><p>Let's do a sanity check and calculate the area under the pdf. To do that we fix the mean value to 0, variance to 1 and calculate the area under pdf with the quad function as follows:</p><pre class="codeinput">area = quad(@(x)pdfNormal(x,0,1),-5,5),
+</pre><pre class="codeoutput">
+area =
+
+    1.0000
+
+</pre><p>We only calculate the area under 5 standard deviations around the mean. It seems that everything is in order!</p><p>Let's define, the update equations:</p><pre class="codeinput">update_p0 = @(p0,x1,sigma_n_sq) p0*pdfNormal(x1,0,sigma_n_sq)/<span class="keyword">...</span>
+    (p0*pdfNormal(x1,0,sigma_n_sq) + (1-p0)*pdfNormal(x1,1,sigma_n_sq));
+update_p1 = @(p1,x1,sigma_n_sq) 1 - update_p0(1-p1,x1,sigma_n_sq);
+<span class="comment">%</span>
+</pre><p>Let's take <img src="bayesian_updates_eq09245.png" alt="$\sigma_n^2 = 2$">, and p0 = p1 = 1/2 (Hence, the events of S=0 or S=1 are equally likely, which is the a-priori information.)</p><pre class="codeinput">sigma_n_sq = 2;
+p0 = 1/2;
+p1 = 1/2;
+</pre><p>For now, assume that the observation <img src="bayesian_updates_eq06004.png" alt="$x_1$"> is 1.01. For this observation, the updated probabilities can be calculated as</p><pre class="codeinput">x1 = 1.01;
+[update_p0(p0,x1,sigma_n_sq) update_p1(p1,x1,sigma_n_sq)]
+</pre><pre class="codeoutput">
+ans =
+
+    0.4366    0.5634
+
+</pre><p>Given, the observation of x1=1.01; the updated probability for s=1 is increased from its a-priori value of 0.5 to 0.5634. The increase is not significant for this case. This is due to large noise variance. That is, a there exists a fairly large probability for noise to be 1.01; therefore the event of S=0 has also a fairly large probability.</p><p>Let's decrease the noise variance and repeat the same experiment:</p><pre class="codeinput">sigma_n_sq = 1;
+x1 = 1.01;
+[update_p0(p0,x1,sigma_n_sq) update_p1(p1,x1,sigma_n_sq)]
+</pre><pre class="codeoutput">
+ans =
+
+    0.3752    0.6248
+
+</pre><pre class="codeinput">sigma_n_sq = 1/2;
+x1 = 1.01;
+[update_p0(p0,x1,sigma_n_sq) update_p1(p1,x1,sigma_n_sq)]
+</pre><pre class="codeoutput">
+ans =
+
+    0.2650    0.7350
+
+</pre><pre class="codeinput">sigma_n_sq = 1/4;
+x1 = 1.01;
+[update_p0(p0,x1,sigma_n_sq) update_p1(p1,x1,sigma_n_sq)]
+</pre><pre class="codeoutput">
+ans =
+
+    0.1151    0.8849
+
+</pre><p>Note that, with 95% percent probability, a random pick from the Gaussian distribution lies in two standard deviations of the mean value. For the last case of <img src="bayesian_updates_eq24663.png" alt="$\sigma_n^2 = 1/4$">, the two standard deviation interval around the mean is [-1,1]. Hence, 95% percent of time, we can not see the observation of <img src="bayesian_updates_eq17828.png" alt="$x_1 = 1.01$"> when <img src="bayesian_updates_eq82073.png" alt="$s=0$">.</p><p>In short, as the noise variance decreases, the probability of having a large valued noise also decreases and observing <img src="bayesian_updates_eq75857.png" alt="$x_1=1.01$"> for the event of <img src="bayesian_updates_eq82073.png" alt="$s=0$"> becomes less and less likely.</p><p>Let's use a high noise variance and make multiple observations on the unknown symbol S. Let's take <img src="bayesian_updates_eq26959.png" alt="$\sigma_n^2 = 4$"> and generate 5 noisy observations on <img src="bayesian_updates_eq68961.png" alt="$S$">.</p><p>Without any loss of generality, let's examine the case of <img src="bayesian_updates_eq82073.png" alt="$s=0$"></p><pre class="codeinput">sigma_n_sq = 4;
+s = 0;
+x = zeros(1,5);
+<span class="keyword">for</span> k=1:5,
+    x(k)  = s + sqrt(sigma_n_sq)*randn(1);
+<span class="keyword">end</span>;
+x,
+</pre><pre class="codeoutput">
+x =
+
+    1.7619    0.6464   -1.5683   -3.6107    3.7172
+
+</pre><p>It can be noted that the observations are large valued due to large noise variance.</p><p>We would like to estimate the <i>s</i> value given all observations. In other words, we would like to evaluate</p><p><img src="bayesian_updates_eq03688.png" alt="$$ f_{S|X_1,X_2, ..., X_5}(s|x_1, x_2, ... , x_5) $$"></p><p>To evaluate the posterior density with 5 observations, we can do the updates in a recursive fashion. That is, we first find</p><p><img src="bayesian_updates_eq94096.png" alt="$$ f_{S|X_1}(s|x_1) $$"></p><p>then treat the updated probabilities of <img src="bayesian_updates_eq04530.png" alt="$\widehat{p}_0$"> and <img src="bayesian_updates_eq31177.png" alt="$\widehat{p}_1$"> as the prior probabilities before the observation of <img src="bayesian_updates_eq21514.png" alt="$X_2$"> and generate <img src="bayesian_updates_eq68852.png" alt="$f_{S|X_1,X_2}(s|x_1,x_2)$">.</p><p><img src="bayesian_updates_eq09565.png" alt="$$ f_{S|X_1,X_2}(s|x_1,x_2) = \frac{1}{A}f_{X_2|S,X_1}(x_2 | s, x_1) f_{S|X_1}(s|x_1) $$"></p><p>where <img src="bayesian_updates_eq31461.png" alt="$A$"> is a constant normalizing the density to unit area, as shown above. Note that the knowledge of <img src="bayesian_updates_eq72999.png" alt="$s$"> and <img src="bayesian_updates_eq06004.png" alt="$x_1$"> is equivalent to the knowledge of <img src="bayesian_updates_eq72999.png" alt="$s$"> and <img src="bayesian_updates_eq08257.png" alt="$n_1$">. The knowledge of <img src="bayesian_updates_eq08257.png" alt="$n_1$"> (noise of the first observation) does not help at any other observations, since noise is independent at every observation. Hence, we can discard the conditioning event of <img src="bayesian_updates_eq06004.png" alt="$x_1$"> in this relation, since it does not affect the density on the right hand side:</p><p><img src="bayesian_updates_eq62622.png" alt="$$ f_{X_2|S,X_1}(x_2 | s, x_1) = f_{X_2|S}(x_2 | s ). $$"></p><p>This fact is stated as <img src="bayesian_updates_eq21514.png" alt="$X_2$"> is <i>conditionally indendepent</i> of <img src="bayesian_updates_eq94566.png" alt="$X_1$"> given <img src="bayesian_updates_eq68961.png" alt="$S$">.</p><p>With this observation, we can write the posterior density as</p><p><img src="bayesian_updates_eq42353.png" alt="$$ f_{S|X_1,X_2}(s|x_1,x_2) = \frac{1}{A}f_{X_2|S}(x_2 | s) f_{S|X_1}(s|x_1) $$"></p><p>In the last equation <img src="bayesian_updates_eq03378.png" alt="$f_{S|X_1}(s|x_1)$"> is the updated density after the observation of <img src="bayesian_updates_eq06004.png" alt="$x_1$"> which is the a-priori information before processing the second observation <img src="bayesian_updates_eq16434.png" alt="$x_2$">. The other term <img src="bayesian_updates_eq94350.png" alt="$f_{X_2|S}(x_2 | s)$"> is identical to the term appearing in the update equation for the single observation case. (This term is called the <i>likelihood</i> term)</p><p>Hence, the only change between single observation and multiple observations case is taking the aposteriori distribution of the earlier iteration as the apriori density of the next iteration.</p><p>Given this discussion, we can calculate the posterior probability after each observation as:</p><pre class="codeinput">p0old = 1/2; p1old = 1/2;
+p0_posterior = zeros(1,5); p1_posterior = zeros(1,5);
+<span class="keyword">for</span> k=1:5,
+    p0_posterior(k) = update_p0(p0old,x(k),sigma_n_sq);
+    p1_posterior(k) = update_p1(p1old,x(k),sigma_n_sq);
+    p0old = p0_posterior(k);
+    p1old = p1_posterior(k);
+<span class="keyword">end</span>;
+p0_posterior,
+</pre><pre class="codeoutput">
+p0_posterior =
+
+    0.4218    0.4129    0.5412    0.7672    0.5959
+
+</pre><p>We can note that as more and more observations are collected, the probability of making correct decision shows a tendency to increase.</p><p>Let's repeat the same example with 30 observations</p><pre class="codeinput">sigma_n_sq = 4;
+s = 0;
+x = zeros(1,30);
+<span class="keyword">for</span> k=1:30,
+    x(k)  = s + sqrt(sigma_n_sq)*randn(1);
+<span class="keyword">end</span>;
+x,
+</pre><pre class="codeoutput">
+x =
+
+  Columns 1 through 7
+
+   -1.2091    0.2067    1.1263    0.2272   -1.8095   -0.9354   -0.2498
+
+  Columns 8 through 14
+
+    2.9579   -1.7216    1.5693    0.6172   -0.4677   -2.1139   -0.5683
+
+  Columns 15 through 21
+
+   -0.1734   -2.9388    0.3844   -1.6446   -0.1885    0.6724   -1.8093
+
+  Columns 22 through 28
+
+   -0.5765    0.7001   -3.6717    2.0720    4.8489    1.9188   -0.6315
+
+  Columns 29 through 30
+
+    0.8572   -2.0720
+
+</pre><p>Let's do the posterior calculation:</p><pre class="codeinput">p0old = 1/2; p1old = 1/2;
+p0_posterior = zeros(1,30); p1_posterior = zeros(1,30);
+<span class="keyword">for</span> k=1:30,
+    p0_posterior(k) = update_p0(p0old,x(k),sigma_n_sq);
+    p1_posterior(k) = update_p1(p1old,x(k),sigma_n_sq);
+    p0old = p0_posterior(k);
+    p1old = p1_posterior(k);
+<span class="keyword">end</span>;
+p0_posterior,
+</pre><pre class="codeoutput">
+p0_posterior =
+
+  Columns 1 through 7
+
+    0.6052    0.6226    0.5852    0.6016    0.7290    0.7939    0.8229
+
+  Columns 8 through 14
+
+    0.7153    0.8141    0.7702    0.7650    0.8057    0.8885    0.9123
+
+  Columns 15 through 21
+
+    0.9249    0.9668    0.9677    0.9808    0.9838    0.9831    0.9905
+
+  Columns 22 through 28
+
+    0.9927    0.9923    0.9973    0.9960    0.9882    0.9832    0.9873
+
+  Columns 29 through 30
+
+    0.9861    0.9927
+
+</pre><p>Please compare the entries of the observation vector <img src="bayesian_updates_eq43551.png" alt="$x$"> and the posterior density vector and try to understand why for some observations, there is a significant increase in the probability immediately after the update.</p><p>The main goal of communication system design is to establish a reliable communication between parties with a minimal repetition of the transmitted symbols, that is achieving a reliable communication (low probability of error) at a highest rate possible (with a low redundancy).</p><p class="footer"><br>
+      Published with MATLAB&reg; 7.14<br></p></div><!--
+##### SOURCE BEGIN #####
+%% EE 306 : An Application of Bayes Theorem in Communications
+% We revisit the problem discussed in the lecture hours. 
+%
+% Assume that _S_ is a binary random variable taking values 
+% 0 and 1 with the probability of _p_ and _q_ = 1 - _p_, respectively. 
+%
+% $$ S = \left\{ \begin{array}{lll} 1,  & \ & \textrm{with probability p} \\ 0, & \ &\textrm{with probability 1-p = q} \end{array} \right. $$
+%
+% We observe not _S_, but its noise corrupted version:
+% 
+% $$ X_k = S + N_k \quad k=\{1,2, \ldots, N \} $$ 
+% 
+% Here $X_k$ is the k'th observation. $N_k$ is the random variable
+% representing noise which corrupts the signal _S_. We assume that the
+% random variable $N_k$ is independent and identically Gaussian distributed
+% with zero mean and variance $\sigma_n^2$,
+% 
+% $$ N_k \sim N_{n_k}(0, \sigma_n^2)  = \frac{1}{\sqrt{2\pi}} 
+% \exp \left( -\frac{n_k^2}{2 \sigma_n^2} \right). $$
+%
+% One can visualize the situation as follows. The transmitter sends either
+% 1 or 0; which is the information bit to be delivered to the receiver. The
+% receiver observes the signal _S_ in the presence of noise. (The noise is
+% Gaussian distributed as noted above.) Assume that $X_1$ is 1.01. If $S$
+% is 1, the noise $N_1$ has to be 0.01 to produce this observation.
+% Similarly, if $S$ is 0, the noise $N_1$ has to be 1.01 to produce the
+% same observation. Our goal is to decide on S given an observation, say
+% $X_1$. It is intuitively clear that for $X_1 = 1.01$, the event of $S=1$
+% is more likely than $S=0$. We would like to quantify this intuition by
+% working out the probability of $S$ given $X_1$, in terms of density
+% functions it is $f_{S|X_1}(s|x_1)$. 
+% 
+% The distribution of the $S$ before we observe $X_1$ is called the
+% a-priori distribution of $S$. From the problem statement, the a-priori
+% density can be written as
+% 
+% $$ f_S(s) = p_0\delta(s) + p_1\delta(s-1). $$
+%
+% The conditional density $f_{S|X_1}(s|x_1)$ can be written as 
+% 
+% $$ f_{S|X_1 }(s|x_1) = \frac { f_{X_1|S}(x_1 | s) f_S(s) } 
+%    { f_{X_1} (x_1) }. $$ 
+%
+% The density on the left, $f_{S|X_1 }(s|x_1)$ is called the posterior density. 
+% Stated differently, our goal is to calculate the posterior density. 
+% 
+% From the observation model, the random variable $X_1$ given $S=s$ is distributed as
+% 
+% $$ X_1 | s  \sim N_{x_1}(s, \sigma_n^2) $$ 
+%
+% This result is easy to see, once we interpret this result as fixing the random variable _S_ to a
+% constant numerical value shown as _s_. In other words, $X_1$ given $S=s$ is a new
+% random variable and _s_ is just a parameter of this distribution (it
+% is not any more a random variable after fixing its value).  
+%
+% Then, the posterior density can be written as $f_{S|X_1 }(s|x_1)$
+%
+% $$f_{S|X_1 }(s|x_1) = \frac{ N_{x_1}(s, \sigma_n^2) (p_0\delta(s) +
+% p_1\delta(s-1) ) }  
+%    { f_{X_1} (x_1) } 
+% = 
+% \frac{ p_0 N_{x_1}(0, \sigma_n^2) \delta(s)  + p_1 N_{x_1}(1, \sigma_n^2)\delta(s-1) }
+%    { f_{X_1} (x_1) } 
+% $$
+%
+% The denominator of the ratio given above can be calculated from the relation
+%
+% $$ f_{X_1} (x_1) = \int_{-\infty}^{\infty} f_{X_1 , S }(x_1, s) ds = 
+% \int_{-\infty}^{\infty} f_{X_1 | S }(x_1|s) f_S(s)
+% ds $$ 
+% 
+% which is simply the integral of the numerator of the posterior
+% density. 
+% 
+% $$ f_{X_1} (x_1) = \int_{-\infty}^{\infty} 
+% \left(p_0 N_{x_1}(0, \sigma_n^2) \delta(s)  + p_1 N_{x_1}(1, \sigma_n^2)\delta(s-1)
+% \right) ds
+% = p_0 N_{x_1}(0, \sigma_n^2) + p_1 N_{x_1}(1, \sigma_n^2) 
+% $$ 
+%
+% It should be noted that the denominator is just a scalar (a constant
+% value) which does not functionally affect the density on the right hand
+% side; but it is present to scale the right hand side of the equation such
+% that the the area under the density is normalized to 1. It can be immediately 
+% verified that with this normalization the area under the density is indeed 1. 
+%
+% The posterior density can be finalized as 
+% 
+% $$ f_{S|X_1 }(s|x_1) = \frac{ p_0 N_{x_1}(0, \sigma_n^2)}   
+%  { p_0 N_{x_1}(0, \sigma_n^2) + p_1 N_{x_1}(1, \sigma_n^2) } \delta(s) 
+% + 
+% \frac{ p_1 N_{x_1}(1, \sigma_n^2)}   
+%  { p_0 N_{x_1}(0, \sigma_n^2) + p_1 N_{x_1}(1, \sigma_n^2) } \delta(s-1). 
+% $$
+% 
+% Note that, the posterior distribution updates the probability of the event $S=0$ from
+% $p_0$ to $\widehat{p}_0$ by processing the observation. Similarly, $p_1$ is updated 
+% to $\widehat{p}_1$:
+% 
+% $$ \widehat{p}_0 = \frac{ p_0 N_{x_1}(0, \sigma_n^2)}   
+%  { p_0 N_{x_1}(0, \sigma_n^2) + p_1 N_{x_1}(1, \sigma_n^2) }, 
+% $$
+% 
+% $$ \widehat{p}_1 = \frac{ p_1 N_{x_1}(1, \sigma_n^2)}   
+%  { p_0 N_{x_1}(0, \sigma_n^2) + p_1 N_{x_1}(1, \sigma_n^2) }, 
+% $$
+%
+% Hence, the prior density is updated from 
+%
+% $$ f_S(s) = p_0\delta(s) + p_1\delta(s-1), $$ 
+%
+% to the posterior
+% 
+% $$ f_{S|X_1}(s|x_1) = \widehat{p}_0 \delta(s) + \widehat{p}_1
+% \delta(s-1). $$ 
+% 
+%
+% Now, we numerically study this mentioned update using MATLAB's
+% computational facilities. 
+% 
+% To do that, we first define the Gaussian distribution
+% 
+pdfNormal = @(x,mu,var) 1/sqrt(2*pi*var)*exp(-(x-mu).^2/2/var); 
+
+%% 
+% Let's do a sanity check and calculate the area under the pdf. To do that
+% we fix the mean value to 0, variance to 1 and calculate the area under pdf with the quad
+% function as follows: 
+% 
+area = quad(@(x)pdfNormal(x,0,1),-5,5), 
+
+%%
+% We only calculate the area under 5 standard deviations around the mean. It seems that everything is in order!
+% 
+% Let's define, the update equations:
+update_p0 = @(p0,x1,sigma_n_sq) p0*pdfNormal(x1,0,sigma_n_sq)/... 
+    (p0*pdfNormal(x1,0,sigma_n_sq) + (1-p0)*pdfNormal(x1,1,sigma_n_sq)); 
+update_p1 = @(p1,x1,sigma_n_sq) 1 - update_p0(1-p1,x1,sigma_n_sq); 
+%
+%%
+%
+% Let's take $\sigma_n^2 = 2$, and p0 = p1 = 1/2 (Hence, the events of S=0 or S=1
+% are equally likely, which is the a-priori information.)
+sigma_n_sq = 2; 
+p0 = 1/2; 
+p1 = 1/2; 
+%%
+% 
+%
+% For now, assume that the observation $x_1$ is 1.01. For this observation,
+% the updated probabilities can be calculated as 
+% 
+x1 = 1.01; 
+[update_p0(p0,x1,sigma_n_sq) update_p1(p1,x1,sigma_n_sq)]
+
+%%
+% Given, the observation of x1=1.01; the updated probability for 
+% s=1 is increased from its a-priori value of 0.5 to 0.5634. The increase is not significant for this
+% case. This is due to large noise variance. That is, a there exists a
+% fairly large probability for noise to be 1.01; therefore the event of S=0
+% has also a fairly large probability. 
+% 
+% Let's decrease the noise variance and repeat the same experiment: 
+sigma_n_sq = 1;
+x1 = 1.01; 
+[update_p0(p0,x1,sigma_n_sq) update_p1(p1,x1,sigma_n_sq)]
+
+%%
+sigma_n_sq = 1/2;
+x1 = 1.01; 
+[update_p0(p0,x1,sigma_n_sq) update_p1(p1,x1,sigma_n_sq)]
+
+%%
+sigma_n_sq = 1/4;
+x1 = 1.01; 
+[update_p0(p0,x1,sigma_n_sq) update_p1(p1,x1,sigma_n_sq)]
+
+%%
+% Note that, with 95% percent probability, a random pick from the Gaussian distribution
+% lies in two standard deviations of the mean value. For the last
+% case of $\sigma_n^2 = 1/4$, the two standard deviation interval around the
+% mean is [-1,1]. Hence, 95% percent of time, we can not see the
+% observation of $x_1 = 1.01$ when $s=0$. 
+%
+% In short, as the noise variance decreases, the probability of
+% having a large valued noise also decreases and 
+% observing $x_1=1.01$ for the event of $s=0$ becomes less and less likely. 
+%
+%
+%
+% Let's use a high noise variance and make multiple observations on the
+% unknown symbol S. Let's take $\sigma_n^2 = 4$ and generate 5 noisy
+% observations on $S$. 
+%
+% Without any loss of generality, let's examine the case of $s=0$
+
+sigma_n_sq = 4;
+s = 0; 
+x = zeros(1,5); 
+for k=1:5,
+    x(k)  = s + sqrt(sigma_n_sq)*randn(1);
+end;
+x, 
+%%
+% It can be noted that the observations are large valued due to large noise
+% variance. 
+% 
+% We would like to estimate the _s_ value given all observations. In other
+% words, we would like to evaluate 
+% 
+% $$ f_{S|X_1,X_2, ..., X_5}(s|x_1, x_2, ... , x_5) $$
+% 
+% To evaluate the posterior density with 5 observations, we can do the
+% updates in a recursive fashion. That is, we first find 
+%
+% $$ f_{S|X_1}(s|x_1) $$
+% 
+% then treat the updated probabilities of $\widehat{p}_0$ and
+% $\widehat{p}_1$ as the prior probabilities before the observation of
+% $X_2$
+% and generate $f_{S|X_1,X_2}(s|x_1,x_2)$. 
+%
+% $$ f_{S|X_1,X_2}(s|x_1,x_2) = \frac{1}{A}f_{X_2|S,X_1}(x_2 | s, x_1) f_{S|X_1}(s|x_1) $$
+%
+% where $A$ is a constant normalizing the density to unit area, as shown above.  
+% Note that the knowledge of $s$ and $x_1$ is equivalent to the knowledge
+% of $s$ and $n_1$. The knowledge of $n_1$ (noise of the first observation)
+% does not help at any other observations, since noise is independent at
+% every observation. Hence, we can discard the conditioning event of $x_1$
+% in this relation, since it does not affect the density on the right
+% hand side:
+%
+% $$ f_{X_2|S,X_1}(x_2 | s, x_1) = f_{X_2|S}(x_2 | s ). $$
+%
+% This fact is stated as $X_2$ is _conditionally indendepent_ of $X_1$ given
+% $S$. 
+%
+% With this observation, we can write the posterior density as 
+% 
+% $$ f_{S|X_1,X_2}(s|x_1,x_2) = \frac{1}{A}f_{X_2|S}(x_2 | s) f_{S|X_1}(s|x_1) $$
+%
+% In the last equation $f_{S|X_1}(s|x_1)$ is the updated density after the
+% observation of $x_1$ which is the a-priori information before processing
+% the second observation $x_2$. The other term $f_{X_2|S}(x_2 | s)$ is
+% identical to the term appearing in the update equation for the single
+% observation case. (This term is called the _likelihood_ term)
+% 
+% Hence, the only change between single observation and multiple
+% observations case is taking the aposteriori distribution of the earlier
+% iteration as the apriori density of the next iteration. 
+%
+% Given this discussion, we can calculate the posterior probability after
+% each observation as: 
+%
+p0old = 1/2; p1old = 1/2; 
+p0_posterior = zeros(1,5); p1_posterior = zeros(1,5); 
+for k=1:5, 
+    p0_posterior(k) = update_p0(p0old,x(k),sigma_n_sq); 
+    p1_posterior(k) = update_p1(p1old,x(k),sigma_n_sq);
+    p0old = p0_posterior(k);
+    p1old = p1_posterior(k);
+end; 
+p0_posterior,
+
+%%
+% We can note that as more and more observations are collected, the
+% probability of making correct decision shows a tendency to increase. 
+%
+%
+% Let's repeat the same example with 30 observations
+sigma_n_sq = 4;
+s = 0; 
+x = zeros(1,30); 
+for k=1:30,
+    x(k)  = s + sqrt(sigma_n_sq)*randn(1);
+end;
+x,
+%%
+% Let's do the posterior calculation:
+
+p0old = 1/2; p1old = 1/2; 
+p0_posterior = zeros(1,30); p1_posterior = zeros(1,30); 
+for k=1:30, 
+    p0_posterior(k) = update_p0(p0old,x(k),sigma_n_sq); 
+    p1_posterior(k) = update_p1(p1old,x(k),sigma_n_sq);
+    p0old = p0_posterior(k);
+    p1old = p1_posterior(k);
+end; 
+p0_posterior,
+
+%%
+% Please compare the entries of the observation vector $x$ and the
+% posterior density vector and try to understand why for some observations, there is 
+% a significant increase in the probability immediately after the update. 
+%
+% The main goal of communication system design is to establish a reliable
+% communication between parties with a minimal repetition of the
+% transmitted symbols, that is achieving a reliable communication (low probability of error) 
+% at a highest rate possible (with a low redundancy). 
+% 
+
+##### SOURCE END #####
+--></body></html>

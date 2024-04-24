@@ -1,0 +1,6 @@
+Study Problems for the Final Exam:
+
+Problems are from Ross, Introduction to robability Models (8th Edition). 
+
+Chapter 5:
+Problems: 46, 57, 60, 61, 86 

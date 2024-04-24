@@ -1,0 +1,25 @@
+<br>
+Matlab codes for the method described in the work titled,
+<blockquote>"Performance Improvement of Radar Detectors by Reducing SNR Loss Due to Windowing".
+<br><br> 
+&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp
+&n&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp
+bsp&nbsp&nbsp&nbsp
+by
+<br><br>Cagatay Candan
+</blockquote>
+
+Matlab Implementation of the method (following the description in Table 1) : 
+<a href='win_select.m'> win_select.m </a>
+
+<br><br>
+<u>Examples:</u>
+<br>
+<li> A simple example on the usage of the code: 
+<a href='simple_example.m'> simple_example.m </a>
+<li> Matlab code for the generation of results given in Table 2:
+<a href='Generate_Table2.m'> Generate_Table2.m </a>
+
+

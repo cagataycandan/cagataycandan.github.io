@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>Simple Visualization for METU EE</title>
+	<meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<link rel="stylesheet" href="CSS/leaflet.css" />
+	<link rel="stylesheet" href="CSS/leaflet.rrose.css" />
+
+</head>
+<body>
+	<div id="map" style="width: 870px; height: 600px"></div>
+
+	<script src="JS/leaflet.js"></script>
+	<script src="JS/rrose-src.js"></script>
+
+
+	<script>
+
+		var popupOptions =
+		{
+		    'closeButton': false
+
+		}
+
+
+		var map = L.map('map',{'closePopupOnClick':false,'zoomControl':false}).setView([45.0863874,-30.2500489], 3);
+
+		L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
+			maxZoom: 18,
+			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+				'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+			id: 'examples.map-i86knfo3'
+		}).addTo(map);
+
+
+
+
+	    var popupMETU = new L.Rrose({offset: new L.Point(0,0),position: 'n', closeButton: false, autoPan: false })
+	      .setContent("<b>METU EE </b> <img src=\"http://www.eee.metu.edu.tr/~simsek/ee3dee2.jpg\" height=\"42\">").setLatLng(L.latLng(39.89516,32.779248)).openOn(map);
+
+
+	    var popupA = new L.Rrose({offset: new L.Point(0,0),position: 'nw', closeButton: false, autoPan: false })
+	      .setContent("<b>Austria</b><br>DenizBank AG<br>University of Vienna").setLatLng(L.latLng(46.965392,15.111139)).openOn(map);
+
+
+	    var popupS = new L.Rrose({offset: new L.Point(0,0),position: 's', closeButton: false, autoPan: false })
+	      .setContent("<b>Switzerland</b><br>Disney Research	Zurich<br>ETHZ	Zurich<br>Prolistic GmbH	Bern<br>EPFL	Lausanne").setLatLng(L.latLng(47.4967609,9.2953771)).openOn(map);
+
+	    var popupG = new L.Rrose({offset: new L.Point(0,0),position: 'ne', closeButton: false, autoPan: false })
+	      .setContent("<b>Germany</b><br>IMS CHIPS<br>IMTEK-UNI FREIBURG<br>GT-ARC TU Berlin<br>Rocket Internet GMHB").setLatLng(L.latLng(52.5984158,10.2179133)).openOn(map);
+
+
+	    var popupB = new L.Rrose({offset: new L.Point(0,0),position: 'nw', closeButton: false, autoPan: false })
+	      .setContent("<b>Belgium</b><br>IMEC").setLatLng(L.latLng(53.88411,4.70543)).openOn(map);
+
+
+	    var popupSS = new L.Rrose({offset: new L.Point(0,0),position: 'sw', closeButton: false, autoPan: false })
+	      .setContent("<b>Spain</b><br>Universitat Pompeu Fabra").setLatLng(L.latLng(40.2085,-3.713)).openOn(map);
+
+
+	    var popupT = new L.Rrose({offset: new L.Point(0,0),position: 'sw', closeButton: false, autoPan: false,maxWidth:'500' })
+	      .setContent("<br><b>Turkiye</b><br><table><td><td>ABB	<br>AF Consult	<br>ALSTOM	<br>Anketek <br> ARTU Bilgi Tek.	<br> ASELSAN 	 <br> Avea <br> 	AVL Türkiye <br>	Coren Enerji	 <br> Datca Bagcilik <br>Deloitte <br></td><td> Dogan TV  <br> Emel Elektrik  <br> ENERJISA <br> Baskent EDAS	<br>Ford Motor	<br>HAVELSAN	<br>IBM Türkiye	 <br>IDEA Teknoloji <br>IPA Savunma	<br>Isdemir	<br>ISNET </td><td>Kardiosis A.S.	<br>Karel Electronics	<br>KEMA	<br>Kentkart <br> Ege Elektronik	<br> Koc Universitesi	<br>LUNA	<br>Meteksan Savunma	<br>METU<br>Mikro-Tasarim <br> Mikrosens</td><td> MilSOFT 	<br>Ministry of Science <br>Nokia <br>ODT	<br>Ortana	<br>Philip Morris<br>Roketsan	<br>RTB<br>Schneider Electric <br>SDT <br>Siemens</td><td>Symantec<br>T.Halkbank A.S.<br>TAI-TUSAS	<br>Tiga Bilisim	<br>TÜBITAK	<br>TUSAS	<br>Unilever	<br>Vestel <br>Viavis LLC.<br>Vodafone<br></td></table>").setLatLng(L.latLng(39.89516,32.779248)).openOn(map);
+
+
+
+
+
+	    var popupUS = new L.Rrose({offset: new L.Point(0,0),position: 'se', closeButton: false, autoPan: false })
+	      .setContent("<b>United States</b><br>Volvo Group<br>UC Berkeley<br>Boston University<br>NYU Polytechnic<br>Princeton University<br>Florida International University<br>Cornell University<br>University of Arizona<br>Stanford University<br>Carnegie Mellon University<br>Stanford University<br>Washington University in St. Louis<br>").setLatLng(L.latLng(40.7814969,-101.3092263)).openOn(map);
+
+	    var popupE = new L.Rrose({offset: new L.Point(0,0),position: 'n', closeButton: false, autoPan: false })
+	      .setContent("<b>United Kingdom</b><br>TRW Automotive Solihull").setLatLng(L.latLng(58.6293669,-3.6960094)).openOn(map);
+
+	    var popupC = new L.Rrose({offset: new L.Point(0,0),position: 'ne', closeButton: false, autoPan: false })
+	      .setContent("<b>Canada</b><br>Ecole Polytechnique de Montreal").setLatLng(L.latLng(57.6234257,-98.6586914)).openOn(map);
+
+	    var popupNN = new L.Rrose({offset: new L.Point(0,0),position: 'nw', closeButton: false, autoPan: false })
+	      .setContent("<b>Norway</b><br>Norwegian University of Science and Technology").setLatLng(L.latLng(64.5783089,17.888237)).openOn(map);
+
+
+	    var popupF = new L.Rrose({offset: new L.Point(0,0),position: 'n', closeButton: false, autoPan: false })
+	      .setContent("<b>Finland</b><br>Tampere University of Technology<br>Aalto University").setLatLng(L.latLng(64.1733441,26.122187)).openOn(map);
+
+	    var popupI = new L.Rrose({offset: new L.Point(0,0),position: 's', closeButton: false, autoPan: false })
+	      .setContent("<b>Iraq</b><br>Enka").setLatLng(L.latLng(33.22107,43.6847595)).openOn(map);
+
+
+	    var popupN = new L.Rrose({offset: new L.Point(0,0),position: 'sw', closeButton: false, autoPan: false })
+	      .setContent("<b>Netherlands</b><br>Philips Research<br>Eindhoven University of Technology<br>Delft University of Technology<br>University of Twente").setLatLng(L.latLng(52.2609682,4.6328848)).openOn(map);
+
+
+
+
+
+
+	 map.addLayer(popupSS).addLayer(popupG).addLayer(popupT).addLayer(popupI).addLayer(popupNN).addLayer(popupUS).addLayer(popupE).addLayer(popupF).addLayer(popupB).addLayer(popupC).addLayer(popupA).addLayer(popupN).addLayer(popupS).addLayer(popupMETU)
+
+	</script>
+
+cagatay
+</body>
+</html>
