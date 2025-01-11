@@ -80,11 +80,13 @@ if length(Nullmat)>0,
     coefs = inv(Nullmat'*Nullmat)*Nullmat'*p;
     dum = pcoef(1)*S + (D*ones(1,2*N)).^[1:(2*N)]*(pcoef(2:end));
     SGfilter = dum - (D*ones(1,dimnull)).^[(L+1):(2*N)]*(coefs);
-    SGfilter = simplify(subs(SGfilter,'D','-D'));
+    %SGfilter = simplify(subs(SGfilter,'D','-D')); %Original 
+    SGfilter = simplify(subs(SGfilter,'D',-D)); %Matlab R2022b 
     h = p - Nullmat*coefs; h= h';
 else;
     SGfilter = pcoef(1)*S + (D*ones(1,2*N)).^[1:(2*N)]*(pcoef(2:end));
-    SGfilter = simplify(subs(SGfilter,'D','-D'));
+    %SGfilter = simplify(subs(SGfilter,'D','-D')); %Original 
+    SGfilter = simplify(subs(SGfilter,'D',-D)); %Matlab R2022b 
     h = p; h= h';
 end;
 
